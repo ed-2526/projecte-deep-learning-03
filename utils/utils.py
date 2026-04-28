@@ -25,7 +25,7 @@ def make(config, device="cuda"):
     val_set = get_data(config, train=False, char_to_idx=char_to_idx)
     
     train_loader = DataLoader(train_set, batch_size=config.batch_size, shuffle=True, collate_fn=ocr_collate_fn)
-    val_loader = DataLoader(val_set, batch_size=config.batch_size, collate_fn=ocr_collate_fn)
+    val_loader = DataLoader(val_set, batch_size=config.batch_size, collate_fn=ocr_collate_fn, num_workers=8, pin_memory=True)
 
     model = CRNN(num_classes=len(char_to_idx) + 1).to(device)
     criterion = nn.CTCLoss(blank=0, zero_infinity=True)

@@ -30,34 +30,34 @@ def model_pipeline(cfg:dict) -> None:
       config = wandb.config
 
       # make the model, data, and optimization problem
-      model, train_loader, test_loader, criterion, optimizer = make(config,device=device)
+      model, train_loader, test_loader, criterion, optimizer, char_to_idx = make(config,device=device)
 
       # and use them to train the model
       train(model, train_loader, criterion, optimizer, config,device=device)
 
       # and test its final performance
-      test(model, test_loader,device=device)
+      test(model, test_loader,char_to_idx,device=device)
 
     return model
 
 if __name__ == "__main__":
     wandb.login()
 
-    # config = dict(
-    #     epochs=15,
-    #     batch_size=32,      # Mida recomanada per a OCR
-    #     learning_rate=1e-3,
-    #     dataset="IAM Dataset",
-    #     architecture="CRNN",
-    #     classes=80          # Valor aproximat, el make() el sobreescriurà amb el real
-    # )
     config = dict(
-        epochs=1,            # <-- Només 1 època per provar
-        batch_size=8,        # <-- Un batch petit de 8 imatges (gasta poca memòria)
+        epochs=15,
+        batch_size=256,      # Mida recomanada per a OCR
         learning_rate=1e-3,
         dataset="IAM Dataset",
-        architecture="CRNN"
+        architecture="CRNN",
+        classes=80          # Valor aproximat, el make() el sobreescriurà amb el real
     )
+    # config = dict(
+    #     epochs=1,            # <-- Només 1 època per provar
+    #     batch_size=8,        # <-- Un batch petit de 8 imatges (gasta poca memòria)
+    #     learning_rate=1e-3,
+    #     dataset="IAM Dataset",
+    #     architecture="CRNN"
+    # )
 
     model = model_pipeline(config)
 

@@ -17,7 +17,7 @@ class IAMDataset(Dataset):
                     text = parts[1] if len(parts) == 2 else ""
                     self.data.append((img_name, text))
         
-        self.data = self.data[:64]
+        # self.data = self.data[:64]
 
         if char_to_idx is None:
             chars = sorted(list(set("".join([d[1] for d in self.data]))))
