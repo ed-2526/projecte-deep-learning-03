@@ -1,33 +1,79 @@
 import wandb
 import torch
 
-def test(model, test_loader, device="cuda", save:bool= True):
-    # Run the model on some test examples
-    with torch.no_grad():
-        correct, total = 0, 0
-        for images, labels in test_loader:
-            images, labels = images.to(device), labels.to(device)
-            outputs = model(images)
-            _, predicted = torch.max(outputs.data, 1)
-            total += labels.size(0)
-            correct += (predicted == labels).sum().item()
+def decode_predictions(predictions, idx_to_char):
+    """
+    Neteja la sortida de la CTC. 
+    Elimina el token 'blank' (assumint que és el 0) i els caràcters repetits consecutius.
+    Exemple: [0, G, G, 0, a, 0, t, t] -> "Gat"
+    """
+    decoded_texts = []
+    for pred in predictions:
+        text = ""
+        prev_char = -1
+        for p in pred:
+            p = p.item()
+            # Si no és el token en blanc (0) i no és exactament la mateixa lletra d'abans
+            if p != 0 and p != prev_char:
+                text += idx_to_char.get(p, '')
+            prev_char = p
+        decoded_texts.append(text)
+    return decoded_texts
 
-        print(f"Accuracy of the model on the {total} " +
-              f"test images: {correct / total:%}")
+
+def test(model, test_loader, char_to_idx, device="cuda", save:bool=True):
+    # Posem el model en mode avaluació (desactiva Dropout, BatchNorm, etc.)
+    model.eval()
+    
+    # Creem el diccionari invers per passar de número a lletra
+    idx_to_char = {v: k for k, v in char_to_idx.items()}
+    
+    correct_words = 0
+    total_words = 0
+    
+    with torch.no_grad():
+        # ATENCIÓ: El nostre test_loader ara retorna 3 variables!
+        for images, targets, target_lengths in test_loader:
+            images = images.to(device)
+            
+            # 1. Predicció de la xarxa
+            outputs = model(images) # Mida: [seq_len, batch_size, num_classes]
+            
+            # 2. Agafem la lletra amb més probabilitat per a cada franja
+            _, preds = torch.max(outputs, 2) 
+            
+            # Passem a format [batch_size, seq_len] per poder iterar fàcilment
+            preds = preds.transpose(1, 0)
+            
+            # 3. Descodifiquem les prediccions a text llegible
+            pred_texts = decode_predictions(preds, idx_to_char)
+            
+            # 4. Reconstruïm els textos reals (targets) per poder-los comparar
+            start_idx = 0
+            for i in range(len(target_lengths)):
+                length = target_lengths[i].item()
+                # Extraiem la seqüència numèrica d'aquesta paraula en concret
+                real_target = targets[start_idx : start_idx + length].tolist()
+                start_idx += length
+                
+                # Convertim a text
+                real_text = "".join([idx_to_char.get(c, '') for c in real_target])
+                pred_text = pred_texts[i]
+                
+                # Si la paraula sencera és correcta, sumem un encert
+                if pred_text == real_text:
+                    correct_words += 1
+                total_words += 1
+
+        # Càlcul de la mètrica final
+        word_accuracy = correct_words / total_words if total_words > 0 else 0
+        print(f"Accuracy (Word Match) on the {total_words} test images: {word_accuracy:%}")
         
-        wandb.log({"test_accuracy": correct / total})
+        wandb.log({"test_accuracy": word_accuracy})
 
     if save:
-        print(len(images))
-        # Save the model in the exchangeable ONNX format
-        torch.onnx.export(model,  # model being run
-                          images,  # model input (or a tuple for multiple inputs)
-                          "model.onnx",  # where to save the model (can be a file or file-like object)
-                          export_params=True,  # store the trained parameter weights inside the model file
-                          opset_version=10,  # the ONNX version to export the model to
-                          do_constant_folding=True,  # whether to execute constant folding for optimization
-                          input_names=['input'],  # the model's input names
-                          output_names=['output'],  # the model's output names
-                          dynamic_axes={'input': {0: 'batch_size'},  # variable length axes
-                                        'output': {0: 'batch_size'}})
-        wandb.save("model.onnx")
+        # En xarxes recurrents (RNN) amb seqüències dinàmiques, exportar a ONNX pot donar
+        # molts errors d'arquitectura. El format natiu .pth de PyTorch és molt més segur per desar.
+        torch.save(model.state_dict(), "model_crnn.pth")
+        wandb.save("model_crnn.pth")
+        print("Model desat correctament com a model_crnn.pth")

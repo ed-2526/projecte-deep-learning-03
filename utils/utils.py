@@ -1,42 +1,34 @@
-import wandb
 import torch
-import torch.nn 
-import torchvision
+import torch.nn as nn
 import torchvision.transforms as transforms
-from models.models import *
+from torch.utils.data import DataLoader
+from models.models import CRNN
+from utils.dataset import IAMDataset
 
-def get_data(slice=1, train=True):
-    full_dataset = torchvision.datasets.MNIST(root=".",
-                                              train=train, 
-                                              transform=transforms.ToTensor(),
-                                              download=True)
-    #  equiv to slicing with [::slice] 
-    sub_dataset = torch.utils.data.Subset(
-      full_dataset, indices=range(0, len(full_dataset), slice))
-    
-    return sub_dataset
+def ocr_collate_fn(batch):
+    images, targets, target_lengths = zip(*batch)
+    return torch.stack(images, 0), torch.cat(targets, 0), torch.tensor(target_lengths, dtype=torch.long)
 
-
-def make_loader(dataset, batch_size):
-    loader = torch.utils.data.DataLoader(dataset=dataset,
-                                         batch_size=batch_size, 
-                                         shuffle=True,
-                                         pin_memory=True, num_workers=2)
-    return loader
-
+def get_data(config, train=True, char_to_idx=None):
+    base_dir = "iam_dataset"
+    gt_file = f"{base_dir}/train_gt.txt" if train else f"{base_dir}/val_gt.txt"
+    transform = transforms.Compose([
+        transforms.Resize((32, 128)),
+        transforms.ToTensor(),
+        transforms.Normalize((0.5,), (0.5,))
+    ])
+    return IAMDataset(gt_file, base_dir, transform, char_to_idx)
 
 def make(config, device="cuda"):
-    # Make the data
-    train, test = get_data(train=True), get_data(train=False)
-    train_loader = make_loader(train, batch_size=config.batch_size)
-    test_loader = make_loader(test, batch_size=config.batch_size)
-
-    # Make the model
-    model = ConvNet(config.kernels, config.classes).to(device)
-
-    # Make the loss and optimizer
-    criterion = nn.CrossEntropyLoss()
-    optimizer = torch.optim.Adam(
-        model.parameters(), lr=config.learning_rate)
+    train_set = get_data(config, train=True)
+    char_to_idx = train_set.char_to_idx
+    val_set = get_data(config, train=False, char_to_idx=char_to_idx)
     
-    return model, train_loader, test_loader, criterion, optimizer
+    train_loader = DataLoader(train_set, batch_size=config.batch_size, shuffle=True, collate_fn=ocr_collate_fn)
+    val_loader = DataLoader(val_set, batch_size=config.batch_size, collate_fn=ocr_collate_fn)
+
+    model = CRNN(num_classes=len(char_to_idx) + 1).to(device)
+    criterion = nn.CTCLoss(blank=0, zero_infinity=True)
+    optimizer = torch.optim.Adam(model.parameters(), lr=config.learning_rate)
+    
+    return model, train_loader, val_loader, criterion, optimizer, char_to_idx
