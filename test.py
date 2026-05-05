@@ -1,5 +1,6 @@
 import wandb
 import torch
+import editdistance
 
 def decode_predictions(predictions, idx_to_char):
     """
@@ -28,11 +29,15 @@ def test(model, test_loader, char_to_idx, device="cuda", save:bool=True):
     # Creem el diccionari invers per passar de número a lletra
     idx_to_char = {v: k for k, v in char_to_idx.items()}
     
+    # Comptadors per l'Accuracy de paraules
     correct_words = 0
     total_words = 0
     
+    # Comptadors pel CER (Character Error Rate)
+    total_edit_distance = 0
+    total_chars = 0
+    
     with torch.no_grad():
-        # ATENCIÓ: El nostre test_loader ara retorna 3 variables!
         for images, targets, target_lengths in test_loader:
             images = images.to(device)
             
@@ -60,16 +65,30 @@ def test(model, test_loader, char_to_idx, device="cuda", save:bool=True):
                 real_text = "".join([idx_to_char.get(c, '') for c in real_target])
                 pred_text = pred_texts[i]
                 
-                # Si la paraula sencera és correcta, sumem un encert
+                # -- CÀLCUL D'ACCURACY (Paraules) --
                 if pred_text == real_text:
                     correct_words += 1
                 total_words += 1
 
-        # Càlcul de la mètrica final
-        word_accuracy = correct_words / total_words if total_words > 0 else 0
-        print(f"Accuracy (Word Match) on the {total_words} test images: {word_accuracy:%}")
-        
-        wandb.log({"test_accuracy": word_accuracy})
+                # -- CÀLCUL DEL CER (Lletres) --
+                # Mesurem la distància de Levenshtein (quants canvis calen per passar de pred_text a real_text)
+                distancia = editdistance.eval(pred_text, real_text)
+                total_edit_distance += distancia
+                total_chars += len(real_text)
+
+    # Càlcul de les mètriques finals
+    word_accuracy = correct_words / total_words if total_words > 0 else 0
+    cer = total_edit_distance / total_chars if total_chars > 0 else 0
+
+    print(f"Resultats sobre {total_words} imatges de test:")
+    print(f" - Accuracy (Paraula exacta): {word_accuracy:%}")
+    print(f" - CER (Error per lletres)  : {cer:.4f} (Més baix és millor!)")
+    
+    # Pugem totes dues mètriques a WandB
+    wandb.log({
+        "test_accuracy": word_accuracy,
+        "test_CER": cer
+    })
 
     if save:
         # En xarxes recurrents (RNN) amb seqüències dinàmiques, exportar a ONNX pot donar

@@ -23,20 +23,23 @@ torch.cuda.manual_seed_all(hash("so runs are repeatable") % 2**32 - 1)
 # Device configuration
 device = torch.device("cuda:0" if torch.cuda.is_available() else "cpu")
 
-def model_pipeline(cfg:dict) -> None:
+def model_pipeline(cfg:dict):
     # tell wandb to get started
     with wandb.init(project="pytorch-demo", config=cfg):
-      # access all HPs through wandb.config, so logging matches execution!
-      config = wandb.config
+        # access all HPs through wandb.config, so logging matches execution!
+        config = wandb.config
 
-      # make the model, data, and optimization problem
-      model, train_loader, test_loader, criterion, optimizer, char_to_idx = make(config,device=device)
+        # 1. CANVI: Ara desempaquetem 7 variables, incloent el val_loader!
+        model, train_loader, val_loader, test_loader, criterion, optimizer, char_to_idx = make(config, device=device)
+        
+        # Actualitzem WandB amb el nombre real de classes
+        wandb.config.update({"classes": len(char_to_idx) + 1}, allow_val_change=True)
 
-      # and use them to train the model
-      train(model, train_loader, criterion, optimizer, config,device=device)
+        # 2. CANVI: Passem el val_loader a la funció de train
+        train(model, train_loader, val_loader, criterion, optimizer, config, device=device)
 
-      # and test its final performance
-      test(model, test_loader,char_to_idx,device=device)
+        # 3. El test es queda exactament igual, només s'executa al final de tot
+        test(model, test_loader, char_to_idx, device=device)
 
     return model
 
@@ -44,20 +47,12 @@ if __name__ == "__main__":
     wandb.login()
 
     config = dict(
-        epochs=15,
+        epochs=10,
         batch_size=256,      # Mida recomanada per a OCR
         learning_rate=1e-3,
         dataset="IAM Dataset",
         architecture="CRNN",
-        classes=80          # Valor aproximat, el make() el sobreescriurà amb el real
+        classes=80           # Valor aproximat, el make() el sobreescriurà amb el real
     )
-    # config = dict(
-    #     epochs=1,            # <-- Només 1 època per provar
-    #     batch_size=8,        # <-- Un batch petit de 8 imatges (gasta poca memòria)
-    #     learning_rate=1e-3,
-    #     dataset="IAM Dataset",
-    #     architecture="CRNN"
-    # )
 
     model = model_pipeline(config)
-
