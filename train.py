@@ -42,6 +42,7 @@ def train(model, train_loader, val_loader, criterion, optimizer, config, device=
         # 2. FASE DE VALIDACIÓ (Validation)
         # ====================================================
         model.eval() # <-- SUPER IMPORTANT: Apaga el Dropout, mode Examen.
+        # no actualitza els pesos, validació no actualitza
         total_val_loss = 0.0
         
         with torch.no_grad(): # <-- SUPER IMPORTANT: No guardis gradients. Estalvia memòria i temps!
