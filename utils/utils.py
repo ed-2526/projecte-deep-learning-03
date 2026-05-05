@@ -104,6 +104,6 @@ class EarlyStopping:
             self.counter = 0
 
     def save_checkpoint(self, val_loss, model):
-        """Guarda el model quan la validation loss disminueix."""
+        """Guarda el (millor) model quan la validation loss disminueix."""
         print(f'   💾 Validation loss decreased. Saving best model to {self.path}...')
         torch.save(model.state_dict(), self.path)
