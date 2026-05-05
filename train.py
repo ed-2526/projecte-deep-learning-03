@@ -1,10 +1,11 @@
 from tqdm.auto import tqdm
 import wandb
 import torch
-from utils.utils import EarlyStopping
+# CANVI NOU: Importem les funcions de traducció i càlcul d'error
+from utils.utils import EarlyStopping, decode_predictions, calculate_metrics 
 
-# CANVI 1: Afegim val_loader a la definició de la funció
-def train(model, train_loader, val_loader, criterion, optimizer, config, device="cuda"):
+# La funció ja tenia el char_to_idx, perfecte!
+def train(model, train_loader, val_loader, criterion, optimizer, config, char_to_idx, device="cuda"):
     # Tell wandb to watch what the model gets up to: gradients, weights, and more!
     wandb.watch(model, criterion, log="all", log_freq=10)
 
@@ -45,6 +46,10 @@ def train(model, train_loader, val_loader, criterion, optimizer, config, device=
         # no actualitza els pesos, validació no actualitza
         total_val_loss = 0.0
         
+        # CANVI NOU: Llistes per guardar les paraules de tota l'època
+        all_true_strings = []
+        all_pred_strings = []
+        
         with torch.no_grad(): # <-- SUPER IMPORTANT: No guardis gradients. Estalvia memòria i temps!
             for images, targets, target_lengths in val_loader:
                 
@@ -65,8 +70,16 @@ def train(model, train_loader, val_loader, criterion, optimizer, config, device=
                 v_loss = criterion(outputs, targets, input_lengths, target_lengths)
                 total_val_loss += v_loss.item()
                 
+                # CANVI NOU: Traduïm els tensors a text i ho guardem
+                true_strs, pred_strs = decode_predictions(outputs, targets, target_lengths, char_to_idx)
+                all_true_strings.extend(true_strs)
+                all_pred_strings.extend(pred_strs)
+                
         # Calculem la mitjana de l'error de Validació d'aquesta època
         avg_val_loss = total_val_loss / len(val_loader)
+        
+        # CANVI NOU: Calculem el CER i el WER globals de tota la validació!
+        val_cer, val_wer = calculate_metrics(all_true_strings, all_pred_strings)
 
         # ====================================================
         # 3. REGISTRE A WANDB
@@ -76,15 +89,19 @@ def train(model, train_loader, val_loader, criterion, optimizer, config, device=
         wandb.log({
             "epoch": epoch,
             "train_loss": avg_train_loss,
-            "val_loss": avg_val_loss
+            "val_loss": avg_val_loss,
+            "val_cer": val_cer,   # CANVI NOU
+            "val_wer": val_wer    # CANVI NOU
         }, step=example_ct)
         
-        print(f"📊 Fi de l'Època {epoch + 1}/{config.epochs} | Train Loss: {avg_train_loss:.4f} | Val Loss: {avg_val_loss:.4f}")
+        # CANVI NOU: Afegim les mètriques al print
+        print(f"📊 Fi de l'Època {epoch + 1}/{config.epochs} | Train Loss: {avg_train_loss:.4f} | Val Loss: {avg_val_loss:.4f} | CER: {val_cer:.4f} | WER: {val_wer:.4f}")
 
         # ====================================================
         # 2. CRIDEM L'EARLY STOPPING AL FINAL DE CADA ÈPOCA
         # ====================================================
-        early_stopping(avg_val_loss, model)
+        # CANVI NOU: Ara vigila el CER (que els caràcters s'equivoquin menys) en comptes de la loss!
+        early_stopping(val_cer, model)
         
         # Si el vigilant diu que hem de parar, trenquem el bucle!
         if early_stopping.early_stop:

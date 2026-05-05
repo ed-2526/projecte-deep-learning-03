@@ -36,7 +36,7 @@ def model_pipeline(cfg:dict):
         wandb.config.update({"classes": len(char_to_idx) + 1}, allow_val_change=True)
 
         # 2. CANVI: Passem el val_loader a la funció de train
-        train(model, train_loader, val_loader, criterion, optimizer, config, device=device)
+        train(model, train_loader, val_loader, criterion, optimizer, config, char_to_idx, device=device)
 
         # 3. El test es queda exactament igual, només s'executa al final de tot
         test(model, test_loader, char_to_idx, device=device)

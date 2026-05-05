@@ -1,5 +1,6 @@
 import random
 import numpy as np
+import jiwer
 import torch
 import torch.nn as nn
 import torchvision.transforms as transforms
@@ -107,3 +108,42 @@ class EarlyStopping:
         """Guarda el (millor) model quan la validation loss disminueix."""
         print(f'   💾 Validation loss decreased. Saving best model to {self.path}...')
         torch.save(model.state_dict(), self.path)
+
+def decode_predictions(outputs, targets, target_lengths, char_to_idx):
+    """Tradueix els tensors de la xarxa a text real (Strings)."""
+    # 1. Creem un diccionari invers per passar de números a lletres
+    idx_to_char = {v: k for k, v in char_to_idx.items()}
+    
+    # 2. TRADUCCIÓ DE PREDICCIONS (CTC Greedy Decoder)
+    # outputs fa [seq_len, batch, classes]. Ho girem i agafem la lletra amb més %
+    _, max_indices = torch.max(outputs.transpose(0, 1), 2) 
+    
+    pred_strings = []
+    for i in range(max_indices.size(0)):
+        raw_pred = max_indices[i].tolist()
+        decoded_str = []
+        prev_char = -1
+        for c in raw_pred:
+            if c != prev_char: # Elimina duplicats seguits (a_a -> a)
+                if c != 0:     # 0 és el token 'blank', l'ignorem
+                    decoded_str.append(idx_to_char.get(c, ''))
+            prev_char = c
+        pred_strings.append("".join(decoded_str))
+        
+    # 3. TRADUCCIÓ DEL GROUND TRUTH (Solucions reals)
+    split_targets = torch.split(targets, target_lengths.tolist())
+    true_strings = []
+    for t in split_targets:
+        true_strings.append("".join([idx_to_char.get(c.item(), '') for c in t]))
+        
+    return true_strings, pred_strings
+
+def calculate_metrics(true_strings, pred_strings):
+    """Calcula CER i WER amb protecció per a strings buits."""
+    # Evitem que 'jiwer' peti si la xarxa prediu un text completament buit
+    clean_trues = [t if len(t.strip()) > 0 else " " for t in true_strings]
+    clean_preds = [p if len(p.strip()) > 0 else " " for p in pred_strings]
+    
+    cer = jiwer.cer(clean_trues, clean_preds)
+    wer = jiwer.wer(clean_trues, clean_preds)
+    return cer, wer
