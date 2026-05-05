@@ -22,6 +22,8 @@ def preparar_datasets_i_loaders(config):
     random.shuffle(totes_les_linies)
 
     # 2. Tallem la llista (80% - 10% - 10%)
+    # Entrenem amb el 80% de les dades, després cada epoch fa la validació. Quan acaben les epochs es fa el test amb dades que encara no s'han vist
+    # per veure com funciona el model.
     total = len(totes_les_linies)
     tall_train = int(0.8 * total)
     tall_val = int(0.9 * total) 
@@ -34,11 +36,11 @@ def preparar_datasets_i_loaders(config):
 
     # 3. Transformacions (Train amb Data Augmentation, Val/Test nets)
     train_transform = transforms.Compose([
-        transforms.Resize((32, 128)),
-        transforms.RandomRotation(3),
-        transforms.RandomAffine(0, shear=10),
-        transforms.ToTensor(),
-        transforms.Normalize((0.5,), (0.5,))
+        transforms.Resize((32, 128)),    # Mantenir les imatges de la mateixa mida
+        transforms.RandomRotation(3),    # Rotar la imatge [-x,x] graus
+        transforms.RandomAffine(0, shear=10),    # Aplica una transformació d'inclinació (shear) d'un màxim de 10 graus del text
+        transforms.ToTensor(),           # Ho converteix a PyTorch entre 0 i 1
+        transforms.Normalize((0.5,), (0.5,))    # Normalització dels valors dels píxels entre -1 i 1
     ])
     
     test_transform = transforms.Compose([
