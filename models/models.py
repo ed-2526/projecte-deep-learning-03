@@ -22,10 +22,12 @@ class CRNN(nn.Module):
         
         # Processament seqüencial (RNN - BiLSTM)
         # L'alçada es redueix de 32 a 4. 256 canals * 4 = 1024 features d'entrada.
+        # Per poder preveure patrons entre lletres. p.ex: 2 consonants després anira una vocal
         self.rnn = nn.LSTM(input_size=1024, hidden_size=hidden_size, 
                            num_layers=2, bidirectional=True, batch_first=True)
         
         # Classificador final
+        # Per relacionar-ho amb la loss
         self.fc = nn.Linear(hidden_size * 2, num_classes)
 
     def forward(self, x):
