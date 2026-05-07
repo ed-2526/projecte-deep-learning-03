@@ -16,6 +16,9 @@ def train(model, train_loader, val_loader, criterion, optimizer, config, char_to
     # Run training and track with wandb
     example_ct = 0  # number of examples seen
     batch_ct = 0
+
+    # 🌟 NOU: Llista global per guardar l'historial de TOTA l'evolució
+    historial_prediccions = []
     
     for epoch in tqdm(range(config.epochs), desc="Epochs"):
         
@@ -48,10 +51,6 @@ def train(model, train_loader, val_loader, criterion, optimizer, config, char_to
         all_true_strings = []
         all_pred_strings = []
         
-        # 🌟 NOU: Creem una taula buida amb les columnes que volem
-        columns = ["Imatge", "Text Real (Label)", "Predicció", "Estat"]
-        val_table = wandb.Table(columns=columns)
-        
         with torch.no_grad():
             # 🌟 CANVI: Afegim 'enumerate' per saber per quin batch anem
             for batch_idx, (images, targets, target_lengths) in enumerate(val_loader):
@@ -73,36 +72,25 @@ def train(model, train_loader, val_loader, criterion, optimizer, config, char_to
                 all_true_strings.extend(true_strs)
                 all_pred_strings.extend(pred_strs)
                 
-                # 🌟 NOU: Només agafem imatges del PRIMER batch de la validació
-                # (No volem saturar WandB pujant 2.000 imatges per època)
+                # 🌟 LA MÀGIA DE L'HISTORIAL (Només al primer batch)
                 if batch_idx == 0:
-                    # Agafem només les primeres 10 imatges del batch
-                    num_samples = min(10, batch_size) 
+                    num_samples = min(5, batch_size) # 🌟 Canviat a 5 imatges
                     for i in range(num_samples):
                         img_cpu = images[i].cpu()
                 
-                        # 1. Comprovem si és la CNN Original (1 canal) o la ResNet (3 canals)
                         if img_cpu.size(0) == 1:
-                            # Desfem la normalització clàssica
                             img_tensor = img_cpu * 0.5 + 0.5
                         else:
-                            # Desfem la normalització d'ImageNet
                             mean = torch.tensor([0.485, 0.456, 0.406]).view(3, 1, 1)
                             std = torch.tensor([0.229, 0.224, 0.225]).view(3, 1, 1)
                             img_tensor = img_cpu * std + mean
                         
-                        # 2. Truc de seguretat vital: tallem qualsevol decimal rebel 
-                        # perquè no surti de [0, 1] i trenqui WandB
                         img_tensor = torch.clamp(img_tensor, 0, 1)
-                        
-                        # 3. Creem l'objecte Imatge per a WandB
                         w_img = wandb.Image(img_tensor)
-                        
-                        # 4. Posem l'emoji
                         estat = "✅" if true_strs[i] == pred_strs[i] else "❌"
                         
-                        # 5. Afegim la fila a la taula
-                        val_table.add_data(w_img, true_strs[i], pred_strs[i], estat)
+                        # 🌟 NOU: Ho afegim a la llista GLOBAL, incloent-hi l'Època actual!
+                        historial_prediccions.append([epoch + 1, w_img, true_strs[i], pred_strs[i], estat])
                 
         # Calculem la mitjana de l'error
         avg_val_loss = total_val_loss / len(val_loader)
@@ -111,13 +99,19 @@ def train(model, train_loader, val_loader, criterion, optimizer, config, char_to
         # ====================================================
         # 3. REGISTRE A WANDB
         # ====================================================
+        # 🌟 NOU: Creem la taula DE NOU utilitzant tot l'historial acumulat
+        taula_evolucio = wandb.Table(
+            columns=["Època", "Imatge", "Text Real", "Predicció", "Estat"], 
+            data=historial_prediccions
+        )
+
         wandb.log({
             "epoch": epoch,
             "Loss/Train": avg_train_loss,
             "Loss/Validation": avg_val_loss,
             "Validation/CER": val_cer,   
             "Validation/WER": val_wer,
-            "Prediccions": val_table
+            "Evolució_Validació": taula_evolucio
         }, step=example_ct)
         
         # CANVI NOU: Afegim les mètriques al print

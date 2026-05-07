@@ -1,6 +1,6 @@
 import wandb
 import torch
-import editdistance
+import jiwer # Utilitzarem jiwer, l'estàndard de la indústria per a OCR/ASR
 
 def decode_predictions(predictions, idx_to_char):
     """
@@ -29,16 +29,19 @@ def test(model, test_loader, char_to_idx, device="cuda", save:bool=True):
     # Creem el diccionari invers per passar de número a lletra
     idx_to_char = {v: k for k, v in char_to_idx.items()}
     
-    # Comptadors per l'Accuracy de paraules
     correct_words = 0
     total_words = 0
     
-    # Comptadors pel CER (Character Error Rate)
-    total_edit_distance = 0
-    total_chars = 0
+    # Llistes per guardar TOTES les lletres del test i calcular WER/CER globals
+    all_real_texts = []
+    all_pred_texts = []
+    
+    # 🌟 NOU: Llista on guardarem les 20 imatges d'exemple per a la taula final
+    dades_taula_test = []
     
     with torch.no_grad():
-        for images, targets, target_lengths in test_loader:
+        # 🌟 CANVI MÍNIM: Afegim enumerate per saber si estem al primer batch
+        for batch_idx, (images, targets, target_lengths) in enumerate(test_loader):
             images = images.to(device)
             
             # 1. Predicció de la xarxa
@@ -65,29 +68,62 @@ def test(model, test_loader, char_to_idx, device="cuda", save:bool=True):
                 real_text = "".join([idx_to_char.get(c, '') for c in real_target])
                 pred_text = pred_texts[i]
                 
-                # -- CÀLCUL D'ACCURACY (Paraules) --
+                # Guardem per a calcular CER i WER al final
+                all_real_texts.append(real_text)
+                all_pred_texts.append(pred_text)
+                
+                # -- CÀLCUL D'ACCURACY (Paraules exactes) --
                 if pred_text == real_text:
                     correct_words += 1
                 total_words += 1
 
-                # -- CÀLCUL DEL CER (Lletres) --
-                # Mesurem la distància de Levenshtein (quants canvis calen per passar de pred_text a real_text)
-                distancia = editdistance.eval(pred_text, real_text)
-                total_edit_distance += distancia
-                total_chars += len(real_text)
+                # 🌟 NOU: Extraiem dades per a la taula només en el primer batch (màxim 20 imatges)
+                if batch_idx == 0 and i < 20:
+                    img_cpu = images[i].cpu()
+                    
+                    # Desfem normalització segons canals (CRNN Original 1, ResNet 3)
+                    if img_cpu.size(0) == 1:
+                        img_tensor = img_cpu * 0.5 + 0.5
+                    else:
+                        mean = torch.tensor([0.485, 0.456, 0.406]).view(3, 1, 1)
+                        std = torch.tensor([0.229, 0.224, 0.225]).view(3, 1, 1)
+                        img_tensor = img_cpu * std + mean
+                        
+                    # Tallem decimals rebels perquè la foto no quedi blanca
+                    img_tensor = torch.clamp(img_tensor, 0, 1)
+                    
+                    w_img = wandb.Image(img_tensor)
+                    estat = "✅" if real_text == pred_text else "❌"
+                    
+                    # Afegim la fila a la nostra llista
+                    dades_taula_test.append([w_img, real_text, pred_text, estat])
 
-    # Càlcul de les mètriques finals
+    # Neteja de cadenes buides per evitar que 'jiwer' peti (per si el model prediu silenci absolut)
+    clean_trues = [t if len(t.strip()) > 0 else " " for t in all_real_texts]
+    clean_preds = [p if len(p.strip()) > 0 else " " for p in all_pred_texts]
+
+    # Càlcul de les mètriques finals amb jiwer
     word_accuracy = correct_words / total_words if total_words > 0 else 0
-    cer = total_edit_distance / total_chars if total_chars > 0 else 0
+    cer = jiwer.cer(clean_trues, clean_preds)
+    wer = jiwer.wer(clean_trues, clean_preds)
 
     print(f"Resultats sobre {total_words} imatges de test:")
-    print(f" - Accuracy (Paraula exacta): {word_accuracy:%}")
-    print(f" - CER (Error per lletres)  : {cer:.4f} (Més baix és millor!)")
+    print(f" - Accuracy (Paraula exacta): {word_accuracy:.2%}")
+    print(f" - CER (Character Error Rate): {cer:.4f} (Més baix és millor!)")
+    print(f" - WER (Word Error Rate)     : {wer:.4f} (Més baix és millor!)")
     
-    # Pugem totes dues mètriques a WandB
+    # 🌟 NOU: Creem l'objecte Table de WandB amb les dades que hem anat recollint
+    taula_test = wandb.Table(
+        columns=["Imatge", "Text Real", "Predicció", "Estat"], 
+        data=dades_taula_test
+    )
+    
+    # Pugem totes les mètriques i la taula a WandB
     wandb.log({
         "test_accuracy": word_accuracy,
-        "test_CER": cer
+        "test_CER": cer,
+        "test_WER": wer,
+        "Exemples_Finals_Test": taula_test  # 🌟 Pugem la taula!
     })
 
     if save:
@@ -95,4 +131,4 @@ def test(model, test_loader, char_to_idx, device="cuda", save:bool=True):
         # molts errors d'arquitectura. El format natiu .pth de PyTorch és molt més segur per desar.
         torch.save(model.state_dict(), "model_crnn.pth")
         wandb.save("model_crnn.pth")
-        print("Model desat correctament com a model_crnn.pth")
+        print("Model desat correctament com a model_crnn.pth 💾")
