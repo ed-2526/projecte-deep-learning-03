@@ -31,6 +31,10 @@ def model_pipeline(cfg:dict):
 
         # 1. CANVI: Ara desempaquetem 7 variables, incloent el val_loader!
         model, train_loader, val_loader, test_loader, criterion, optimizer, char_to_idx = make(config, device=device)
+    
+        # Li preguntem al model on té guardats els seus pesos
+        dispositiu_real = next(model.parameters()).device
+        print(f"El model s'està executant a: {dispositiu_real}")
         
         # Actualitzem WandB amb el nombre real de classes
         wandb.config.update({"classes": len(char_to_idx) + 1}, allow_val_change=True)
@@ -47,12 +51,13 @@ if __name__ == "__main__":
     wandb.login()
 
     config = dict(
-        epochs=10,
-        batch_size=256,      # Mida recomanada per a OCR
-        learning_rate=1e-3,
+        epochs=100,
+        batch_size=512,      # Mida recomanada per a OCR
+        learning_rate=2e-3,
         dataset="IAM Dataset",
-        architecture="CRNN",
-        classes=80           # Valor aproximat, el make() el sobreescriurà amb el real
+        architecture="ResNet18",
+        classes=80,           # Valor aproximat, el make() el sobreescriurà amb el real
+        freeze=True
     )
 
     model = model_pipeline(config)
