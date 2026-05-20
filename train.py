@@ -10,7 +10,7 @@ def train(model, train_loader, val_loader, criterion, optimizer, config, char_to
     wandb.watch(model, criterion, log="all", log_freq=10)
 
     # 1. INICIALITZEM L'EARLY STOPPING AQUÍ (Abans del bucle d'èpoques)
-    # Paciència de 5 significa que si en 5 èpoques no millora, s'atura.
+    # Paciència de 3 significa que si en 3 èpoques no millora, s'atura.
     if config.architecture == "CRNN_Original":
         early_stopping = EarlyStopping(patience=3, path='best_crnn_model.pth', min_delta=0.015)
     else:
