@@ -21,6 +21,8 @@ def get_transforms(architecture_name):
             transforms.Resize((32, 128)),    # Mantenir les imatges de la mateixa mida
             transforms.RandomRotation(3),    # Rotar la imatge [-x,x] graus
             transforms.RandomAffine(0, shear=10),    # Aplica una transformació d'inclinació (shear) d'un màxim de 10 graus del text
+            transforms.ColorJitter(brightness=0.5, contrast=0.5), # DATA AUGMENTATION NOU: Canvi de contrast/brillantor
+            transforms.GaussianBlur(kernel_size=(3, 3), sigma=(0.1, 2.0)), # DATA AUGMENTATION NOU: Difuminat (simula mala qualitat)
             transforms.ToTensor(),           # Ho converteix a PyTorch entre 0 i 1
             transforms.Normalize((0.5,), (0.5,))    # Normalització dels valors dels píxels entre -1 i 1
         ])
@@ -43,6 +45,8 @@ def get_transforms(architecture_name):
             transforms.Grayscale(num_output_channels=3), # Enganyem a RGB
             transforms.RandomRotation(3),
             transforms.RandomAffine(0, shear=10),
+            transforms.ColorJitter(brightness=0.5, contrast=0.5), # DATA AUGMENTATION NOU: Canvi de contrast/brillantor
+            transforms.GaussianBlur(kernel_size=(3, 3), sigma=(0.1, 2.0)), # DATA AUGMENTATION NOU: Difuminat (simula mala qualitat)
             transforms.ToTensor(),
             transforms.Normalize(imagenet_mean, imagenet_std) # Normalització d'ImageNet
         ])
@@ -61,12 +65,12 @@ def ocr_collate_fn(batch):
     return torch.stack(images, 0), torch.cat(targets, 0), torch.tensor(target_lengths, dtype=torch.long)
 
 def preparar_datasets_i_loaders(config):
-    base_dir = "iam_dataset" # Assegura't que el directori sigui el correcte on estan les imatges
+    base_dir = "/dev/shm/edxnG03_dataset/iam_dataset" # Assegura't que el directori sigui el correcte on estan les imatges
 
     # Les rutes als 3 arxius que has generat amb l'script
-    train_file = f"{base_dir}/official_train_gt.txt"
-    val_file   = f"{base_dir}/official_val_gt.txt"
-    test_file  = f"{base_dir}/official_test_gt.txt"
+    train_file = "iam_dataset/official_train_gt.txt"
+    val_file   = "iam_dataset/official_val_gt.txt"
+    test_file  = "iam_dataset/official_test_gt.txt"
 
     # 1. Llegim les línies exactament com estan als fitxers
     with open(train_file, "r", encoding="utf-8") as f:

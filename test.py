@@ -111,13 +111,15 @@ def test(model, test_loader, char_to_idx, device="cuda", save:bool=True):
     print(f" - Accuracy (Paraula exacta): {word_accuracy:.2%}")
     print(f" - CER (Character Error Rate): {cer:.4f} (Més baix és millor!)")
     print(f" - WER (Word Error Rate)     : {wer:.4f} (Més baix és millor!)")
-    
+
     # 🌟 NOU: Creem l'objecte Table de WandB amb les dades que hem anat recollint
     taula_test = wandb.Table(
         columns=["Imatge", "Text Real", "Predicció", "Estat"], 
         data=dades_taula_test
     )
     
+    print(f"Dades taula test {taula_test.columns}: {len(dades_taula_test)} files recollides.")
+
     # Pugem totes les mètriques i la taula a WandB
     wandb.log({
         "test_accuracy": word_accuracy,

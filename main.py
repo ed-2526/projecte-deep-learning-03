@@ -29,6 +29,9 @@ def model_pipeline(cfg:dict):
         # access all HPs through wandb.config, so logging matches execution!
         config = wandb.config
 
+        nom_net = f"LR:{config.learning_rate:.4f}_Batch:{config.batch_size}_Freeze:{config.freeze}"
+        wandb.run.name = nom_net
+
         # 1. CANVI: Ara desempaquetem 7 variables, incloent el val_loader!
         model, train_loader, val_loader, test_loader, criterion, optimizer, char_to_idx = make(config, device=device)
     
