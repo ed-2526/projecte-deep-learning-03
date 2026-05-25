@@ -108,9 +108,9 @@ def process_dataset():
     # 4. EXECUCIÓ I GENERACIÓ
     # ==========================================
     print("-" * 50)
-    write_file(train_records, "official_train.txt")
-    write_file(val_records, "official_validation.txt")
-    write_file(test_records, "official_test.txt")
+    write_file(train_records, "esposalles_dataset/official_train.txt")
+    write_file(val_records, "esposalles_dataset/official_validation.txt")
+    write_file(test_records, "esposalles_dataset/official_test.txt")
     print("-" * 50)
     print("Procés finalitzat! Ja pots entrenar la CRNN.")
 

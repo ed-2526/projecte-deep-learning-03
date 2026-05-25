@@ -3,7 +3,7 @@ import torch
 from torch.utils.data import Dataset
 from PIL import Image
 
-class IAMDataset(Dataset):
+class OCRDataset(Dataset):
     # 1. CANVI: Canviem 'gt_file' per 'lines' (una llista de strings)
     def __init__(self, lines, img_dir, transform=None, char_to_idx=None):
         self.img_dir = img_dir

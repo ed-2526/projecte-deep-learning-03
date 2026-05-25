@@ -62,6 +62,8 @@ if __name__ == "__main__":
     parser.add_argument('--architecture', type=str, default="CRNN_Original", help='Model a utilitzar')
     parser.add_argument('--patience', type=int, default=5, help='Paciència per a l\'early stopping')
     parser.add_argument('--min_delta', type=float, default=0.015, help='Mínim canvi per a l\'early stopping')
+    parser.add_argument('--dataset', type=str, default="iam", choices=['iam', 'esposalles', 'hybrid'], 
+                        help="Tria el dataset: 'iam', 'esposalles' o 'hybrid'")
 
     parser.add_argument('--freeze', action='store_true', help='Congela les capes de la CNN')
     parser.add_argument('--use_beam_search', action='store_true', help='Activa el Beam Search')
@@ -73,7 +75,7 @@ if __name__ == "__main__":
         epochs=args.epochs,
         batch_size=args.batch_size,
         learning_rate=args.learning_rate,
-        dataset="IAM Dataset",
+        dataset=args.dataset,
         architecture=args.architecture,
         classes=80, 
         freeze=args.freeze,

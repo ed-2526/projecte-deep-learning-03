@@ -65,12 +65,26 @@ def ocr_collate_fn(batch):
     return torch.stack(images, 0), torch.cat(targets, 0), torch.tensor(target_lengths, dtype=torch.long)
 
 def preparar_datasets_i_loaders(config):
-    base_dir = "/dev/shm/edxnG03_dataset/iam_dataset" # Assegura't que el directori sigui el correcte on estan les imatges
+    # 🌟 NOU: L'arrel on estan les teves dades a la memòria RAM
+    root_dir = "/dev/shm/edxnG03_dataset" 
 
-    # Les rutes als 3 arxius que has generat amb l'script
-    train_file = "iam_dataset/official_train_gt.txt"
-    val_file   = "iam_dataset/official_val_gt.txt"
-    test_file  = "iam_dataset/official_test_gt.txt"
+    # 🌟 NOU: Sistema d'encaminament segons el config
+    if config.dataset == "iam":
+        base_dir = f"{root_dir}/iam_dataset"
+        txt_folder = "iam_dataset"
+    elif config.dataset == "esposalles":
+        base_dir = f"{root_dir}/esposalles_dataset"
+        txt_folder = "esposalles_dataset"
+    elif config.dataset == "hybrid":
+        base_dir = root_dir  # L'híbrid ja porta les subcarpetes dins del txt
+        txt_folder = "hybrid_dataset"
+    else:
+        raise ValueError(f"Dataset no reconegut: {config.dataset}")
+
+    # Ara els fitxers depenen de la carpeta seleccionada
+    train_file = f"{txt_folder}/official_train.txt"
+    val_file   = f"{txt_folder}/official_validation.txt"
+    test_file  = f"{txt_folder}/official_test.txt"
 
     # 1. Llegim les línies exactament com estan als fitxers
     with open(train_file, "r", encoding="utf-8") as f:
@@ -80,24 +94,20 @@ def preparar_datasets_i_loaders(config):
     with open(test_file, "r", encoding="utf-8") as f:
         linies_test = f.readlines()
     
-    # Ja NO fem random.shuffle() aquí. Ho fa el DataLoader a l'època d'entrenament!
-    print(f"Distribució Dades (Sense Data Leakage!): Train={len(linies_train)} | Val={len(linies_val)} | Test={len(linies_test)}")
+    print(f"📂 Carregant Dataset: {config.dataset.upper()}")
+    print(f"📊 Distribució Dades: Train={len(linies_train)} | Val={len(linies_val)} | Test={len(linies_test)}")
 
     # 2. Obtenim les transformacions
     train_transform, test_transform = get_transforms(config.architecture)
 
-    # 3. Creem els Datasets
-    # El Dataset de Train construeix el diccionari de caràcters per primer cop
-    train_set = IAMDataset(lines=linies_train, img_dir=base_dir, transform=train_transform)
-    
-    # 🌟 El pas crític: Recuperem el diccionari del Train i el forcem a la resta
+    # 3. Creem els Datasets (Hem canviat el nom a OCRDataset)
+    train_set = OCRDataset(lines=linies_train, img_dir=base_dir, transform=train_transform)
     char_to_idx = train_set.char_to_idx 
     
-    val_set = IAMDataset(lines=linies_val, img_dir=base_dir, transform=test_transform, char_to_idx=char_to_idx)
-    test_set = IAMDataset(lines=linies_test, img_dir=base_dir, transform=test_transform, char_to_idx=char_to_idx)
+    val_set = OCRDataset(lines=linies_val, img_dir=base_dir, transform=test_transform, char_to_idx=char_to_idx)
+    test_set = OCRDataset(lines=linies_test, img_dir=base_dir, transform=test_transform, char_to_idx=char_to_idx)
 
     # 4. Creem DataLoaders
-    # IMPORTANT: pin_memory=True i num_workers > 0 acceleren molt la L40S
     train_loader = DataLoader(train_set, batch_size=config.batch_size, shuffle=True, collate_fn=ocr_collate_fn, num_workers=8, pin_memory=True)
     val_loader   = DataLoader(val_set, batch_size=config.batch_size, shuffle=False, collate_fn=ocr_collate_fn, num_workers=8, pin_memory=True)
     test_loader  = DataLoader(test_set, batch_size=config.batch_size, shuffle=False, collate_fn=ocr_collate_fn, num_workers=8, pin_memory=True)
