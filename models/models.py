@@ -51,6 +51,7 @@ class CRNN_Original(nn.Module):
 
 # ==========================================
 # 2. RESNET 18 (Ràpida i Molt Intel·ligent)
+# Xarxa amb els pesos ja inicialitzats, serveix per obtenir característiques, CNN precalculat (?)
 # ==========================================
 class ResNet18_CRNN(nn.Module):
     def __init__(self, num_classes=80, hidden_size=256, freeze_resnet=False):
