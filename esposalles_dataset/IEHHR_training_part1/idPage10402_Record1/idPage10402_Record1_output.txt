@@ -1,0 +1,13 @@
+Juan,name,husband
+Carli,surname,husband
+daguer,occupation,husband
+Bara,location,husband
+viudo,state,husband
+Montserrada,name,wife
+viuda,state,wife
+Marti,name,other_person
+Rubi,surname,other_person
+mestre,occupation,wife
+de,occupation,wife
+axa,occupation,wife
+Bara,location,wife

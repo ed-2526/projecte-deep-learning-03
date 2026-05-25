@@ -1,0 +1,17 @@
+jaume,name,husband
+Galceran,surname,husband
+parayre,occupation,husband
+Sparaguera,location,husband
+Juan,name,husbands_father
+Galceran,surname,husbands_father
+pages,occupation,husbands_father
+Pierola,location,husbands_father
+Juana,name,husbands_mother
+Ma,name,wife
+rianna,name,wife
+donsella,state,wife
+Pere,name,wifes_father
+Bonastra,surname,wifes_father
+parayre,occupation,wifes_father
+Sparaguera,location,wifes_father
+Juana,name,wifes_mother

@@ -1,0 +1,13 @@
+Jua,name,husband
+Luys,name,husband
+Callas,surname,husband
+viudo,state,husband
+parayre,occupation,husband
+Bara,location,husband
+Marianna,name,wife
+donsella,state,wife
+Bernat,name,wifes_father
+Terinya,surname,wifes_father
+sastre,occupation,wifes_father
+Bara,location,wifes_father
+Hieronyma,name,wifes_mother

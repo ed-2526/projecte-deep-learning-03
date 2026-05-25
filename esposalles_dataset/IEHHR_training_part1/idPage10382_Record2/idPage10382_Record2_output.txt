@@ -1,0 +1,14 @@
+Gabriel,name,husband
+Tarafa,surname,husband
+texidor,occupation,husband
+de,occupation,husband
+lli,occupation,husband
+St,location,husband
+Menat,location,husband
+viudo,state,husband
+Maria,name,wife
+Bernat,name,wifes_father
+Carner,surname,wifes_father
+pages,occupation,wifes_father
+Castellterçol,location,wifes_father
+Elisabeth,name,wifes_mother

@@ -1,0 +1,12 @@
+jaume,name,husband
+Ramon,surname,husband
+pages,occupation,husband
+dorrius,location,husband
+viudo,state,husband
+Mar,name,wife
+garida,name,wife
+viuda,state,husband
+jaume,name,other_person
+Moyo,surname,other_person
+pages,occupation,wife
+Argentona,location,wife

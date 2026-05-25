@@ -1,0 +1,14 @@
+Antoni,name,husband
+fos,surname,husband
+frances,location,husband
+tirater,occupation,husband
+Bara,location,husband
+Marquesa,name,wife
+donsella,state,wife
+Pere,name,wifes_father
+Badia,surname,wifes_father
+notari,occupation,wifes_father
+Seu,location,wifes_father
+de,location,wifes_father
+Urgell,location,wifes_father
+t,name,wifes_mother

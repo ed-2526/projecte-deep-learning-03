@@ -1,0 +1,15 @@
+Joan,name,husband
+Puig,surname,husband
+pages,occupation,husband
+St,location,husband
+Iscla,location,husband
+de,location,husband
+las,location,husband
+fexes,location,husband
+viudo,state,husband
+Eularia,name,wife
+viuda,state,wife
+joan,name,other_person
+Duran,surname,other_person
+pages,occupation,wife
+Mollet,location,wife

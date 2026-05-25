@@ -1,0 +1,13 @@
+Salvador,name,husband
+Roig,surname,husband
+mestre,occupation,husband
+de,occupation,husband
+axa,occupation,husband
+Bara,location,husband
+viudo,state,husband
+Juana,name,wife
+viuda,state,wife
+Juan,name,other_person
+Pla,surname,other_person
+capser,occupation,wife
+Bara,location,wife

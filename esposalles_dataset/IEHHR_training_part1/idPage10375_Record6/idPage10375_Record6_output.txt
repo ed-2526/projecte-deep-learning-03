@@ -1,0 +1,9 @@
+Raphel,name,husband
+Bosca,surname,husband
+calsater,occupation,husband
+de,occupation,husband
+agulla,occupation,husband
+Bara,location,husband
+Bosca,surname,husbands_father
+Polonia,name,wife
+donsella,state,wife

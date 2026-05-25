@@ -1,0 +1,12 @@
+Antoni,name,husband
+Juan,name,husband
+Verder,surname,husband
+fuster,occupation,husband
+Bara,location,husband
+viudo,state,husband
+Elena,name,wife
+viuda,state,wife
+Antoni,name,other_person
+Gallissa,surname,other_person
+cotxero,occupation,wife
+Bara,location,wife

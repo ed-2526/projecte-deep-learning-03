@@ -1,0 +1,16 @@
+Andreu,name,husband
+Torrella,surname,husband
+pages,occupation,husband
+jonqueres,location,husband
+An,name,husbands_father
+tich,name,husbands_father
+Torrella,surname,husbands_father
+pages,occupation,husbands_father
+Montserrada,name,husbands_mother
+Hieronyma,name,wife
+dosella,state,wife
+jua,name,wifes_father
+Vilar,surname,wifes_father
+pages,occupation,wifes_father
+Munmany,location,wifes_father
+Beneta,name,wifes_mother

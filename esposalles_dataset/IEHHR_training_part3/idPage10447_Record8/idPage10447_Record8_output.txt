@@ -1,0 +1,16 @@
+Raphel,name,husband
+Subira,surname,husband
+sparter,occupation,husband
+Vich,location,husband
+Bara,location,husband
+Barthomeu,name,husbands_father
+parayre,occupation,husbands_father
+Vich,location,husbands_father
+Elisabeth,name,husbands_mother
+Hypolita,name,wife
+donsella,state,wife
+Phelip,name,wifes_father
+Benavent,surname,wifes_father
+sabater,occupation,wifes_father
+Bara,location,wifes_father
+Antiga,name,wifes_mother

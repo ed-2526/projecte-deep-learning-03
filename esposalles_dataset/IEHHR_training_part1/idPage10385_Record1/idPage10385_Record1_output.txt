@@ -1,0 +1,17 @@
+Rafel,name,husband
+ferra,surname,husband
+mercader,occupation,husband
+Bara,location,husband
+Pere,name,husbands_father
+ferran,surname,husbands_father
+mercader,occupation,husbands_father
+Hiero,name,husbands_mother
+nyma,name,husbands_mother
+Elena,name,wife
+donsella,state,wife
+jau,name,wifes_father
+me,name,wifes_father
+lledo,surname,wifes_father
+mercader,occupation,wifes_father
+Girona,location,wifes_father
+Hieronyma,name,wifes_mother

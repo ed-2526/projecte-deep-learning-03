@@ -1,0 +1,14 @@
+jaume,name,husband
+Terrida,surname,husband
+rajoler,occupation,husband
+Monmelo,location,husband
+viudo,state,husband
+Paula,name,wife
+viuda,state,wife
+t,name,other_person
+Auladell,surname,other_person
+pages,occupation,wife
+St,location,wife
+Julia,location,wife
+de,location,wife
+Montseny,location,wife

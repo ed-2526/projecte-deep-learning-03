@@ -1,0 +1,16 @@
+Antoni,name,husband
+Mora,surname,husband
+pages,occupation,husband
+Vilamajor,location,husband
+jaume,name,husbands_father
+Mora,surname,husbands_father
+pages,occupation,husbands_father
+florencia,name,husbands_mother
+Maryanna,name,wife
+donsella,state,wife
+Benet,name,wifes_father
+Grau,surname,wifes_father
+pages,occupation,wifes_father
+llissa,location,wifes_father
+demunt,location,wifes_father
+Margarida,name,wifes_mother

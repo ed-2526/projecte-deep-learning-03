@@ -1,0 +1,15 @@
+juan,name,husband
+forti,surname,husband
+pages,occupation,husband
+regne,location,husband
+de,location,husband
+frança,location,husband
+Argentona,location,husband
+Catherina,name,wife
+donsella,state,wife
+Pere,name,wifes_father
+Grimal,surname,wifes_father
+pa,occupation,wifes_father
+ges,occupation,wifes_father
+Argentona,location,wifes_father
+Elisabeth,name,wifes_mother

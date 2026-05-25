@@ -1,0 +1,16 @@
+Alexandre,name,husband
+Blanch,surname,husband
+hortola,occupation,husband
+Vilassar,location,husband
+Bara,location,husband
+jaume,name,husbands_father
+Blanch,surname,husbands_father
+fuster,occupation,husbands_father
+Vilassar,location,husbands_father
+Catherina,name,husbands_mother
+Juana,name,wife
+viuda,state,wife
+juan,name,other_person
+Pomes,surname,other_person
+hortola,occupation,wife
+Bara,location,wife

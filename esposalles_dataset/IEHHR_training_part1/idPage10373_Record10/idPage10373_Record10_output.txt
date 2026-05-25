@@ -1,0 +1,13 @@
+Jua,name,husband
+Claus,surname,husband
+frances,location,husband
+spaser,occupation,husband
+bara,location,husband
+Elisabeth,name,wife
+Miquel,name,wifes_father
+Vich,surname,wifes_father
+pages,occupation,wifes_father
+la,location,wifes_father
+Llacuna,location,wifes_father
+Mag,name,wifes_mother
+dalena,name,wifes_mother

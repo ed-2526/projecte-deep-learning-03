@@ -1,0 +1,16 @@
+Jua,name,husband
+Salmell,surname,husband
+pages,occupation,husband
+La,location,husband
+Llacuna,location,husband
+Juan,name,husbands_father
+Salmell,surname,husbands_father
+pages,occupation,husbands_father
+t,name,husbands_mother
+Catherina,name,wife
+donsella,state,wife
+Jua,name,wifes_father
+Nadal,surname,wifes_father
+pages,occupation,wifes_father
+Terrasola,location,wifes_father
+juana,name,wifes_mother

@@ -1,0 +1,16 @@
+Antoni,name,husband
+Bosqui,surname,husband
+pages,occupation,husband
+Samalus,location,husband
+Antoni,name,husbands_father
+Bosqui,surname,husbands_father
+pages,occupation,husbands_father
+Eularia,name,husbands_mother
+Maryanna,name,wife
+donsella,state,wife
+francesch,name,wifes_father
+Parera,surname,wifes_father
+pages,occupation,wifes_father
+dit,location,wifes_father
+lloch,location,wifes_father
+t,name,wifes_mother

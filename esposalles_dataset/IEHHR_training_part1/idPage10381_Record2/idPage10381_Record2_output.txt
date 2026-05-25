@@ -1,0 +1,12 @@
+Juan,name,husband
+Roman,surname,husband
+pages,occupation,husband
+Regne,location,husband
+de,location,husband
+fransa,location,husband
+Gualba,location,husband
+Antiga,name,wife
+viuda,state,wife
+Gabriel,name,other_person
+Viader,surname,other_person
+Gualba,location,wife

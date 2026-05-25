@@ -1,0 +1,16 @@
+Sebastia,name,husband
+Guell,surname,husband
+pages,occupation,husband
+Torrelles,location,husband
+jaume,name,husbands_father
+Guell,surname,husbands_father
+pages,occupation,husbands_father
+Antiga,name,husbands_mother
+Margarida,name,wife
+dosella,state,wife
+juan,name,wifes_father
+Palau,surname,wifes_father
+pages,occupation,wifes_father
+Magdalena,name,wifes_mother
+dita,location,wife
+parrochia,location,wife

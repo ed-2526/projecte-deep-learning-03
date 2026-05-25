@@ -1,0 +1,17 @@
+francesch,name,husband
+Giscart,surname,husband
+treballador,occupation,husband
+St,location,husband
+feliu,location,husband
+de,location,husband
+Llo,location,husband
+bregat,location,husband
+Salvador,name,husbands_father
+Giscart,surname,husbands_father
+Maria,name,husbands_mother
+Anna,name,wife
+donsella,state,wife
+Montserrat,name,wifes_father
+Panyella,surname,wifes_father
+pages,occupation,wifes_father
+Maryanna,name,wifes_mother

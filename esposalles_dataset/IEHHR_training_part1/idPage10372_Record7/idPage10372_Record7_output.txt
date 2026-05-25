@@ -1,0 +1,11 @@
+Juan,name,husband
+Guasch,surname,husband
+pages,occupation,husband
+Bara,location,husband
+frances,location,husband
+Violant,name,wife
+viuda,state,wife
+Baldiri,name,other_person
+Carreras,surname,other_person
+pages,occupation,wife
+Bara,location,wife

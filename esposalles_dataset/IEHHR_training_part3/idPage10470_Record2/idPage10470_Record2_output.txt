@@ -1,0 +1,15 @@
+Salvador,name,husband
+Giro,surname,husband
+candaler,occupation,husband
+de,occupation,husband
+ceu,occupation,husband
+Lleyda,location,husband
+Bara,location,husband
+viudo,state,husband
+Isabel,name,wife
+donsella,state,wife
+Joan,name,wifes_father
+Vinader,surname,wifes_father
+fuster,occupation,wifes_father
+Bara,location,wifes_father
+Catherina,name,wifes_mother

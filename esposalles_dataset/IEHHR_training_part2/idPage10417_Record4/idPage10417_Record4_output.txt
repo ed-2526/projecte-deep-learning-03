@@ -1,0 +1,16 @@
+jaume,name,husband
+Peramon,surname,husband
+mariner,occupation,husband
+Bara,location,husband
+Juan,name,husbands_father
+Miquel,name,husbands_father
+Peramon,surname,husbands_father
+mariner,occupation,husbands_father
+Antiga,name,husbands_mother
+Raphela,name,wife
+donsella,state,wife
+juan,name,wifes_father
+Terre,surname,wifes_father
+carnicer,occupation,wifes_father
+Bara,location,wifes_father
+Eularia,name,wifes_mother

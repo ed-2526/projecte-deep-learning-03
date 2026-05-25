@@ -1,0 +1,12 @@
+Montserrat,name,husband
+Corbera,surname,husband
+pages,occupation,husband
+Vallromanes,location,husband
+Juan,name,husbands_father
+Corbera,surname,husbands_father
+pages,occupation,husbands_father
+francina,name,husbands_mother
+Magdalena,name,wife
+t,name,wifes_father
+Munt,surname,wifes_father
+t,name,wifes_mother

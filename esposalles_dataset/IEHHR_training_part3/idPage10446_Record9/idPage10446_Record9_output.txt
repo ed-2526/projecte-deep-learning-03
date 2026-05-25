@@ -1,0 +1,16 @@
+Bernat,name,husband
+Caramany,surname,husband
+boter,occupation,husband
+Mataro,location,husband
+Nar,name,husbands_father
+cis,name,husbands_father
+Caramany,surname,husbands_father
+boter,occupation,husbands_father
+Antiga,name,husbands_mother
+Margarida,name,wife
+donsella,state,wife
+Antoni,name,wifes_father
+Major,surname,wifes_father
+boter,occupation,wifes_father
+Mataro,location,wifes_father
+Margarida,name,wifes_mother

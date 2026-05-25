@@ -1,0 +1,16 @@
+Valenti,name,husband
+Gerones,surname,husband
+Castell,location,husband
+tersol,location,husband
+bisbat,location,husband
+de,location,husband
+Vich,location,husband
+jaue,name,husbands_father
+pa,occupation,husbands_father
+ges,occupation,husbands_father
+eulalia,name,husbands_mother
+Anna,name,wife
+donzella,state,wife
+Rocha,surname,wifes_father
+rayre,occupation,wifes_father
+Angela,name,wifes_mother

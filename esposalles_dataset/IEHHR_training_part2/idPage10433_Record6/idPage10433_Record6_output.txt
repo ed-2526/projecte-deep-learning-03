@@ -1,0 +1,17 @@
+Raphel,name,husband
+Planes,surname,husband
+blanquer,occupation,husband
+Bara,location,husband
+Pere,name,husbands_father
+Planes,surname,husbands_father
+blanquer,occupation,husbands_father
+Bara,location,husbands_father
+Anna,name,husbands_mother
+Anna,name,wife
+Maria,name,wife
+donsella,state,wife
+jaume,name,wifes_father
+font,surname,wifes_father
+cinter,occupation,wifes_father
+Vich,location,wifes_father
+Anna,name,wifes_mother

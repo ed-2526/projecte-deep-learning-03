@@ -1,0 +1,16 @@
+Pere,name,husband
+fabregues,surname,husband
+pages,occupation,husband
+frances,location,husband
+en,location,husband
+St,location,husband
+Quinti,location,husband
+Margarida,name,wife
+donsella,state,wife
+Pau,name,wifes_father
+Marti,surname,wifes_father
+pages,occupation,wifes_father
+de,location,wifes_father
+dita,location,wifes_father
+vila,location,wifes_father
+Juana,name,wifes_mother

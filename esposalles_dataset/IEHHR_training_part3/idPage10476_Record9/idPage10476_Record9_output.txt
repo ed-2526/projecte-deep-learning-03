@@ -1,0 +1,17 @@
+Antich,name,husband
+Riera,surname,husband
+sastre,occupation,husband
+Pere,name,husbands_father
+Jua,name,husbands_father
+Riera,surname,husbands_father
+ferrer,occupation,husbands_father
+St,location,husbands_father
+Esteva,location,husbands_father
+de,location,husbands_father
+Castellar,location,husbands_father
+Elisabeth,name,husbands_mother
+Margarida,name,wife
+viuda,state,wife
+Pau,name,other_person
+Riera,surname,other_person
+polvorer,occupation,wife

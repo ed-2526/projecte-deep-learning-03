@@ -1,0 +1,17 @@
+Antoni,name,husband
+Vedrier,surname,husband
+parayre,occupation,husband
+regne,location,husband
+de,location,husband
+fransa,location,husband
+Terrassa,location,husband
+Hieronyma,name,wife
+donsella,state,wife
+Juan,name,wifes_father
+Arrufat,surname,wifes_father
+te,occupation,wifes_father
+xidor,occupation,wifes_father
+de,occupation,wifes_father
+llana,occupation,wifes_father
+Terrassa,location,wifes_father
+Hieronyma,name,wifes_mother

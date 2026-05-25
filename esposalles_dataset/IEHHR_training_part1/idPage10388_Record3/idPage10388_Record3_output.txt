@@ -1,0 +1,15 @@
+jaume,name,husband
+faliu,surname,husband
+pages,occupation,husband
+Campanya,location,husband
+franch,name,husbands_father
+faliu,surname,husbands_father
+Paula,name,husbands_mother
+Catherina,name,wife
+viuda,state,wife
+jaume,name,other_person
+Esteva,surname,other_person
+pages,occupation,wife
+St,location,wife
+joan,location,wife
+Despi,location,wife

@@ -1,0 +1,14 @@
+Montserrat,name,husband
+Llimona,surname,husband
+parayre,occupation,husband
+Sparaguera,location,husband
+viudo,state,husband
+Juana,name,wife
+donsella,state,wife
+Antoni,name,wifes_father
+Broquets,surname,wifes_father
+pages,occupation,wifes_father
+Aulesa,location,wifes_father
+de,location,wifes_father
+Montserrat,location,wifes_father
+Elienor,name,wifes_mother

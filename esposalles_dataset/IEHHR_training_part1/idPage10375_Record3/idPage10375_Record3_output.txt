@@ -1,0 +1,14 @@
+Gabriel,name,husband
+Valiellas,surname,husband
+parayre,occupation,husband
+Bara,location,husband
+Gabriel,name,husbands_father
+Valiellas,surname,husbands_father
+parayre,occupation,husbands_father
+Hieronyma,name,husbands_mother
+Hieronyma,name,wife
+donsella,state,wife
+Bernabe,name,wifes_father
+Bosch,surname,wifes_father
+parayre,occupation,wifes_father
+Hieronyma,name,wifes_mother

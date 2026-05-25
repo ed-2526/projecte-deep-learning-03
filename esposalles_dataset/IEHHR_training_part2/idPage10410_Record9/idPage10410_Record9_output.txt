@@ -1,0 +1,17 @@
+Guille,name,husband
+Costa,surname,husband
+pages,occupation,husband
+regne,location,husband
+de,location,husband
+fransa,location,husband
+Mo,location,husband
+lin,location,husband
+de,location,husband
+reig,location,husband
+Dionysa,name,wife
+viuda,state,wife
+domenjo,name,other_person
+Barriera,surname,other_person
+pages,occupation,wife
+frança,location,wife
+Bara,location,wife

@@ -1,0 +1,17 @@
+Pere,name,husband
+Gui,surname,husband
+clavetayre,occupation,husband
+frances,location,husband
+Sta,location,husband
+Ma,location,husband
+de,location,husband
+Palau,location,husband
+tordera,location,husband
+Anna,name,wife
+dosella,state,wife
+Pere,name,wifes_father
+Cani,surname,wifes_father
+treballador,occupation,wifes_father
+dita,location,wifes_father
+parrochia,location,wifes_father
+Anna,name,wifes_mother

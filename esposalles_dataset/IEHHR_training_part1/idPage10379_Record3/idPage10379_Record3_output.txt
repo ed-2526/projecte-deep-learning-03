@@ -1,0 +1,17 @@
+Juan,name,husband
+Pau,name,husband
+Mandri,surname,husband
+vedrier,occupation,husband
+Mataro,location,husband
+Bara,location,husband
+Pere,name,husbands_father
+Antich,name,husbands_father
+traginer,occupation,husbands_father
+Elienor,name,husbands_mother
+Maryanna,name,wife
+donsella,state,wife
+Guerau,name,wifes_father
+Pons,surname,wifes_father
+droguer,occupation,wifes_father
+Granollers,location,wifes_father
+Hieronyma,name,wifes_mother

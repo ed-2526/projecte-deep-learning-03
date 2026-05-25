@@ -1,0 +1,16 @@
+Antoni,name,husband
+Mossach,surname,husband
+Ugo,surname,husband
+sabater,occupation,husband
+regne,location,husband
+de,location,husband
+fransa,location,husband
+Bara,location,husband
+Stephania,name,wife
+viuda,state,wife
+jaume,name,other_person
+Sans,surname,other_person
+sabater,occupation,wife
+Molin,location,wife
+de,location,wife
+rey,location,wife

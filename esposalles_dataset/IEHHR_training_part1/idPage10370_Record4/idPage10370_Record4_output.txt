@@ -1,0 +1,11 @@
+Miquel,name,husband
+Adell,surname,husband
+carreter,occupation,husband
+frances,location,husband
+Bara,location,husband
+Maria,name,wife
+donsella,state,wife
+Pere,name,wifes_father
+Guillami,surname,wifes_father
+fuster,occupation,wifes_father
+francisca,name,wifes_mother

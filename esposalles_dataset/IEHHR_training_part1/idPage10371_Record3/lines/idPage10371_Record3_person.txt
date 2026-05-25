@@ -1,0 +1,4 @@
+idPage10371_Record3_Line0:none none none none husband husband husband none husband none none husbands_father husbands_father
+idPage10371_Record3_Line1:husbands_father none husbands_father husbands_father husbands_father husbands_father husbands_father husbands_father husbands_father none none none husbands_mother
+idPage10371_Record3_Line2:none wife wife none none wifes_father wifes_father wifes_father none wifes_father none
+idPage10371_Record3_Line3:none none wifes_mother

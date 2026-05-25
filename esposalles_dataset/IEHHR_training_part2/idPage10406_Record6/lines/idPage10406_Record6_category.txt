@@ -1,0 +1,2 @@
+idPage10406_Record6_Line0:other other other other other other name surname occupation occupation occupation other location
+idPage10406_Record6_Line1:state other name other state other name surname occupation other other location

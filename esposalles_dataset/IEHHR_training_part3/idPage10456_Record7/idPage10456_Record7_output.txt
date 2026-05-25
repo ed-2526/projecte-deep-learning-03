@@ -1,0 +1,16 @@
+Joseph,name,husband
+Nadal,surname,husband
+matalafer,occupation,husband
+Bara,location,husband
+Agusti,name,husbands_father
+Nadal,surname,husbands_father
+flassader,occupation,husbands_father
+Hieronyma,name,husbands_mother
+Eula,name,wife
+ria,name,wife
+donsella,state,wife
+Antoni,name,wifes_father
+Oriol,surname,wifes_father
+parayre,occupation,wifes_father
+Bara,location,wifes_father
+Margarida,name,wifes_mother

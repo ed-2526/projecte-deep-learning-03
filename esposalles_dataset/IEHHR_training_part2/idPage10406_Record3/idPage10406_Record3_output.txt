@@ -1,0 +1,17 @@
+Barthomeu,name,husband
+Muntaner,surname,husband
+mercader,occupation,husband
+Bara,location,husband
+Pau,name,husbands_father
+Muntaner,surname,husbands_father
+mercader,occupation,husbands_father
+Bara,location,husbands_father
+t,name,husbands_mother
+dorothea,name,wife
+dosella,state,wife
+jaume,name,wifes_father
+de,surname,wifes_father
+Cardona,surname,wifes_father
+donsell,occupation,wifes_father
+Bara,location,wifes_father
+Victoria,name,wifes_mother

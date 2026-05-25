@@ -1,0 +1,14 @@
+Jua,name,husband
+Cases,surname,husband
+traginer,occupation,husband
+regne,location,husband
+de,location,husband
+frança,location,husband
+Bara,location,husband
+Margarida,name,wife
+donsella,state,wife
+Jua,name,wifes_father
+Vidal,surname,wifes_father
+pages,occupation,wifes_father
+Ribes,location,wifes_father
+Speransa,name,wifes_mother

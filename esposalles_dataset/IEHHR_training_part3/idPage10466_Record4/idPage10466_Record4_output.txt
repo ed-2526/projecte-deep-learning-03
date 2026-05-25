@@ -1,0 +1,13 @@
+jaume,name,husband
+Badia,surname,husband
+pescador,occupation,husband
+regne,location,husband
+de,location,husband
+frança,location,husband
+Tiana,location,husband
+Eularia,name,wife
+viuda,state,wife
+Guille,name,other_person
+Casanoves,surname,other_person
+traginer,occupation,wife
+Taya,location,wife

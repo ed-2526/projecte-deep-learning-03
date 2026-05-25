@@ -1,0 +1,15 @@
+francesch,name,husband
+Gibert,surname,husband
+pages,occupation,husband
+fransa,location,husband
+viudo,state,husband
+habitant,location,husband
+en,location,husband
+Vilanova,location,husband
+de,location,husband
+La,location,husband
+Rocha,location,husband
+Catherina,name,wife
+Avella,surname,wife
+viuda,state,wife
+t,name,other_person

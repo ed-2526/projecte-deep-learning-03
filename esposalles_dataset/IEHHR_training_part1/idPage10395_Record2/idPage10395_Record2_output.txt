@@ -1,0 +1,15 @@
+Hyacinto,name,husband
+Barthomeu,surname,husband
+pintor,occupation,husband
+Bara,location,husband
+Gabriel,name,husbands_father
+Barthomeu,surname,husbands_father
+vedrier,occupation,husbands_father
+Manresa,location,husbands_father
+Victoria,name,husbands_mother
+Elisabeth,name,wife
+viuda,state,wife
+Pere,name,other_person
+Amat,surname,other_person
+pedrenyaler,occupation,wife
+Caldes,location,wife

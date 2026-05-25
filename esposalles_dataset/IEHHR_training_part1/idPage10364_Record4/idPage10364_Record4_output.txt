@@ -1,0 +1,15 @@
+Pau,name,husband
+Darder,surname,husband
+corder,occupation,husband
+Bara,location,husband
+francesch,name,husbands_father
+Darder,surname,husbands_father
+corder,occupation,husbands_father
+Elisabeth,name,husbands_mother
+Madrona,name,wife
+donsella,state,wife
+Bernat,name,wifes_father
+Garces,surname,wifes_father
+tapiner,occupation,wifes_father
+bara,location,wifes_father
+Maryanna,name,wifes_mother

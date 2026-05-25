@@ -1,0 +1,17 @@
+Pere,name,husband
+Juan,name,husband
+Miramdeu,surname,husband
+argenter,occupation,husband
+Granollers,location,husband
+Antoni,name,husbands_father
+Miramdeu,surname,husbands_father
+parayre,occupation,husbands_father
+Granollers,location,husbands_father
+Angela,name,husbands_mother
+Elisabeth,name,wife
+donsella,state,wife
+Matheu,name,wifes_father
+Guerri,surname,wifes_father
+argenter,occupation,wifes_father
+Bara,location,wifes_father
+Martha,name,wifes_mother

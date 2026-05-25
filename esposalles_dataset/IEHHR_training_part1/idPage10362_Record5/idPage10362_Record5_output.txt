@@ -1,0 +1,15 @@
+Pere,name,husband
+Pau,name,husband
+Cardona,surname,husband
+flaquer,occupation,husband
+Bara,location,husband
+Raphel,name,husbands_father
+Cardona,surname,husbands_father
+assaonador,occupation,husbands_father
+t,name,husbands_mother
+Montserrada,name,wife
+viuda,state,wife
+Gabriel,name,wifes_father
+Torras,surname,wifes_father
+hortola,occupation,wifes_father
+Bara,location,wife

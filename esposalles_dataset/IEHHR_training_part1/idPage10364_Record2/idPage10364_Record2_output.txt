@@ -1,0 +1,6 @@
+Baster,name,husband
+texidor,occupation,husband
+de,occupation,husband
+llana,occupation,husband
+Sabadell,location,husband
+Baster,name,husbands_father

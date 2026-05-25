@@ -1,0 +1,17 @@
+Andreu,name,husband
+Llaneres,surname,husband
+parayre,occupation,husband
+Caldes,location,husband
+de,location,husband
+Monbuy,location,husband
+viudo,state,husband
+Hieronyma,name,wife
+donsella,state,wife
+Juan,name,wifes_father
+Ribes,surname,wifes_father
+parayre,occupation,wifes_father
+t,name,wifes_mother
+tots,location,wife
+de,location,wife
+dita,location,wife
+vila,location,wife

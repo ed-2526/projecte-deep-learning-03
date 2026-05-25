@@ -1,0 +1,16 @@
+Juan,name,husband
+Pons,surname,husband
+veler,occupation,husband
+Bara,location,husband
+Juan,name,husbands_father
+Pons,surname,husbands_father
+veler,occupation,husbands_father
+Bara,location,husbands_father
+Montserrada,name,husbands_mother
+Maryanna,name,wife
+donsella,state,wife
+Pere,name,wifes_father
+Alaver,surname,wifes_father
+carnicer,occupation,wifes_father
+Bara,location,wifes_father
+Margarida,name,wifes_mother

@@ -1,0 +1,12 @@
+Antoni,name,husband
+Moner,surname,husband
+pages,occupation,husband
+Orrius,location,husband
+viudo,state,husband
+#,name,wife
+Margarida,name,wife
+viuda,state,wife
+Jua,name,other_person
+Cuch,surname,other_person
+pages,occupation,wife
+Canoves,location,wife

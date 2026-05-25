@@ -1,0 +1,15 @@
+Pere,name,husband
+Albanell,surname,husband
+sastre,occupation,husband
+Gualba,location,husband
+juan,name,husbands_father
+Albanell,surname,husbands_father
+pages,occupation,husbands_father
+Eularia,name,husbands_mother
+Joana,name,wife
+donsella,state,wife
+Pere,name,wifes_father
+Puig,surname,wifes_father
+pages,occupation,wifes_father
+Campins,location,wifes_father
+joana,name,wifes_mother

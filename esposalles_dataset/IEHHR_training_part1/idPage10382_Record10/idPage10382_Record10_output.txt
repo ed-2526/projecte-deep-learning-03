@@ -1,0 +1,13 @@
+Miquel,name,husband
+Agell,surname,husband
+sastre,occupation,husband
+Agusti,name,husbands_father
+Agell,surname,husbands_father
+sastre,occupation,husbands_father
+Antonia,name,husbands_mother
+Maria,name,wife
+jaume,name,wifes_father
+Verdaguer,surname,wifes_father
+boter,occupation,wifes_father
+Eleonor,name,wifes_mother
+Llavaneres,location,husband

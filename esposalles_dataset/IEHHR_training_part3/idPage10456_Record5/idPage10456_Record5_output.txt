@@ -1,0 +1,15 @@
+Pere,name,husband
+Semoler,surname,husband
+sastre,occupation,husband
+Bara,location,husband
+viudo,state,husband
+Mari,name,wife
+anna,name,wife
+donsella,state,wife
+francesch,name,wifes_father
+Balcells,surname,wifes_father
+texidor,occupation,wifes_father
+de,occupation,wifes_father
+lli,occupation,wifes_father
+Bara,location,wifes_father
+Juana,name,wifes_mother

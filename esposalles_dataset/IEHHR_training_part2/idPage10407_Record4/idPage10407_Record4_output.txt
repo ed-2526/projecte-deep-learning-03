@@ -1,0 +1,15 @@
+francesch,name,husband
+figueres,surname,husband
+pages,occupation,husband
+Bara,location,husband
+viudo,state,husband
+Mag,name,wife
+dalena,name,wife
+donsella,state,wife
+Jua,name,wifes_father
+Planes,surname,wifes_father
+corredor,occupation,wifes_father
+de,occupation,wifes_father
+orella,occupation,wifes_father
+Elisa,name,wifes_mother
+beth,name,wifes_mother

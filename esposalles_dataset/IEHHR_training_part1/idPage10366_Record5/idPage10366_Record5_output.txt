@@ -1,0 +1,16 @@
+Steva,name,husband
+Roig,surname,husband
+vedrier,occupation,husband
+Mataro,location,husband
+Se,name,husbands_father
+bastia,name,husbands_father
+Roig,surname,husbands_father
+pescador,occupation,husbands_father
+Speransa,name,husbands_mother
+dorothea,name,wife
+donsella,state,wife
+Pere,name,wifes_father
+Nogueres,surname,wifes_father
+Pasqual,surname,wifes_father
+vedrier,occupation,wifes_father
+Elisabeth,name,wifes_mother

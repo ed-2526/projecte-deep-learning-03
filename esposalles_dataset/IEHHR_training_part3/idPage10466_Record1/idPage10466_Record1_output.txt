@@ -1,0 +1,16 @@
+Phelip,name,husband
+Busquets,surname,husband
+daguer,occupation,husband
+Bara,location,husband
+Joa,name,husbands_father
+Bus,surname,husbands_father
+quets,surname,husbands_father
+fuster,occupation,husbands_father
+Anna,name,husbands_mother
+Oliva,name,wife
+donsella,state,wife
+Pere,name,wifes_father
+Vaquer,surname,wifes_father
+forner,occupation,wifes_father
+Bara,location,wifes_father
+Elisabeth,name,wifes_mother

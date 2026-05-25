@@ -1,0 +1,16 @@
+Juan,name,husband
+Cot,surname,husband
+calsater,occupation,husband
+de,occupation,husband
+agulla,occupation,husband
+regne,location,husband
+de,location,husband
+frança,location,husband
+Bara,location,husband
+Catherina,name,wife
+donsella,state,wife
+Miquel,name,wifes_father
+Planes,surname,wifes_father
+pages,occupation,wifes_father
+Vilamajor,location,wifes_father
+Margarida,name,wifes_mother

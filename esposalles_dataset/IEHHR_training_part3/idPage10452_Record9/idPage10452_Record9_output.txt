@@ -1,0 +1,13 @@
+Jua,name,husband
+Gibert,surname,husband
+calsater,occupation,husband
+regne,location,husband
+de,location,husband
+frança,location,husband
+Bara,location,husband
+Maryangela,name,wife
+viuda,state,wife
+Jua,name,other_person
+Arbos,surname,other_person
+barrater,occupation,wife
+Bara,location,wife

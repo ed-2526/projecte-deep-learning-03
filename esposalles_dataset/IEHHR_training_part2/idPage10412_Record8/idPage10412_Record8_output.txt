@@ -1,0 +1,13 @@
+juan,name,husband
+Gasso,surname,husband
+forner,occupation,husband
+Bara,location,husband
+viudo,state,husband
+Catheri,name,wife
+na,name,wife
+viuda,state,wife
+Pere,name,other_person
+Sotalell,surname,other_person
+cotoner,occupation,wife
+Bara,location,wife
+Bara,location,wife

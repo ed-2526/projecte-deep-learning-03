@@ -1,0 +1,13 @@
+Pere,name,husband
+Renyolet,surname,husband
+pages,occupation,husband
+Bara,location,husband
+viudo,state,husband
+Eleonor,name,wife
+donsella,state,wife
+Pere,name,wifes_father
+Bernoy,surname,wifes_father
+assaunador,occupation,wifes_father
+Bara,location,wifes_father
+Magda,name,wifes_mother
+lena,name,wifes_mother

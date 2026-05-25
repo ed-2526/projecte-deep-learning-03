@@ -1,0 +1,17 @@
+Jua,name,husband
+Palomeres,surname,husband
+mariner,occupation,husband
+Canet,location,husband
+bisbat,location,husband
+de,location,husband
+Girona,location,husband
+viudo,state,husband
+dorothea,name,wife
+donsella,state,wife
+jaume,name,wifes_father
+Matheu,surname,wifes_father
+Segui,surname,wifes_father
+pages,occupation,wifes_father
+Mataro,location,wifes_father
+Elisabeth,name,wifes_mother
+juana,name,wifes_mother

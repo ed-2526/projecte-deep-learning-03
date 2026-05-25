@@ -1,0 +1,16 @@
+Pau,name,husband
+Bosca,surname,husband
+pages,occupation,husband
+Badalona,location,husband
+Pau,name,husbands_father
+Bosca,surname,husbands_father
+pages,occupation,husbands_father
+Eularia,name,husbands_mother
+Paula,name,wife
+donsella,state,wife
+Jua,name,wifes_father
+Valls,surname,wifes_father
+pages,occupation,wifes_father
+Palau,location,wifes_father
+solitar,location,wifes_father
+Eularia,name,wifes_mother

@@ -1,0 +1,15 @@
+Juan,name,husband
+Palau,surname,husband
+pages,occupation,husband
+St,location,husband
+Marti,location,husband
+de,location,husband
+Prohensals,location,husband
+viudo,state,husband
+Elisabeth,name,wife
+viuda,state,husband
+Jua,name,other_person
+Martres,surname,other_person
+pages,occupation,wife
+dita,location,wife
+parrochia,location,wife

@@ -1,0 +1,17 @@
+jaume,name,husband
+faneca,surname,husband
+mestre,occupation,husband
+de,occupation,husband
+cases,occupation,husband
+jaue,name,husbands_father
+faneca,surname,husbands_father
+carrater,occupation,husbands_father
+Solsona,location,husbands_father
+Angela,name,husbands_mother
+Maria,name,wife
+donsella,state,wife
+Pere,name,wifes_father
+Torrent,surname,wifes_father
+pages,occupation,wifes_father
+Martorell,location,wifes_father
+Anna,name,wifes_mother

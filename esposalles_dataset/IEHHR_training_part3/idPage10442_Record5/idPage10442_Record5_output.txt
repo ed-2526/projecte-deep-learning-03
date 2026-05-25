@@ -1,0 +1,12 @@
+Pau,name,husband
+Alegre,surname,husband
+pages,occupation,husband
+Bara,location,husband
+viudo,state,husband
+Victoria,name,wife
+febres,surname,wife
+viuda,state,wife
+francesch,name,other_person
+fabres,surname,other_person
+sastre,occupation,wife
+Sitges,location,wife

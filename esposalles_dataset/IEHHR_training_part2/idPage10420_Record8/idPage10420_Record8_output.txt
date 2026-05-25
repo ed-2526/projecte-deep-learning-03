@@ -1,0 +1,15 @@
+Pere,name,husband
+Garriga,surname,husband
+sastre,occupation,husband
+Bara,location,husband
+viudo,state,husband
+Magdalena,name,wife
+donsella,state,wife
+Raphel,name,wifes_father
+Molines,surname,wifes_father
+calsater,occupation,wifes_father
+Cervera,location,wifes_father
+bisbat,location,wifes_father
+de,location,wifes_father
+Solsona,location,wifes_father
+francisca,name,wifes_mother

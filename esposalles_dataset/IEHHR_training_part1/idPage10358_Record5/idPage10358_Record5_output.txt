@@ -1,0 +1,16 @@
+Melchior,name,husband
+Oliver,surname,husband
+jove,occupation,husband
+cilurgia,occupation,husband
+Bara,location,husband
+Miql,name,husbands_father
+Oliver,surname,husbands_father
+negociant,occupation,husbands_father
+Margarida,name,husbands_mother
+Eleonor,name,wife
+donsella,state,wife
+Sebastia,name,wifes_father
+Ripoll,surname,wifes_father
+sastre,occupation,wifes_father
+Bara,location,wifes_father
+Elisabeth,name,wifes_mother

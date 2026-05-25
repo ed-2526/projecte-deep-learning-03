@@ -1,0 +1,12 @@
+francesch,name,husband
+Vinyals,surname,husband
+parayre,occupation,husband
+Sparaguera,location,husband
+viudo,state,husband
+Elisabeth,name,wife
+donsella,state,wife
+Miquel,name,wifes_father
+Cantarell,surname,wifes_father
+passamaner,occupation,wifes_father
+Bara,location,wifes_father
+Violant,name,wifes_mother

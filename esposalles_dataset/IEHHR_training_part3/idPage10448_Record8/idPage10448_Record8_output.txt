@@ -1,0 +1,16 @@
+Antoni,name,husband
+Pujol,surname,husband
+pages,occupation,husband
+Vilassar,location,husband
+Jua,name,husbands_father
+Pujol,surname,husbands_father
+pages,occupation,husbands_father
+Vilassar,location,husbands_father
+Margarida,name,husbands_mother
+Maria,name,wife
+donsella,state,wife
+Dionys,name,wifes_father
+Homs,surname,wifes_father
+pages,occupation,wifes_father
+Orrius,location,wifes_father
+Angela,name,wifes_mother

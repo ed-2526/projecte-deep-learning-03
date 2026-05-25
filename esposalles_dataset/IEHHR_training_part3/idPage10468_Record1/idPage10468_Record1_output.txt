@@ -1,0 +1,12 @@
+jaume,name,husband
+March,surname,husband
+parayre,occupation,husband
+Sabadell,location,husband
+viudo,state,husband
+Maryanna,name,wife
+donsella,state,wife
+jaume,name,wifes_father
+Borrull,surname,wifes_father
+parayre,occupation,wifes_father
+Sabadell,location,wifes_father
+Maryanna,name,wifes_mother

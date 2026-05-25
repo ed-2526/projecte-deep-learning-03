@@ -1,0 +1,17 @@
+Antoni,name,husband
+Bover,surname,husband
+ferrer,occupation,husband
+frances,location,husband
+St,location,husband
+Vicens,location,husband
+dels,location,husband
+horts,location,husband
+Violant,name,wife
+donsella,state,wife
+Pons,name,wifes_father
+Roig,surname,wifes_father
+pages,occupation,wifes_father
+St,location,wifes_father
+just,location,wifes_father
+Desvern,location,wifes_father
+t,name,wifes_mother

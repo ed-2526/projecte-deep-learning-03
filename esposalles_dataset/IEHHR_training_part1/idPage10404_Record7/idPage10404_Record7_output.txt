@@ -1,0 +1,17 @@
+Jua,name,husband
+Petit,surname,husband
+pages,occupation,husband
+Olivella,location,husband
+Sitges,location,husband
+t,name,husbands_father
+Petit,surname,husbands_father
+pages,occupation,husbands_father
+Olivella,location,husbands_father
+Juana,name,husbands_mother
+Angela,name,wife
+donsella,state,wife
+Magi,name,wifes_father
+Oliver,surname,wifes_father
+pages,occupation,wifes_father
+Sitges,location,wifes_father
+Hierona,name,wifes_mother

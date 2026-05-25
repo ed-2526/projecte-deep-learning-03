@@ -1,0 +1,16 @@
+Hyacinto,name,husband
+Rexach,surname,husband
+mariner,occupation,husband
+Mataro,location,husband
+Pere,name,husbands_father
+Pau,name,husbands_father
+Rexach,surname,husbands_father
+mariner,occupation,husbands_father
+Eularia,name,husbands_mother
+Maria,name,wife
+donsella,state,wife
+Llorens,name,wifes_father
+Janer,surname,wifes_father
+sastre,occupation,wifes_father
+Mataro,location,wifes_father
+Joana,name,wifes_mother

@@ -1,0 +1,17 @@
+Pere,name,husband
+Pau,name,husband
+Sagarra,surname,husband
+traginer,occupation,husband
+Martorell,location,husband
+Pere,name,husbands_father
+Sagarra,surname,husbands_father
+traginer,occupation,husbands_father
+francina,name,husbands_mother
+Magdalena,name,wife
+dosella,state,wife
+Jua,name,wifes_father
+Alfonso,surname,wifes_father
+pages,occupation,wifes_father
+Magdalena,name,wifes_mother
+dita,location,wife
+vila,location,wife

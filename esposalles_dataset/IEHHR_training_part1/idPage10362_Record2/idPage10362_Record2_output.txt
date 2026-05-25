@@ -1,0 +1,15 @@
+francesch,name,husband
+Roig,surname,husband
+pintor,occupation,husband
+Bara,location,husband
+francesch,name,husbands_father
+Roig,surname,husbands_father
+pages,occupation,husbands_father
+Elisabeth,name,husbands_mother
+francisca,name,wife
+donsella,state,wife
+Matheu,name,wifes_father
+ortiz,surname,wifes_father
+pa,occupation,wifes_father
+ges,occupation,wifes_father
+Juana,name,wifes_mother

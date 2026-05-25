@@ -1,0 +1,14 @@
+jaume,name,husband
+Bugadell,surname,husband
+pages,occupation,husband
+Papiol,location,husband
+Perot,name,husbands_father
+Bugadell,surname,husbands_father
+pages,occupation,husbands_father
+Elienor,name,husbands_mother
+Catherina,name,wife
+viuda,state,wife
+t,name,other_person
+Petit,surname,other_person
+hostaler,occupation,wife
+Bara,location,wife

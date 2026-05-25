@@ -1,0 +1,13 @@
+jaume,name,husband
+Coromines,surname,husband
+pages,occupation,husband
+St,location,husband
+Menat,location,husband
+Granollers,location,husband
+viudo,state,husband
+francesca,name,wife
+viuda,state,wife
+Miquel,name,other_person
+Boxo,surname,other_person
+corder,occupation,wife
+Granollers,location,wife

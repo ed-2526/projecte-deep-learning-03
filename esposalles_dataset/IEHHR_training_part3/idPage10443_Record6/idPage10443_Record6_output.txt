@@ -1,0 +1,15 @@
+Juan,name,husband
+Torres,surname,husband
+hortola,occupation,husband
+Bara,location,husband
+Juan,name,husbands_father
+Torres,surname,husbands_father
+hortola,occupation,husbands_father
+Beneta,name,husbands_mother
+Juana,name,wife
+Ponsa,surname,wife
+viuda,state,wife
+Vicens,name,other_person
+Pons,surname,other_person
+hortela,occupation,wife
+Bara,location,wife

@@ -1,0 +1,17 @@
+Andreu,name,husband
+Oller,surname,husband
+pages,occupation,husband
+Castell,location,husband
+tersol,location,husband
+bisbat,location,husband
+de,location,husband
+Vich,location,husband
+t,name,husbands_father
+t,name,husbands_mother
+Valentina,name,wife
+viuda,state,wife
+t,name,other_person
+Serra,surname,other_person
+pages,occupation,wife
+Castell,location,wife
+terçol,location,wife

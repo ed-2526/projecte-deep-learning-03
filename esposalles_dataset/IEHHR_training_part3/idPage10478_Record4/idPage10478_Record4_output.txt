@@ -1,0 +1,17 @@
+jaume,name,husband
+Romeu,surname,husband
+pages,occupation,husband
+Ribes,location,husband
+Miquel,name,husbands_father
+Ro,surname,husbands_father
+meu,surname,husbands_father
+pages,occupation,husbands_father
+Eufrahina,name,husbands_mother
+Magdalena,name,wife
+donsella,state,wife
+Pere,name,wifes_father
+Mestre,surname,wifes_father
+pages,occupation,wifes_father
+Violant,name,wifes_mother
+dita,location,wife
+parrochia,location,wife

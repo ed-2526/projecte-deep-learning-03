@@ -1,0 +1,16 @@
+Hyacinto,name,husband
+Veta,surname,husband
+sabater,occupation,husband
+Bara,location,husband
+Arnau,name,husbands_father
+Veta,surname,husbands_father
+pages,occupation,husbands_father
+Bara,location,husbands_father
+Juana,name,husbands_mother
+Maria,name,wife
+donsella,state,wife
+Miquel,name,wifes_father
+Cardona,surname,wifes_father
+parayre,occupation,wifes_father
+Bara,location,wifes_father
+Juana,name,wifes_mother

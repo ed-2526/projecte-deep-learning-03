@@ -1,0 +1,14 @@
+Pere,name,husband
+Godo,surname,husband
+regne,location,husband
+de,location,husband
+frança,location,husband
+serrador,occupation,husband
+Piera,location,husband
+Hieronyma,name,wife
+donsella,state,wife
+jaume,name,wifes_father
+Oliver,surname,wifes_father
+pages,occupation,wifes_father
+Piera,location,wifes_father
+t,name,wifes_mother

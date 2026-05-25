@@ -1,0 +1,15 @@
+jaume,name,husband
+Oliveres,surname,husband
+pages,occupation,husband
+St,location,husband
+Boy,location,husband
+Barthomeu,name,husbands_father
+Oliveres,surname,husbands_father
+pages,occupation,husbands_father
+t,name,husbands_mother
+Catherina,name,wife
+viuda,state,wife
+Pere,name,other_person
+Boter,surname,other_person
+tavarner,occupation,wife
+Bara,location,wife

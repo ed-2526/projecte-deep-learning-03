@@ -1,0 +1,17 @@
+francesch,name,husband
+Lloberes,surname,husband
+assahonador,occupation,husband
+Bara,location,husband
+Juan,name,husbands_father
+Lloberas,surname,husbands_father
+pages,occupation,husbands_father
+St,location,husbands_father
+Iga,location,husbands_father
+Magdalena,name,husbands_mother
+Marianna,name,wife
+donsella,state,wife
+Pere,name,wifes_father
+Tort,surname,wifes_father
+blanquer,occupation,wifes_father
+Bara,location,wifes_father
+juana,name,wifes_mother

@@ -1,0 +1,13 @@
+Gabriel,name,husband
+Agell,surname,husband
+pages,occupation,husband
+Cabrera,location,husband
+Barthomeu,name,husbands_father
+Agell,surname,husbands_father
+pages,occupation,husbands_father
+Elienor,name,husbands_mother
+Olivera,name,wife
+viuda,state,wife
+Oliver,name,other_person
+boter,occupation,wife
+Arenys,location,wife

@@ -1,0 +1,16 @@
+francesch,name,husband
+Gali,surname,husband
+sabater,occupation,husband
+Bara,location,husband
+frach,name,husbands_father
+Gali,surname,husbands_father
+sa,occupation,husbands_father
+bater,occupation,husbands_father
+Elisabeth,name,husbands_mother
+Margarida,name,wife
+donsella,state,wife
+Gili,name,wifes_father
+Vadell,surname,wifes_father
+tavarner,occupation,wifes_father
+Bara,location,wifes_father
+t,name,wifes_mother

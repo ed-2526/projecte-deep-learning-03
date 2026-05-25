@@ -1,0 +1,16 @@
+Esteva,name,husband
+Regort,surname,husband
+bastaix,occupation,husband
+de,occupation,husband
+corda,occupation,husband
+Bara,location,husband
+viudo,state,husband
+Juana,name,wife
+francisca,name,wife
+donsella,state,wife
+Pere,name,wifes_father
+Cases,surname,wifes_father
+pages,occupation,wifes_father
+Pons,location,wifes_father
+Bara,location,wifes_father
+Catherina,name,wifes_mother

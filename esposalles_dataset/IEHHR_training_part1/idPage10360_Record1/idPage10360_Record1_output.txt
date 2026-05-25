@@ -1,0 +1,17 @@
+Hierony,name,husband
+Pallisa,surname,husband
+causidich,occupation,husband
+Bara,location,husband
+viudo,state,husband
+Magdalena,name,wife
+donsella,state,wife
+jaume,name,wifes_father
+Bosch,surname,wifes_father
+pages,occupation,wifes_father
+de,location,wifes_father
+St,location,wifes_father
+Hilari,location,wifes_father
+bisbat,location,wifes_father
+de,location,wifes_father
+Vich,location,wifes_father
+Aldonsa,name,wifes_mother

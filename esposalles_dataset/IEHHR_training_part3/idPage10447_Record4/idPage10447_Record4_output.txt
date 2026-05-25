@@ -1,0 +1,16 @@
+jaume,name,husband
+Serra,surname,husband
+parayre,occupation,husband
+Cardedeu,location,husband
+Antoni,name,husbands_father
+Serra,surname,husbands_father
+perayre,occupation,husbands_father
+Antiga,name,husbands_mother
+Eularia,name,wife
+donsella,state,wife
+Juan,name,wifes_father
+Terrades,surname,wifes_father
+pages,occupation,wifes_father
+dita,location,wifes_father
+vila,location,wifes_father
+Hieronyma,name,wifes_mother

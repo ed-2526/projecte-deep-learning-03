@@ -1,0 +1,12 @@
+Pere,name,husband
+Miquel,name,husband
+Ferrer,surname,husband
+pages,occupation,husband
+Badalona,location,husband
+viudo,state,husband
+Maryanna,name,wife
+viuda,state,wife
+Miquel,name,other_person
+Pol,surname,other_person
+blanquer,occupation,wife
+Bara,location,wife

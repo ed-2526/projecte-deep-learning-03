@@ -1,0 +1,16 @@
+Luys,name,husband
+Mascaro,surname,husband
+hortola,occupation,husband
+Bara,location,husband
+Bartho,name,husbands_father
+meu,name,husbands_father
+Mascaro,surname,husbands_father
+hortola,occupation,husbands_father
+Bara,location,husbands_father
+Barbera,name,husbands_mother
+Elisabeth,name,wife
+donsella,state,wife
+Antoni,name,wifes_father
+Cecilia,surname,wifes_father
+calsater,occupation,wifes_father
+Elisabeth,name,wifes_mother

@@ -1,0 +1,17 @@
+Bernat,name,husband
+Aset,surname,husband
+pages,occupation,husband
+regne,location,husband
+de,location,husband
+frança,location,husband
+Sarria,location,husband
+Catherina,name,wife
+donsella,state,wife
+Pere,name,wifes_father
+Orellana,surname,wifes_father
+sastre,occupation,wifes_father
+Sort,location,wifes_father
+bisbat,location,wifes_father
+de,location,wifes_father
+Urgell,location,wifes_father
+Paula,name,wifes_mother

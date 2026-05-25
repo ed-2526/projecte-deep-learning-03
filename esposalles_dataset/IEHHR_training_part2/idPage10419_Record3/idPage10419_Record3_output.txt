@@ -1,0 +1,16 @@
+Juan,name,husband
+Batista,name,husband
+Descallar,surname,husband
+donsell,occupation,husband
+Bara,location,husband
+Llorens,name,husbands_father
+descallar,surname,husbands_father
+donsell,occupation,husbands_father
+Bara,location,husbands_father
+Anna,name,husbands_mother
+Emerentiana,name,wife
+donsella,state,wife
+francesch,name,wifes_father
+Pobla,surname,wifes_father
+Vich,location,wifes_father
+Maria,name,wifes_mother

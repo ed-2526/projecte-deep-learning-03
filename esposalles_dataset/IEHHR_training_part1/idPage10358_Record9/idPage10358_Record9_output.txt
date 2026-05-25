@@ -1,0 +1,17 @@
+lleonart,name,husband
+Torres,surname,husband
+corder,occupation,husband
+de,occupation,husband
+Cardedeu,location,husband
+viudo,state,husband
+Elisabeth,name,wife
+dosella,state,wife
+Pere,name,wifes_father
+Arenas,surname,wifes_father
+pages,location,wifes_father
+de,location,wifes_father
+St,location,wifes_father
+Esteva,location,wifes_father
+del,location,wifes_father
+Coll,location,wifes_father
+Sebastiana,name,wifes_mother

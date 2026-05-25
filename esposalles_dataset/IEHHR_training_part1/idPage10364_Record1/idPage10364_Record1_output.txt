@@ -1,0 +1,15 @@
+Bernat,name,husband
+flaquer,surname,husband
+apotecari,occupation,husband
+Bara,location,husband
+Bernat,name,husbands_father
+flaquer,surname,husbands_father
+cilurgia,occupation,husbands_father
+Hieronyma,name,husbands_mother
+francisca,name,wife
+donsella,state,wife
+Miquel,name,wifes_father
+Vives,surname,wifes_father
+cilurgia,occupation,wifes_father
+Bara,location,wifes_father
+Hieronyma,name,wifes_mother

@@ -1,0 +1,16 @@
+Hyacinto,name,husband
+Vila,surname,husband
+carder,occupation,husband
+Bara,location,husband
+jaume,name,husbands_father
+Vila,surname,husbands_father
+sabater,occupation,husbands_father
+bara,location,husbands_father
+Juana,name,husbands_mother
+Magdalena,name,wife
+donsella,state,wife
+Pere,name,wifes_father
+Poses,surname,wifes_father
+hortola,occupation,wifes_father
+bara,location,wifes_father
+Stephania,name,wifes_mother

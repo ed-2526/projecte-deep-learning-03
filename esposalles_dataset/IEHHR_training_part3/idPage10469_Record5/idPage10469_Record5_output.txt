@@ -1,0 +1,15 @@
+Pere,name,husband
+Pau,name,husband
+Sans,surname,husband
+treballador,occupation,husband
+Llissa,location,husband
+demunt,location,husband
+t,name,husbands_father
+Sans,surname,husbands_father
+pages,occupation,husbands_father
+t,name,husbands_mother
+Paula,name,wife
+donsella,state,wife
+t,name,wifes_father
+Masmitja,surname,wifes_father
+t,name,wifes_mother

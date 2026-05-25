@@ -1,0 +1,13 @@
+Juan,name,husband
+Camps,surname,husband
+pages,occupation,husband
+Hospitalet,location,husband
+Pere,name,husbands_father
+Camps,surname,husbands_father
+pages,occupation,husbands_father
+Anna,name,husbands_mother
+Barthomeua,name,wife
+viuda,state,wife
+Bernat,name,other_person
+Bri,surname,other_person
+pages,occupation,wife

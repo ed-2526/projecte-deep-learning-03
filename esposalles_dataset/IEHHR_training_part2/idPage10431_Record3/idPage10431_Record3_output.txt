@@ -1,0 +1,17 @@
+Arnau,name,husband
+feraut,surname,husband
+retorsedor,occupation,husband
+de,occupation,husband
+llana,occupation,husband
+Regne,location,husband
+de,location,husband
+frança,location,husband
+Bara,location,husband
+Antonia,name,wife
+viuda,state,wife
+Miquel,name,other_person
+Jonchar,surname,other_person
+retorsedor,occupation,wife
+de,occupation,wife
+llana,occupation,wife
+Bara,location,wife

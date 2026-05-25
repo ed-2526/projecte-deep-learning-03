@@ -1,0 +1,11 @@
+Miquel,name,husband
+Cuberta,surname,husband
+adroguer,occupation,husband
+Bara,location,husband
+viudo,state,husband
+Ma,name,wife
+thiana,name,wife
+viuda,state,wife
+Rocha,surname,other_person
+oller,occupation,wife
+Bara,location,wife

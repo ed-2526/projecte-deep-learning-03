@@ -1,0 +1,17 @@
+Sebastia,name,husband
+Costa,surname,husband
+pages,occupation,husband
+Ebrera,location,husband
+Pere,name,husbands_father
+Jua,name,husbands_father
+Costa,surname,husbands_father
+pages,occupation,husbands_father
+Ebrera,location,husbands_father
+Catherina,name,husbands_mother
+Antiga,name,wife
+donsella,state,wife
+Esteva,name,wifes_father
+Castanyer,surname,wifes_father
+baster,occupation,wifes_father
+Martorell,location,wifes_father
+Eleonor,name,wifes_mother

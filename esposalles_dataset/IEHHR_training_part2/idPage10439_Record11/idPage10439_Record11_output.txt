@@ -1,0 +1,12 @@
+jaume,name,husband
+Guitart,surname,husband
+pages,occupation,husband
+Terrassa,location,husband
+viudo,state,husband
+Beatriu,name,wife
+donsella,state,wife
+Gabriel,name,wifes_father
+Arnella,surname,wifes_father
+pages,occupation,wifes_father
+Terrassa,location,wifes_father
+Elienor,name,wifes_mother

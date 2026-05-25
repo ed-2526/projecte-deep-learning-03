@@ -1,0 +1,16 @@
+Pau,name,husband
+Novell,surname,husband
+passamaner,occupation,husband
+Bara,location,husband
+Pere,name,husbands_father
+Novell,surname,husbands_father
+passamaner,occupation,husbands_father
+Hieronyma,name,husbands_mother
+Elisabeth,name,wife
+donsella,state,wife
+Antoni,name,wifes_father
+Mestre,surname,wifes_father
+mestre,occupation,wifes_father
+de,occupation,wifes_father
+axa,occupation,wifes_father
+Angela,name,wifes_mother

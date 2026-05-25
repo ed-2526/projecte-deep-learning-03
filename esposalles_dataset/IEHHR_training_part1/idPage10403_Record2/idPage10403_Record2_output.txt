@@ -1,0 +1,17 @@
+Juan,name,husband
+Romeu,surname,husband
+pages,occupation,husband
+St,location,husband
+jaume,location,husband
+de,location,husband
+Sesoliveres,location,husband
+viudo,state,husband
+Hieronyma,name,wife
+viuda,state,wife
+juan,name,other_person
+Marti,surname,other_person
+pages,occupation,wife
+St,location,wife
+Sadorni,location,wife
+de,location,wife
+Subirats,location,wife

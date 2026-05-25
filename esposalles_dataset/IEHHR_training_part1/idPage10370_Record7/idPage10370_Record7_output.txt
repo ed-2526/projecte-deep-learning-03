@@ -1,0 +1,10 @@
+Arnau,name,husband
+Mercader,surname,husband
+pages,occupation,husband
+frances,location,husband
+Bara,location,husband
+francisca,name,wife
+viuda,state,wife
+Jua,name,other_person
+Conteso,surname,other_person
+pages,occupation,wife

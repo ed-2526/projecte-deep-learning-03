@@ -1,0 +1,16 @@
+francesch,name,husband
+Montserda,surname,husband
+pages,occupation,husband
+Tiana,location,husband
+franch,name,husbands_father
+Montserda,surname,husbands_father
+pages,occupation,husbands_father
+Beneta,name,husbands_mother
+Elisabeth,name,wife
+donsella,state,wife
+Antich,name,wifes_father
+Guasch,surname,wifes_father
+pages,occupation,wifes_father
+Angela,name,wifes_mother
+dita,location,wife
+parrochia,location,wife

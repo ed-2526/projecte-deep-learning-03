@@ -1,0 +1,15 @@
+Miquel,name,husband
+Ricart,surname,husband
+texidor,occupation,husband
+de,occupation,husband
+lli,occupation,husband
+Terrassa,location,husband
+Elisabeth,name,wife
+donsella,state,wife
+Jua,name,wifes_father
+Vices,surname,wifes_father
+texidor,occupation,wifes_father
+de,occupation,wifes_father
+llana,occupation,wifes_father
+Bara,location,wifes_father
+Juana,name,wifes_mother

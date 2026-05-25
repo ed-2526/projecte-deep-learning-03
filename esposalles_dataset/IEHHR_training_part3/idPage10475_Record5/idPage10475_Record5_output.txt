@@ -1,0 +1,17 @@
+Pere,name,husband
+Marques,surname,husband
+sastre,occupation,husband
+Manresa,location,husband
+Bara,location,husband
+Pere,name,husbands_father
+Marques,surname,husbands_father
+sastre,occupation,husbands_father
+Eleonor,name,husbands_mother
+Cathe,name,wife
+rina,name,wife
+donsella,state,wife
+Joan,name,wifes_father
+Morera,surname,wifes_father
+assahonador,occupation,wifes_father
+Manresa,location,wifes_father
+Eularia,name,wifes_mother

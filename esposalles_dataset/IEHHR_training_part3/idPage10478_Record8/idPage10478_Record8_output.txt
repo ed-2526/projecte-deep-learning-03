@@ -1,0 +1,17 @@
+Pau,name,husband
+ferrer,surname,husband
+pages,occupation,husband
+St,location,husband
+Andreu,location,husband
+de,location,husband
+Palomar,location,husband
+Bara,location,husband
+viudo,state,husband
+Paula,name,wife
+donsella,state,wife
+Juan,name,wifes_father
+Albert,surname,wifes_father
+pages,occupation,wifes_father
+frança,location,wifes_father
+Bara,location,wifes_father
+Elienor,name,wifes_mother

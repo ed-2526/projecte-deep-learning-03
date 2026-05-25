@@ -1,0 +1,12 @@
+Pere,name,husband
+Serelles,surname,husband
+torner,occupation,husband
+Bara,location,husband
+viudo,state,husband
+Antiga,name,wife
+donsella,state,wife
+Thomas,name,wifes_father
+Cases,surname,wifes_father
+pages,occupation,wifes_father
+Bara,location,wifes_father
+Elienor,name,wifes_mother

@@ -1,0 +1,14 @@
+francesch,name,husband
+Regordosa,surname,husband
+passamaner,occupation,husband
+Sarria,location,husband
+Antoni,name,husbands_father
+Regordosa,surname,husbands_father
+pages,occupation,husbands_father
+Beneta,name,husbands_mother
+Maryanna,name,wife
+viuda,state,wife
+Pere,name,other_person
+Golfes,surname,other_person
+passamaner,occupation,wife
+Bara,location,wife

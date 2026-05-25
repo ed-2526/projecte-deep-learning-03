@@ -1,0 +1,13 @@
+francesch,name,husband
+de,surname,husband
+Masdovelles,surname,husband
+donsell,occupation,husband
+Bara,location,husband
+Cecilia,name,wife
+Massaguera,surname,wife
+Mathia,name,wifes_father
+Massaguer,surname,wifes_father
+nego,occupation,wifes_father
+ciant,occupation,wifes_father
+Bara,location,wifes_father
+Elienor,name,wifes_mother

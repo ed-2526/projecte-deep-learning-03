@@ -1,0 +1,16 @@
+Antoni,name,husband
+Blanch,surname,husband
+pages,occupation,husband
+regne,location,husband
+de,location,husband
+frança,location,husband
+Bara,location,husband
+Maria,name,wife
+viuda,state,wife
+Batista,name,other_person
+Vila,surname,other_person
+pages,occupation,wife
+Ripoll,location,wife
+bisbat,location,wife
+de,location,wife
+Vich,location,wife

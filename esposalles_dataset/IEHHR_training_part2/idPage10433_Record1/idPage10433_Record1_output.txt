@@ -1,0 +1,17 @@
+Bernat,name,husband
+de,surname,husband
+la,surname,husband
+Creu,surname,husband
+pages,occupation,husband
+regne,location,husband
+de,location,husband
+frança,location,husband
+Sarria,location,husband
+Margarida,name,wife
+viuda,state,wife
+Guille,name,other_person
+font,surname,other_person
+pages,occupation,wife
+carrer,location,wife
+de,location,wife
+Jesus,location,wife

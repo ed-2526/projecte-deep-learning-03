@@ -1,0 +1,15 @@
+jaume,name,husband
+fontanills,surname,husband
+pescador,occupation,husband
+Bara,location,husband
+Galceran,name,husbands_father
+fontanills,surname,husbands_father
+pescador,occupation,husbands_father
+Paula,name,husbands_mother
+Catherina,name,wife
+donsella,state,wife
+Salvador,name,wifes_father
+Bosch,surname,wifes_father
+hortola,occupation,wifes_father
+Bara,location,wifes_father
+Angela,name,wifes_mother

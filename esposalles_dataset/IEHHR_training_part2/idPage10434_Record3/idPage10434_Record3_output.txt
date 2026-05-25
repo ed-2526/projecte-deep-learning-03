@@ -1,0 +1,15 @@
+Ramon,name,husband
+Pujol,surname,husband
+pages,occupation,husband
+regne,location,husband
+de,location,husband
+frança,location,husband
+Bara,location,husband
+viudo,state,husband
+Paula,name,wife
+donsella,state,wife
+jaume,name,wifes_father
+St,surname,wifes_father
+Pere,surname,wifes_father
+pescador,occupation,wifes_father
+Paula,name,wifes_mother

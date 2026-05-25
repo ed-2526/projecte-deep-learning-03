@@ -1,0 +1,16 @@
+Juan,name,husband
+font,surname,husband
+pages,occupation,husband
+regne,location,husband
+de,location,husband
+frança,location,husband
+Terrassa,location,husband
+Valentina,name,wife
+donsella,state,wife
+t,name,wifes_father
+Torres,surname,wifes_father
+pages,occupation,wifes_father
+St,location,wifes_father
+Llorens,location,wifes_father
+çavall,location,wifes_father
+Violant,name,wifes_mother

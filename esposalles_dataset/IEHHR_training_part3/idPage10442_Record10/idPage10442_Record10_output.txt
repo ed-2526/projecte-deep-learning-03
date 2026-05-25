@@ -1,0 +1,16 @@
+Salvador,name,husband
+Baldiri,surname,husband
+mariner,occupation,husband
+Bara,location,husband
+Bernadi,name,husbands_father
+Baldiri,surname,husbands_father
+pescador,occupation,husbands_father
+Clara,name,husbands_mother
+Speransa,name,wife
+donsella,state,wife
+Antoni,name,wifes_father
+Esteve,surname,wifes_father
+Grau,location,wifes_father
+de,location,wifes_father
+Valentia,location,wifes_father
+Montserrada,name,wifes_mother

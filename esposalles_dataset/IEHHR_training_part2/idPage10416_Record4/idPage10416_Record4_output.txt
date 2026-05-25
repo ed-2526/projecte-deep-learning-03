@@ -1,0 +1,17 @@
+Juan,name,husband
+Guinovart,surname,husband
+pages,occupation,husband
+Pedros,location,husband
+de,location,husband
+Vilabella,location,husband
+Ar,location,husband
+chebisbat,location,husband
+de,location,husband
+Tarragona,location,husband
+viudo,state,husband
+Angela,name,wife
+viuda,state,wife
+Vicens,name,other_person
+Rull,surname,other_person
+parayre,occupation,wife
+Puigtinyos,location,wife

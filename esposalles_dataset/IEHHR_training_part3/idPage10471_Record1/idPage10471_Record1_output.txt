@@ -1,0 +1,12 @@
+Jua,name,husband
+Bosch,surname,husband
+pages,occupation,husband
+St,location,husband
+Llorens,location,husband
+çavall,location,husband
+Rexach,location,husband
+viudo,state,husband
+Magdalena,name,wife
+viuda,state,wife
+Ramo,name,other_person
+Segui,surname,other_person

@@ -1,0 +1,17 @@
+Pere,name,husband
+Bascans,surname,husband
+texidor,occupation,husband
+de,occupation,husband
+lli,occupation,husband
+frances,location,husband
+Bara,location,husband
+Elisabeth,name,wife
+donsella,state,wife
+Juan,name,wifes_father
+Baxera,surname,wifes_father
+te,occupation,wifes_father
+xidor,occupation,wifes_father
+de,occupation,wifes_father
+lli,occupation,wifes_father
+Bara,location,wifes_father
+Sicilia,name,wifes_mother

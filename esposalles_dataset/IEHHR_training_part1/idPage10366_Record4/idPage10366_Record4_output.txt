@@ -1,0 +1,12 @@
+Pere,name,husband
+Castell,surname,husband
+moliner,occupation,husband
+frances,location,husband
+Grano,location,husband
+llers,location,husband
+Margarida,name,wife
+viuda,state,wife
+Bernat,name,other_person
+Pineda,surname,other_person
+moliner,occupation,wife
+Valldoreig,location,wife

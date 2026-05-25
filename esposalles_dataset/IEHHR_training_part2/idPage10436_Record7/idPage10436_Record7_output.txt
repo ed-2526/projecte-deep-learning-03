@@ -1,0 +1,15 @@
+Hyacinto,name,husband
+Guell,surname,husband
+pages,occupation,husband
+Monmell,location,husband
+Pere,name,husbands_father
+Guell,surname,husbands_father
+pages,occupation,husbands_father
+Elisabeth,name,husbands_mother
+Juana,name,wife
+donsella,state,wife
+Angel,name,wifes_father
+Uguet,surname,wifes_father
+pages,occupation,wifes_father
+Marmellar,location,wifes_father
+t,name,wifes_mother

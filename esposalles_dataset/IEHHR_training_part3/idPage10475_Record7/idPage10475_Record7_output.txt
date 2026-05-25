@@ -1,0 +1,14 @@
+Joan,name,husband
+Bali,surname,husband
+hortola,occupation,husband
+regne,location,husband
+de,location,husband
+frança,location,husband
+Bara,location,husband
+Elisabeth,name,wife
+donsella,state,wife
+Antoni,name,wifes_father
+Juells,surname,wifes_father
+corder,occupation,wifes_father
+Bara,location,wifes_father
+Eularia,name,wifes_mother

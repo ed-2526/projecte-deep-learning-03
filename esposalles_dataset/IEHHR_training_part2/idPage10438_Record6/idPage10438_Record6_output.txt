@@ -1,0 +1,12 @@
+Pere,name,husband
+Vinyals,surname,husband
+tavarner,occupation,husband
+regne,location,husband
+de,location,husband
+frança,location,husband
+Bara,location,husband
+Catherina,name,wife
+viuda,state,wife
+domingo,name,other_person
+Terrades,surname,other_person
+corder,occupation,wife

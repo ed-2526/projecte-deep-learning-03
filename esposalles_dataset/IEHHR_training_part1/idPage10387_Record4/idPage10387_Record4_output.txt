@@ -1,0 +1,16 @@
+juan,name,husband
+Llussia,surname,husband
+texidor,occupation,husband
+de,occupation,husband
+lli,occupation,husband
+Mataro,location,husband
+Jua,name,husbands_father
+Llussia,surname,husbands_father
+treballador,occupation,husbands_father
+Paula,name,husbands_mother
+Maryanna,name,wife
+donsella,state,wife
+Antoni,name,wifes_father
+Pla,surname,wifes_father
+mariner,occupation,wifes_father
+Antiga,name,wifes_mother

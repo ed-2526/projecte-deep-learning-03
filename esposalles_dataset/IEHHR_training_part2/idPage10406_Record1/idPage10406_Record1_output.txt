@@ -1,0 +1,13 @@
+Juan,name,husband
+Tosinch,surname,husband
+regne,location,husband
+de,location,husband
+fransa,location,husband
+forner,occupation,husband
+Bara,location,husband
+Juana,name,wife
+viuda,state,wife
+Andreu,name,other_person
+Scalfape,surname,other_person
+forner,occupation,wife
+Bara,location,wife

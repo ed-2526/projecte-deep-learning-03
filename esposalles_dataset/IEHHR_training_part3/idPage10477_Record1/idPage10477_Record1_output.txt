@@ -1,0 +1,14 @@
+Joan,name,husband
+Sengermes,surname,husband
+parayre,occupation,husband
+regne,location,husband
+de,location,husband
+fraça,location,husband
+Terrassa,location,husband
+Cebriana,name,wife
+viuda,state,wife
+Ramon,name,other_person
+Tamuyell,surname,other_person
+pa,occupation,wife
+ges,occupation,wife
+Terrassa,location,wife

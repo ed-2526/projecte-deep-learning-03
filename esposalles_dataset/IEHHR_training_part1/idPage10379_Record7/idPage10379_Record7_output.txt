@@ -1,0 +1,12 @@
+Onofre,name,husband
+Tapies,surname,husband
+Terrassa,location,husband
+Hieronym,name,husbands_father
+Tapies,surname,husbands_father
+t,name,husbands_mother
+Contesina,name,wife
+viuda,state,wife
+Mathia,name,other_person
+Vidal,surname,other_person
+parayre,occupation,wife
+Sparaguera,location,wife

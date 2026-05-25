@@ -1,0 +1,17 @@
+Antoni,name,husband
+Oller,surname,husband
+passamaner,occupation,husband
+Mataro,location,husband
+Pere,name,husbands_father
+Oller,surname,husbands_father
+som,occupation,husbands_father
+brarer,occupation,husbands_father
+Mataro,location,husbands_father
+Maria,name,husbands_mother
+Maria,name,wife
+donsella,state,wife
+Juan,name,wifes_father
+Penya,surname,wifes_father
+negociant,occupation,wifes_father
+Mataro,location,wifes_father
+Antiga,name,wifes_mother

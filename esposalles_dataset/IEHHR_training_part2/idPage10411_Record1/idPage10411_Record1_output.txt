@@ -1,0 +1,16 @@
+jaume,name,husband
+Sunyer,surname,husband
+pages,occupation,husband
+Martorell,location,husband
+Andreu,name,husbands_father
+Sunyer,surname,husbands_father
+pages,occupation,husbands_father
+Martorell,location,husbands_father
+t,name,husbands_mother
+Gratia,name,wife
+donsella,state,wife
+joan,name,wifes_father
+foguet,surname,wifes_father
+droguer,occupation,wifes_father
+Martorell,location,wifes_father
+Eularia,name,wifes_mother

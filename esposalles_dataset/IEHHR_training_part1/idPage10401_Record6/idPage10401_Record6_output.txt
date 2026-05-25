@@ -1,0 +1,16 @@
+Antoni,name,husband
+Bover,surname,husband
+orationer,occupation,husband
+Bara,location,husband
+viudo,state,husband
+Maryanna,name,wife
+donsella,state,wife
+Bernat,name,wifes_father
+Vilardell,surname,wifes_father
+pages,occupation,wifes_father
+Sta,location,wifes_father
+Pau,location,wifes_father
+bisbat,location,wifes_father
+de,location,wifes_father
+Urgell,location,wifes_father
+francesca,name,wifes_mother

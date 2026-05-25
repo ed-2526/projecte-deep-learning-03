@@ -1,0 +1,12 @@
+Vicens,name,husband
+Amoros,surname,husband
+parayre,occupation,husband
+Bara,location,husband
+viudo,state,husband
+Paula,name,wife
+dosella,state,wife
+Antoni,name,wifes_father
+Castellar,surname,wifes_father
+hortola,occupation,wifes_father
+Bara,location,wifes_father
+Elisabeth,name,wifes_mother

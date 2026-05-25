@@ -1,0 +1,9 @@
+Miquel,name,husband
+Antich,surname,husband
+assahonador,occupation,husband
+mallorqui,location,husband
+Bara,location,husband
+juana,name,wife
+Perera,surname,wife
+donsella,state,wife
+mallorquina,location,wife

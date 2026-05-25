@@ -1,0 +1,15 @@
+Joseph,name,husband
+Gali,surname,husband
+vedrier,occupation,husband
+Bara,location,husband
+jaue,name,husbands_father
+Gali,surname,husbands_father
+parayre,occupation,husbands_father
+Manresa,location,husbands_father
+Catherina,name,husbands_mother
+Hieronyma,name,wife
+viuda,state,wife
+francesch,name,other_person
+Vendrell,surname,other_person
+vedrier,occupation,wife
+Bara,location,wife

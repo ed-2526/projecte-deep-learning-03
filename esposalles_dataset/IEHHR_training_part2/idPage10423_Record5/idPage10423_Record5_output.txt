@@ -1,0 +1,16 @@
+francesch,name,husband
+Colom,surname,husband
+pages,occupation,husband
+St,location,husband
+Boy,location,husband
+de,location,husband
+Llobregat,location,husband
+viudo,state,husband
+Maryangela,name,wife
+donsella,state,wife
+Baldiri,name,wifes_father
+ferrer,surname,wifes_father
+pages,occupation,wifes_father
+St,location,wifes_father
+Boy,location,wifes_father
+Catherina,name,wifes_mother

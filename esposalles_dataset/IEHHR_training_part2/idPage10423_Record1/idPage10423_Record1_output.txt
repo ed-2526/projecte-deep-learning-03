@@ -1,0 +1,13 @@
+Pere,name,husband
+Casals,surname,husband
+pages,occupation,husband
+regne,location,husband
+de,location,husband
+frança,location,husband
+Bara,location,husband
+Antonia,name,wife
+viuda,state,wife
+Antoni,name,other_person
+Cortada,surname,other_person
+pages,occupation,wife
+Horta,location,wife

@@ -1,0 +1,14 @@
+Luch,name,husband
+Badia,surname,husband
+flaquer,occupation,husband
+regne,location,husband
+de,location,husband
+frança,location,husband
+Bara,location,husband
+Elisabeth,name,wife
+donsella,state,wife
+Pere,name,wifes_father
+Vives,surname,wifes_father
+daguer,occupation,wifes_father
+Bara,location,wifes_father
+Maryanna,name,wifes_mother

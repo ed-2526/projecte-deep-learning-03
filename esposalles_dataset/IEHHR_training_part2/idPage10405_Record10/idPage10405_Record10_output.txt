@@ -1,0 +1,17 @@
+Nadal,name,husband
+Elies,surname,husband
+texidor,occupation,husband
+de,occupation,husband
+lli,occupation,husband
+regne,location,husband
+de,location,husband
+fransa,location,husband
+Bara,location,husband
+francisca,name,wife
+viuda,state,wife
+Miquel,name,other_person
+Serinya,surname,other_person
+texidor,occupation,wife
+de,occupation,wife
+lli,occupation,wife
+Bara,location,wife

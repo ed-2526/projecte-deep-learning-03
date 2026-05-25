@@ -1,0 +1,17 @@
+Antoni,name,husband
+fetjo,surname,husband
+parayre,occupation,husband
+St,location,husband
+Cugat,location,husband
+de,location,husband
+Vallers,location,husband
+Jua,name,husbands_father
+fetjo,surname,husbands_father
+pages,occupation,husbands_father
+Eularia,name,husbands_mother
+Violant,name,wife
+Jua,name,other_person
+Moner,surname,other_person
+boter,occupation,wife
+dita,location,wife
+vila,location,wife

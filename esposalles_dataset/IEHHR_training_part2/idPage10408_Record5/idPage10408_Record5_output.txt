@@ -1,0 +1,16 @@
+Pau,name,husband
+Rossell,surname,husband
+negociant,occupation,husband
+Bara,location,husband
+Jua,name,husbands_father
+Rossell,surname,husbands_father
+negociant,occupation,husbands_father
+Bara,location,husbands_father
+Catherina,name,husbands_mother
+Cecilia,name,wife
+donsella,state,wife
+francesch,name,wifes_father
+Llinas,surname,wifes_father
+pages,occupation,wifes_father
+Vilamajor,location,wifes_father
+Juana,name,wifes_mother

@@ -1,0 +1,13 @@
+Valenti,name,husband
+Pujola,surname,husband
+porter,occupation,husband
+real,occupation,husband
+Bara,location,husband
+viudo,state,husband
+Catherina,name,wife
+donsella,state,wife
+Llatser,name,wifes_father
+Castany,surname,wifes_father
+argenter,occupation,wifes_father
+Arago,location,wifes_father
+Eularia,name,wifes_mother

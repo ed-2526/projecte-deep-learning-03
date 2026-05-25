@@ -1,0 +1,13 @@
+janot,name,husband
+ferrer,surname,husband
+pages,occupation,husband
+Vilardona,location,husband
+viudo,state,husband
+Maria,name,wife
+donsella,state,wife
+Antoni,name,wifes_father
+Bellsol,surname,wifes_father
+pages,occupation,wifes_father
+Vilaro,location,wifes_father
+dona,location,wifes_father
+Maria,name,wifes_mother

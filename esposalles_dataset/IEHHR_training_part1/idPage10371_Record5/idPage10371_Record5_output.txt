@@ -1,0 +1,16 @@
+Antich,name,husband
+Garau,surname,husband
+pages,occupation,husband
+St,location,husband
+Iscla,location,husband
+de,location,husband
+las,location,husband
+fexas,location,husband
+viudo,state,husband
+Beneta,name,wife
+donsella,state,wife
+t,name,wifes_father
+Valldeneu,surname,wifes_father
+pages,occupation,wifes_father
+Barbera,location,wifes_father
+Salvia,name,wifes_mother

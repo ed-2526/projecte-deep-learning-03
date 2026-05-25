@@ -1,0 +1,16 @@
+Pere,name,husband
+Alemany,surname,husband
+pages,occupation,husband
+regne,location,husband
+de,location,husband
+frança,location,husband
+St,location,husband
+Andreu,location,husband
+de,location,husband
+Llavaneres,location,husband
+Angela,name,wife
+viuda,state,wife
+Pere,name,other_person
+Vila,surname,other_person
+pages,occupation,wife
+Granollers,location,wife

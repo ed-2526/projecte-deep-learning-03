@@ -1,0 +1,12 @@
+Pere,name,husband
+Rafart,surname,husband
+cotxero,occupation,husband
+frança,location,husband
+Bara,location,husband
+Margarida,name,wife
+donsella,state,wife
+Antoni,name,wifes_father
+Busquets,surname,wifes_father
+sabater,occupation,wifes_father
+Bara,location,wifes_father
+Salvadora,name,wifes_mother

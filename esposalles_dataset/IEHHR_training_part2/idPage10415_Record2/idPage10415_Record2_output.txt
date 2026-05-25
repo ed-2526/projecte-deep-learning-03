@@ -1,0 +1,12 @@
+Pere,name,husband
+Duran,surname,husband
+assahonador,occupation,husband
+Granollers,location,husband
+viudo,state,husband
+Margarida,name,wife
+donsella,state,wife
+Cassanyes,surname,wifes_father
+sabater,occupation,wifes_father
+llissa,location,wifes_father
+demunt,location,wifes_father
+t,name,wifes_mother

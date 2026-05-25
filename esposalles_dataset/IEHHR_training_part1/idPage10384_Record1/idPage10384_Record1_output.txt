@@ -1,0 +1,15 @@
+Juan,name,husband
+Roger,surname,husband
+flassader,occupation,husband
+Bara,location,husband
+franch,name,husbands_father
+Roger,surname,husbands_father
+flassader,occupation,husbands_father
+Margarida,name,husbands_mother
+Patronilla,name,wife
+donsella,state,wife
+Bernat,name,wifes_father
+Pedret,surname,wifes_father
+sabater,occupation,wifes_father
+Bara,location,wifes_father
+Anna,name,wifes_mother

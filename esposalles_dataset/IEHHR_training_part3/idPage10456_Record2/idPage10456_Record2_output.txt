@@ -1,0 +1,17 @@
+Hieronym,name,husband
+Rovira,surname,husband
+parayre,occupation,husband
+Terrassa,location,husband
+Matheu,name,husbands_father
+Rovira,surname,husbands_father
+sastre,occupation,husbands_father
+Terrassa,location,husbands_father
+Elisabeth,name,husbands_mother
+Margarida,name,wife
+donsella,state,wife
+Guillem,name,wifes_father
+Costa,surname,wifes_father
+fuster,occupation,wifes_father
+Antiga,name,wifes_mother
+dita,location,wife
+vila,location,wife

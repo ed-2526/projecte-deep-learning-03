@@ -1,0 +1,16 @@
+juan,name,husband
+Micas,surname,husband
+treballador,occupation,husband
+regne,location,husband
+de,location,husband
+frança,location,husband
+Molinderey,location,husband
+Hieronyma,name,wife
+viuda,state,wife
+juan,name,other_person
+Domingo,surname,other_person
+ferrer,occupation,wife
+dita,location,wife
+vila,location,wife
+de,location,wife
+Molinderey,location,wife

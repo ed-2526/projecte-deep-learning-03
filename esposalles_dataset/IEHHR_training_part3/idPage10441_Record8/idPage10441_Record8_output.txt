@@ -1,0 +1,16 @@
+Agusti,name,husband
+Tallaferro,surname,husband
+pages,occupation,husband
+regne,location,husband
+de,location,husband
+fraça,location,husband
+St,location,husband
+Boy,location,husband
+Paula,name,wife
+donsella,state,wife
+Domingo,name,wifes_father
+de,surname,wifes_father
+Lom,surname,wifes_father
+pages,occupation,wifes_father
+Sarria,location,wifes_father
+Elisabeth,name,wifes_mother

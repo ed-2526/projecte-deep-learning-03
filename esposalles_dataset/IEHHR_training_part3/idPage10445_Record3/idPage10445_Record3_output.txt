@@ -1,0 +1,16 @@
+frances,name,husband
+#,name,husband
+Pares,surname,husband
+corder,occupation,husband
+Bara,location,husband
+franch,name,husbands_father
+Pares,surname,husbands_father
+corder,occupation,husbands_father
+Marianna,name,husbands_mother
+Elisabeth,name,wife
+donsella,state,wife
+Giralt,name,wifes_father
+Cabaner,surname,wifes_father
+sastre,occupation,wifes_father
+Bara,location,wifes_father
+Paula,name,wifes_mother

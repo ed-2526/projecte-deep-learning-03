@@ -1,0 +1,17 @@
+Hieronym,name,husband
+Castells,surname,husband
+pages,occupation,husband
+Corro,location,husband
+devall,location,husband
+Vilamajor,location,husband
+Miquel,name,husbands_father
+Castells,surname,husbands_father
+pages,occupation,husbands_father
+Magdalena,name,husbands_mother
+Maria,name,wife
+donsella,state,wife
+Juan,name,wifes_father
+Giol,surname,wifes_father
+sabater,occupation,wifes_father
+Vilamajor,location,wifes_father
+Paula,name,wifes_mother

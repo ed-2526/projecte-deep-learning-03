@@ -1,0 +1,17 @@
+Antoni,name,husband
+ferrer,surname,husband
+nots,occupation,husband
+real,occupation,husband
+Bara,location,husband
+viudo,state,husband
+Maria,name,wife
+donsella,state,wife
+Antoni,name,wifes_father
+Maymo,surname,wifes_father
+notari,occupation,wifes_father
+real,occupation,wifes_father
+Fran,name,wifes_mother
+cisca,name,wifes_mother
+Maymo,surname,wifes_mother
+de,surname,wifes_mother
+Velasco,surname,wifes_mother

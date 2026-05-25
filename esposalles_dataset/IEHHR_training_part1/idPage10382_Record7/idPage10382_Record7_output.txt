@@ -1,0 +1,12 @@
+Bertran,name,husband
+faura,surname,husband
+pages,occupation,husband
+fransa,location,husband
+lo,location,husband
+Prat,location,husband
+Juana,name,wife
+Ritoreta,surname,wife
+fransa,location,wife
+donsella,state,wife
+dita,location,wife
+parrochia,location,wife

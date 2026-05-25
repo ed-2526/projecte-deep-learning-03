@@ -1,0 +1,17 @@
+Juan,name,husband
+Del,surname,husband
+tel,surname,husband
+caldarer,occupation,husband
+regne,location,husband
+de,location,husband
+frança,location,husband
+Bara,location,husband
+Margarida,name,wife
+donsella,state,wife
+Salvador,name,wifes_father
+ferrer,surname,wifes_father
+mestre,occupation,wifes_father
+de,occupation,wifes_father
+axa,occupation,wifes_father
+Canet,location,wifes_father
+Juana,name,wifes_mother

@@ -1,0 +1,12 @@
+Antoni,name,husband
+Vidal,surname,husband
+texidor,occupation,husband
+de,occupation,husband
+lli,occupation,husband
+Bara,location,husband
+viudo,state,husband
+Anna,name,wife
+donsella,state,wife
+t,name,wifes_father
+Brochas,surname,wifes_father
+t,name,wifes_mother

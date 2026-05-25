@@ -1,0 +1,14 @@
+Guillem,name,husband
+Bo,surname,husband
+oller,occupation,husband
+regne,location,husband
+de,location,husband
+frança,location,husband
+Bara,location,husband
+Hieronyma,name,wife
+dosella,state,wife
+Pere,name,wifes_father
+Jua,name,wifes_father
+Blay,surname,wifes_father
+negociant,occupation,wifes_father
+Elisabeth,name,wifes_mother

@@ -1,0 +1,16 @@
+Juan,name,husband
+Marrull,surname,husband
+sabater,occupation,husband
+St,location,husband
+Celoni,location,husband
+Pere,name,husbands_father
+Marrull,surname,husbands_father
+pages,occupation,husbands_father
+Margarida,name,husbands_mother
+Catherina,name,wife
+donsella,state,wife
+Steva,name,wifes_father
+fradera,surname,wifes_father
+Maynou,surname,wifes_father
+pages,occupation,wifes_father
+Eleonor,name,wifes_mother

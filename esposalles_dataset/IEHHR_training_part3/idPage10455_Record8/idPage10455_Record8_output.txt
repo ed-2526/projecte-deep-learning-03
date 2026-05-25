@@ -1,0 +1,14 @@
+Llatser,name,husband
+Barcelo,surname,husband
+torner,occupation,husband
+Bara,location,husband
+viudo,state,husband
+Marga,name,wife
+rida,name,wife
+viuda,state,wife
+jaume,name,other_person
+Badorch,surname,other_person
+als,surname,other_person
+Soler,surname,other_person
+pages,occupation,wife
+Bara,location,wife

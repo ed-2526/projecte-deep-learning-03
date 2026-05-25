@@ -1,0 +1,15 @@
+Luys,name,husband
+Corbera,surname,husband
+de,surname,husband
+Castellet,surname,husband
+Sr,occupation,husband
+de,occupation,husband
+Lli,location,husband
+nars,location,husband
+viudo,state,husband
+Anna,name,wife
+viuda,state,wife
+Sr,name,other_person
+Miql,surname,other_person
+de,surname,other_person
+Tamarit,surname,other_person

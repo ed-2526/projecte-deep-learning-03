@@ -1,0 +1,16 @@
+Esteva,name,husband
+Comes,surname,husband
+marser,occupation,husband
+Bara,location,husband
+Onofre,name,husbands_father
+Comes,surname,husbands_father
+marser,occupation,husbands_father
+Bara,location,husbands_father
+Juana,name,husbands_mother
+Anna,name,wife
+donsella,state,wife
+Jua,name,wifes_father
+Canyet,surname,wifes_father
+sabater,occupation,wifes_father
+Bara,location,wifes_father
+Hieronyma,name,wifes_mother

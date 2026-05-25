@@ -1,0 +1,16 @@
+Bernat,name,husband
+forga,surname,husband
+viudo,state,husband
+parayre,occupation,husband
+Bara,location,husband
+Ca,name,wife
+therina,name,wife
+donsella,state,wife
+Vidal,name,wifes_father
+Maurat,surname,wifes_father
+pages,occupation,wifes_father
+Ripoll,location,wifes_father
+bisbat,location,wifes_father
+de,location,wifes_father
+Vich,location,wifes_father
+Juana,name,wifes_mother

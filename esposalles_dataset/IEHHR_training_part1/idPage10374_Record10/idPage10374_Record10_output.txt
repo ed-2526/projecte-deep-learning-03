@@ -1,0 +1,17 @@
+Miquel,name,husband
+Amador,surname,husband
+viudo,state,husband
+torsedor,occupation,husband
+de,occupation,husband
+seda,occupation,husband
+Bara,location,husband
+francisca,name,wife
+donsella,state,wife
+Pau,name,wifes_father
+Raverter,surname,wifes_father
+texidor,occupation,wifes_father
+de,occupation,wifes_father
+vels,occupation,wifes_father
+de,occupation,wifes_father
+seda,occupation,wifes_father
+Antiga,name,wifes_mother

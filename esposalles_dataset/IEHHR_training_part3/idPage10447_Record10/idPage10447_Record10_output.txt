@@ -1,0 +1,17 @@
+Hieronym,name,husband
+Sicart,surname,husband
+pages,occupation,husband
+Talavera,location,husband
+bisbat,location,husband
+de,location,husband
+Vich,location,husband
+t,name,husbands_father
+t,name,husbands_mother
+Madrona,name,wife
+donsella,state,wife
+Ma,name,wifes_father
+theu,name,wifes_father
+Caus,surname,wifes_father
+adroguer,occupation,wifes_father
+Bara,location,wifes_father
+Juana,name,wifes_mother

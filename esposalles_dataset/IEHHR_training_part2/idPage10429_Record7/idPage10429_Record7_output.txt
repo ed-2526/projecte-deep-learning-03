@@ -1,0 +1,13 @@
+Antoni,name,husband
+Vidal,surname,husband
+burges,occupation,husband
+Vilaredona,location,husband
+t,name,husbands_father
+t,name,husbands_mother
+francisca,name,wife
+donsella,state,wife
+Bernat,name,wifes_father
+Angles,surname,wifes_father
+pages,occupation,wifes_father
+Alba,location,wifes_father
+Magdalena,name,wifes_mother

@@ -1,0 +1,15 @@
+Vicens,name,husband
+Vinyals,surname,husband
+pages,occupation,husband
+Sarria,location,husband
+Barthomeu,name,husbands_father
+Vinyals,surname,husbands_father
+pages,occupation,husbands_father
+Thomasa,name,husbands_mother
+Hieronyma,name,wife
+donsella,state,wife
+Mont,name,wifes_father
+serrat,name,wifes_father
+Jover,surname,wifes_father
+sastre,occupation,wifes_father
+Hieronyma,name,wifes_mother

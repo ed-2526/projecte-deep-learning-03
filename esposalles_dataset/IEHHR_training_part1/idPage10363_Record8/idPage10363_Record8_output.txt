@@ -1,0 +1,12 @@
+Joseph,name,husband
+Palaudaries,surname,husband
+mercader,occupation,husband
+Bara,location,husband
+viudo,state,husband
+Hieronyma,name,wife
+donsella,state,wife
+Juan,name,wifes_father
+Dalta,surname,wifes_father
+cilurgia,occupation,wifes_father
+Bara,location,wifes_father
+Hieronyma,name,wifes_mother

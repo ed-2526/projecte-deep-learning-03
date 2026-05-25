@@ -1,0 +1,16 @@
+Isach,name,husband
+Totel,surname,husband
+stamper,occupation,husband
+regne,location,husband
+de,location,husband
+frança,location,husband
+Valentia,location,husband
+Maria,name,wife
+donsella,state,wife
+Bernat,name,wifes_father
+Miranda,surname,wifes_father
+texidor,occupation,wifes_father
+de,occupation,wifes_father
+llana,occupation,wifes_father
+Valentia,location,wifes_father
+Lucia,name,wifes_mother

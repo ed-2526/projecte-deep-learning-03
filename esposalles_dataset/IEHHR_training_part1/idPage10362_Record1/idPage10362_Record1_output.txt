@@ -1,0 +1,13 @@
+Guille,name,husband
+Marti,surname,husband
+flaquer,occupation,husband
+frances,location,husband
+Bara,location,husband
+Elena,name,wife
+viuda,state,wife
+Pere,name,other_person
+Cortada,surname,other_person
+mestre,occupation,wife
+de,occupation,wife
+cases,occupation,wife
+Bara,location,wife

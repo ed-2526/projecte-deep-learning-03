@@ -1,0 +1,14 @@
+Juan,name,husband
+Puig,surname,husband
+pages,occupation,husband
+regne,location,husband
+de,location,husband
+frança,location,husband
+Prat,location,husband
+Margarida,name,wife
+donsella,state,wife
+domingo,name,wifes_father
+Taudet,surname,wifes_father
+pages,occupation,wifes_father
+Mallorca,location,wifes_father
+Juana,name,wifes_mother

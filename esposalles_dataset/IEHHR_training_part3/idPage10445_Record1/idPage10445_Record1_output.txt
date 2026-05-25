@@ -1,0 +1,17 @@
+Antoni,name,husband
+Pera,surname,husband
+boter,occupation,husband
+Llavaneres,location,husband
+Mataro,location,husband
+Salvi,name,husbands_father
+Pera,surname,husbands_father
+boter,occupation,husbands_father
+Candia,name,husbands_mother
+Mar,name,wife
+garida,name,wife
+donsella,state,wife
+Pere,name,wifes_father
+Tarau,surname,wifes_father
+traginer,occupation,wifes_father
+Mataro,location,wifes_father
+Margarida,name,wifes_mother

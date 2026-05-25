@@ -1,0 +1,16 @@
+Galcera,name,husband
+Puig,surname,husband
+flassader,occupation,husband
+Granollers,location,husband
+viudo,state,husband
+Patro,name,wife
+nilla,name,wife
+dosella,state,wife
+Steva,name,wifes_father
+Palau,surname,wifes_father
+pages,occupation,wifes_father
+Vilanova,location,wifes_father
+de,location,wifes_father
+la,location,wifes_father
+Rocha,location,wifes_father
+Eufrahina,name,wifes_mother

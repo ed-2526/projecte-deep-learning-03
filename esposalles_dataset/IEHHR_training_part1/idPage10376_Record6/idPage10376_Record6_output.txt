@@ -1,0 +1,15 @@
+Andreu,name,husband
+Pisana,surname,husband
+hortola,occupation,husband
+Bara,location,husband
+Pere,name,husbands_father
+Pisana,surname,husbands_father
+hortola,occupation,husbands_father
+Margarida,name,husbands_mother
+Hieronyma,name,wife
+donsella,state,wife
+Ni,name,wifes_father
+colau,name,wifes_father
+Ros,surname,wifes_father
+guarnimanter,occupation,wifes_father
+Margarida,name,wifes_mother

@@ -1,0 +1,17 @@
+March,name,husband
+Bell,surname,husband
+parayre,occupation,husband
+Terrassa,location,husband
+An,name,husbands_father
+tich,name,husbands_father
+Bell,surname,husbands_father
+parayre,occupation,husbands_father
+Antiga,name,husbands_mother
+dorothea,name,wife
+donsella,state,wife
+Narcis,name,wifes_father
+Vehins,surname,wifes_father
+parayre,occupation,wifes_father
+dita,location,wifes_father
+vila,location,wifes_father
+Maryangela,name,wifes_mother

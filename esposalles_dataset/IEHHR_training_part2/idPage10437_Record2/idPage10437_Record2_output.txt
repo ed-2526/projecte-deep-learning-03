@@ -1,0 +1,16 @@
+Bernat,name,husband
+Roig,surname,husband
+pages,occupation,husband
+Sitges,location,husband
+Bernat,name,husbands_father
+Roig,surname,husbands_father
+pages,occupation,husbands_father
+Sitges,location,husbands_father
+Anna,name,husbands_mother
+Hieronyma,name,wife
+donsella,state,wife
+Thomas,name,wifes_father
+Torroella,surname,wifes_father
+mariner,occupation,wifes_father
+Sitges,location,wifes_father
+Hieronyma,name,wifes_mother

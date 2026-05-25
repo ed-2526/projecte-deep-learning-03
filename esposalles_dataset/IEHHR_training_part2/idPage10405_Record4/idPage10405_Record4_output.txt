@@ -1,0 +1,15 @@
+Jua,name,husband
+Aluja,surname,husband
+correu,occupation,husband
+de,occupation,husband
+peu,occupation,husband
+viudo,state,husband
+Bara,location,husband
+Elisabeth,name,wife
+viuda,state,wife
+Jua,name,other_person
+Sexa,surname,other_person
+mestre,occupation,wife
+de,occupation,wife
+cases,occupation,wife
+Bara,location,wife

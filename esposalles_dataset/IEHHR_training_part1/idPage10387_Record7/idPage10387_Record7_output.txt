@@ -1,0 +1,12 @@
+Antoni,name,husband
+Comes,surname,husband
+pages,occupation,husband
+dorrius,location,husband
+viudo,state,husband
+Eufrahina,name,wife
+viuda,state,wife
+Narcis,name,other_person
+Portas,surname,other_person
+pages,occupation,wife
+dita,location,wife
+parrochia,location,wife

@@ -1,0 +1,17 @@
+Gabriel,name,husband
+Torrent,surname,husband
+pages,occupation,husband
+Castellar,location,husband
+Antoni,name,husbands_father
+Tor,surname,husbands_father
+rent,surname,husbands_father
+pages,occupation,husbands_father
+Margarida,name,husbands_mother
+Paula,name,wife
+donsella,state,wife
+Juan,name,wifes_father
+Llobera,surname,wifes_father
+pages,occupation,wifes_father
+St,location,wifes_father
+Iga,location,wifes_father
+Eularia,name,wifes_mother

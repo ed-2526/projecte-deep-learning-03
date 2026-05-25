@@ -1,0 +1,13 @@
+Barthomeu,name,husband
+Garau,surname,husband
+Pera,surname,husband
+carnicer,occupation,husband
+Vilassar,location,husband
+viudo,state,husband
+Catherina,name,wife
+donsella,state,wife
+Cebria,name,wifes_father
+Altafulla,surname,wifes_father
+pages,occupation,wifes_father
+Orrius,location,wifes_father
+francina,name,wifes_mother

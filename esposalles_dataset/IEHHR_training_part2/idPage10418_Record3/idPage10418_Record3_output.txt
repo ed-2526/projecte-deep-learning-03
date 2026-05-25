@@ -1,0 +1,17 @@
+francesch,name,husband
+Pere,surname,husband
+treballador,occupation,husband
+Bara,location,husband
+franch,name,husbands_father
+Pere,surname,husbands_father
+pages,occupation,husbands_father
+Anna,name,husbands_mother
+Maria,name,husbands_mother
+Anna,name,wife
+Maria,name,wife
+donsella,state,wife
+Anton,name,wifes_father
+Periz,surname,wifes_father
+treballador,occupation,wifes_father
+Anna,name,wifes_mother
+Maria,name,wifes_mother

@@ -1,0 +1,14 @@
+Juan,name,husband
+Bellmunt,surname,husband
+brasser,occupation,husband
+regne,location,husband
+de,location,husband
+fransa,location,husband
+Bara,location,husband
+Hieronyma,name,wife
+donsella,state,wife
+joseph,name,wifes_father
+Soler,surname,wifes_father
+sastre,occupation,wifes_father
+Valls,location,wifes_father
+Catherina,name,wifes_mother

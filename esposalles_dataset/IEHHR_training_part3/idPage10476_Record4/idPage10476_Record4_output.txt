@@ -1,0 +1,15 @@
+domingo,name,husband
+Brondo,surname,husband
+pages,occupation,husband
+Regne,location,husband
+de,location,husband
+frança,location,husband
+Bara,location,husband
+viudo,state,husband
+Maryanna,name,wife
+donsella,state,wife
+Joa,name,wifes_father
+farreres,surname,wifes_father
+parayre,occupation,wifes_father
+Terrassa,location,wifes_father
+Maryanna,name,wifes_mother

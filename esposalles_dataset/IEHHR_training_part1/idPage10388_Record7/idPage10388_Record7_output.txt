@@ -1,0 +1,16 @@
+Bernat,name,husband
+Roses,surname,husband
+apotecari,occupation,husband
+Bara,location,husband
+Miquel,name,husbands_father
+Roses,surname,husbands_father
+pescador,occupation,husbands_father
+Terragona,location,husbands_father
+Catherina,name,husbands_mother
+Catherina,name,wife
+viuda,state,wife
+Guillem,name,other_person
+Horta,surname,other_person
+apote,occupation,wife
+cari,occupation,wife
+Arenys,location,wife

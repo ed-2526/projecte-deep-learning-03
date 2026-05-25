@@ -1,0 +1,12 @@
+Marsal,name,husband
+Capdevila,surname,husband
+ferrer,occupation,husband
+viudo,state,husband
+Bara,location,husband
+francisca,name,wife
+donsella,state,wife
+Domingo,name,wifes_father
+forment,surname,wifes_father
+carrater,occupation,wifes_father
+Bara,location,wifes_father
+Elisabeth,name,wifes_mother

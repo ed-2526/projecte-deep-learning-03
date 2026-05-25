@@ -1,0 +1,15 @@
+Hyacinto,name,husband
+Testa,surname,husband
+sastre,surname,husband
+Bara,location,husband
+Sans,name,husbands_father
+Andreu,name,husbands_father
+Testa,surname,husbands_father
+sastre,occupation,husbands_father
+Elienor,name,husbands_mother
+Anna,name,wife
+donsella,state,wife
+Jua,name,wifes_father
+Auger,surname,wifes_father
+sastre,occupation,wifes_father
+Angela,name,wifes_mother

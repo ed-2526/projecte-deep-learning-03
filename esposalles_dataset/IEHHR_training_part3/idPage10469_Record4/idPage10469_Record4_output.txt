@@ -1,0 +1,16 @@
+Pere,name,husband
+Pujades,surname,husband
+pages,occupation,husband
+Alella,location,husband
+Pere,name,husbands_father
+Pu,surname,husbands_father
+jades,surname,husbands_father
+Eularia,name,husbands_mother
+Eularia,name,wife
+donsella,state,wife
+Pere,name,wifes_father
+Portell,surname,wifes_father
+ferrer,occupation,wifes_father
+Violant,name,wifes_mother
+dita,location,wife
+parrochia,location,wife

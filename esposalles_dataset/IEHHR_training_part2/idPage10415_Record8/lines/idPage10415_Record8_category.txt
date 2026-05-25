@@ -1,0 +1,5 @@
+idPage10415_Record8_Line0:other other other other other name surname occupation occupation occupation other location
+idPage10415_Record8_Line1:location location location other other location other other name name
+idPage10415_Record8_Line2:surname occupation occupation occupation other location location location other other name
+idPage10415_Record8_Line3:name other other name state other name surname occupation
+idPage10415_Record8_Line4:other location location other other location location location location location

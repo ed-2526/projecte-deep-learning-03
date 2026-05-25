@@ -1,0 +1,14 @@
+Gaspar,name,husband
+Ribes,surname,husband
+pages,occupation,husband
+Valldoreig,location,husband
+Salvador,name,husbands_father
+pages,occupation,husbands_father
+Antiga,name,husbands_mother
+Eularia,name,wife
+donsella,state,wife
+Gabriel,name,wifes_father
+Borrull,surname,wifes_father
+pages,occupation,wifes_father
+Valldoreig,location,wifes_father
+Maryana,name,wifes_mother

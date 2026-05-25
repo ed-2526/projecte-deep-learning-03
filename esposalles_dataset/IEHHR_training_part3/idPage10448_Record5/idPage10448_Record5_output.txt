@@ -1,0 +1,13 @@
+Jua,name,husband
+Castanet,surname,husband
+pages,occupation,husband
+frança,location,husband
+Bara,location,husband
+Margarida,name,wife
+dosella,state,wife
+jaume,name,wifes_father
+Mi,surname,wifes_father
+quel,surname,wifes_father
+pescador,occupation,wifes_father
+Bara,location,wifes_father
+Eleonor,name,wifes_mother

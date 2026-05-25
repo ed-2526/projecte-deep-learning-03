@@ -1,0 +1,15 @@
+Hieronym,name,husband
+Clos,surname,husband
+doctor,occupation,husband
+en,occupation,husband
+drets,occupation,husband
+Bara,location,husband
+viudo,state,husband
+Raphela,name,wife
+donsella,state,wife
+jaume,name,wifes_father
+Burgues,surname,wifes_father
+parayre,occupation,wifes_father
+Puigcerda,location,wifes_father
+Bara,location,wifes_father
+Margarida,name,wifes_mother

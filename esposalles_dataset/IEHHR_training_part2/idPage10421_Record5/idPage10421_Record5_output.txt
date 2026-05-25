@@ -1,0 +1,17 @@
+Hieronym,name,husband
+Prats,surname,husband
+parayre,occupation,husband
+St,location,husband
+Celoni,location,husband
+franch,name,husbands_father
+Prats,surname,husbands_father
+parayre,occupation,husbands_father
+Eularia,name,husbands_mother
+Catherina,name,wife
+donsella,state,wife
+jaume,name,wifes_father
+Gurri,surname,wifes_father
+parayre,occupation,wifes_father
+Elisabeth,name,wifes_mother
+St,location,wife
+Celoni,location,wife

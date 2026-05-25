@@ -1,0 +1,14 @@
+Antoni,name,husband
+Boter,surname,husband
+pages,occupation,husband
+Ripollet,location,husband
+Hierony,name,husbands_father
+Boter,surname,husbands_father
+pages,occupation,husbands_father
+Hieronyma,name,husbands_mother
+Hieronyma,name,wife
+viuda,state,wife
+Pere,name,other_person
+Rexach,surname,other_person
+pages,occupation,wife
+Martorell,location,wife

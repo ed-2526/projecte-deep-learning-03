@@ -1,0 +1,17 @@
+Sebastia,name,husband
+Comes,surname,husband
+pages,occupation,husband
+regne,location,husband
+de,location,husband
+frança,location,husband
+St,location,husband
+Andreu,location,husband
+de,location,husband
+Palomar,location,husband
+Paula,name,wife
+dosella,state,wife
+joan,name,wifes_father
+Camps,surname,wifes_father
+pages,occupation,wifes_father
+Moncada,location,wifes_father
+Maryanna,name,wifes_mother

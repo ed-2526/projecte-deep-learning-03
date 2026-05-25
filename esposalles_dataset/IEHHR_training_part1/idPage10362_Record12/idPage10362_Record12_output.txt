@@ -1,0 +1,16 @@
+Antoni,name,husband
+Cabot,surname,husband
+fuster,occupation,husband
+Llavaneres,location,husband
+Thomas,name,husbands_father
+Cabot,surname,husbands_father
+fuster,occupation,husbands_father
+Antonia,name,husbands_mother
+Maria,name,wife
+donsella,state,wife
+Hieronym,name,wifes_father
+Morera,surname,wifes_father
+pages,occupation,wifes_father
+dita,location,wifes_father
+parrochia,location,wifes_father
+Eularia,name,wifes_mother

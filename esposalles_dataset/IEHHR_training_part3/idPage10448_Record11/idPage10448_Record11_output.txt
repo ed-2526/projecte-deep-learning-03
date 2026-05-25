@@ -1,0 +1,14 @@
+Gabriel,name,husband
+Casanoves,surname,husband
+parayre,occupation,husband
+Terrassa,location,husband
+Gabriel,name,husbands_father
+Casanoves,surname,husbands_father
+parayre,occupation,husbands_father
+Angela,name,husbands_mother
+Elienor,name,wife
+francesch,name,wifes_father
+Ameller,surname,wifes_father
+pages,occupation,wifes_father
+Tarrassa,location,wifes_father
+juana,name,wifes_mother

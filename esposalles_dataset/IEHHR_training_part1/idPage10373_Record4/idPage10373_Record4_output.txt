@@ -1,0 +1,16 @@
+francesch,name,husband
+Piquer,surname,husband
+pages,occupation,husband
+Molinderey,location,husband
+Pere,name,husbands_father
+Piquer,surname,husbands_father
+pages,occupation,husbands_father
+Elienor,name,husbands_mother
+Hieronyma,name,wife
+donsella,state,wife
+t,name,wifes_father
+Major,surname,wifes_father
+pages,occupation,wifes_father
+Sta,location,wifes_father
+Creu,location,wifes_father
+Hieronyma,name,wifes_mother

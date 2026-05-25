@@ -1,0 +1,13 @@
+Joachim,name,husband
+Baruta,surname,husband
+pages,occupation,husband
+Molin,location,husband
+de,location,husband
+rey,location,husband
+viudo,state,husband
+Catherina,name,wife
+donsella,state,wife
+Luys,name,wifes_father
+Campmany,surname,wifes_father
+Corbera,location,wifes_father
+Juana,name,wifes_mother

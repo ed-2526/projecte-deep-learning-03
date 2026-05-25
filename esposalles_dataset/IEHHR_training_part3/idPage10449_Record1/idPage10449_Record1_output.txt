@@ -1,0 +1,15 @@
+Pau,name,husband
+Mas,surname,husband
+ferrer,occupation,husband
+Premia,location,husband
+Ramon,name,husbands_father
+Mas,surname,husbands_father
+ferrer,occupation,husbands_father
+Angela,name,husbands_mother
+Speransa,name,wife
+donsella,state,wife
+Balthesar,name,wifes_father
+Morera,surname,wifes_father
+sabater,occupation,wifes_father
+Bara,location,wifes_father
+Susanna,name,wifes_mother

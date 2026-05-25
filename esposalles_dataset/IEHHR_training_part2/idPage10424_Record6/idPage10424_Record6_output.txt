@@ -1,0 +1,16 @@
+Baldiri,name,husband
+Puig,surname,husband
+pages,occupation,husband
+St,location,husband
+Boy,location,husband
+Baldiri,name,husbands_father
+Puig,surname,husbands_father
+pages,occupation,husbands_father
+juana,name,husbands_mother
+Maria,name,wife
+donsella,state,wife
+Galcera,name,wifes_father
+Arenys,surname,wifes_father
+pages,occupation,wifes_father
+Amella,location,wifes_father
+Elisabeth,name,wifes_mother

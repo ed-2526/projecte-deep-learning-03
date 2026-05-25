@@ -1,0 +1,15 @@
+Climent,name,husband
+fargues,surname,husband
+treballador,occupation,husband
+regne,location,husband
+de,location,husband
+frança,location,husband
+Barbera,location,husband
+Magdalena,name,wife
+donsella,state,wife
+Montser,name,wifes_father
+rat,name,wifes_father
+Planes,surname,wifes_father
+moliner,occupation,wifes_father
+Barbera,location,wifes_father
+t,name,wifes_mother

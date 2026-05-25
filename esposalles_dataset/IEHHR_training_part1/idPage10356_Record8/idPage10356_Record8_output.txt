@@ -1,0 +1,15 @@
+Jua,name,husband
+ferrer,surname,husband
+pescador,occupation,husband
+Bara,location,husband
+viudo,state,husband
+Anna,name,wife
+Elena,name,wife
+dosella,state,wife
+Pere,name,wifes_father
+Morros,surname,wifes_father
+corredor,occupation,wifes_father
+de,occupation,wifes_father
+bestias,occupation,wifes_father
+bara,location,wifes_father
+Catherina,name,wifes_mother

@@ -1,0 +1,17 @@
+jaume,name,husband
+Aguilar,surname,husband
+manya,occupation,husband
+Bara,location,husband
+Jua,name,husbands_father
+Aguilar,surname,husbands_father
+manya,occupation,husbands_father
+Valls,location,husbands_father
+Juana,name,husbands_mother
+Margarida,name,wife
+donsella,state,wife
+Jua,name,wifes_father
+Pau,name,wifes_father
+çafont,surname,wifes_father
+mercer,occupation,wifes_father
+Bara,location,wifes_father
+Eularia,name,wifes_mother

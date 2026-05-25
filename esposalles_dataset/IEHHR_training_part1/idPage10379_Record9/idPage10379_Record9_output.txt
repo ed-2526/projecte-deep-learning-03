@@ -1,0 +1,11 @@
+Miquel,name,husband
+Tintorer,surname,husband
+parayre,occupation,husband
+Bara,location,husband
+viudo,state,husband
+Anna,name,wife
+viuda,state,husband
+Pere,name,other_person
+Marques,surname,other_person
+parayre,occupation,wife
+Bara,location,wife

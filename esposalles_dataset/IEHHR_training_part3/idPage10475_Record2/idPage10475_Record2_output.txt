@@ -1,0 +1,15 @@
+Joa,name,husband
+Marques,surname,husband
+pages,occupation,husband
+regne,location,husband
+de,location,husband
+frança,location,husband
+la,location,husband
+Llacuna,location,husband
+Paula,name,wife
+donsella,state,wife
+Pere,name,wifes_father
+Ricart,surname,wifes_father
+pages,occupation,wifes_father
+Vilademaser,location,wifes_father
+t,name,wifes_mother

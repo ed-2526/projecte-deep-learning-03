@@ -1,0 +1,16 @@
+domingo,name,husband
+fornes,surname,husband
+argenter,occupation,husband
+Bara,location,husband
+domingo,name,husbands_father
+fornes,surname,husbands_father
+argenter,occupation,husbands_father
+Bara,location,husbands_father
+Violant,name,husbands_mother
+Maryanna,name,wife
+donsella,state,wife
+jaume,name,wifes_father
+Vallers,surname,wifes_father
+sabater,occupation,wifes_father
+Bara,location,wifes_father
+francisca,name,wifes_mother

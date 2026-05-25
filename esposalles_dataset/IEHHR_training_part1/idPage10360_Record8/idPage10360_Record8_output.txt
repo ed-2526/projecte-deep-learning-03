@@ -1,0 +1,17 @@
+Jua,name,husband
+Argila,surname,husband
+doctor,occupation,husband
+en,occupation,husband
+medicina,occupation,husband
+Bara,location,husband
+Jua,name,husbands_father
+Argila,surname,husbands_father
+apothecari,occupation,husbands_father
+Isabel,name,husbands_mother
+Paula,name,wife
+dosella,state,wife
+francesch,name,wifes_father
+Sauleda,surname,wifes_father
+mercader,occupation,wifes_father
+Vich,location,wifes_father
+Magdalena,name,wifes_mother

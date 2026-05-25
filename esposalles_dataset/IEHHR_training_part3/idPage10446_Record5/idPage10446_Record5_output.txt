@@ -1,0 +1,11 @@
+Juan,name,husband
+Roger,surname,husband
+treballador,occupation,husband
+regne,location,husband
+de,location,husband
+frança,location,husband
+Bara,location,husband
+Catherina,name,wife
+viuda,state,wife
+t,name,other_person
+Roquer,surname,other_person

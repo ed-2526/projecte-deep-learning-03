@@ -1,0 +1,17 @@
+Pere,name,husband
+febrer,surname,husband
+parxer,occupation,husband
+Bara,location,husband
+Benet,name,husbands_father
+Fe,surname,husbands_father
+brer,surname,husbands_father
+fuster,occupation,husbands_father
+Beneta,name,husbands_mother
+Elisabeth,name,wife
+Anna,name,wife
+donsella,state,wife
+juan,name,wifes_father
+Querol,surname,wifes_father
+sastre,occupation,wifes_father
+Solsona,location,wifes_father
+Elisabeth,name,wifes_mother

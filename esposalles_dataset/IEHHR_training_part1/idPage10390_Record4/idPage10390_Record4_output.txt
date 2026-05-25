@@ -1,0 +1,14 @@
+Arnau,name,husband
+Basorda,surname,husband
+hortola,occupation,husband
+regne,location,husband
+de,location,husband
+fransa,location,husband
+Bara,location,husband
+Catherina,name,wife
+donsella,state,wife
+Pere,name,wifes_father
+Espanyol,surname,wifes_father
+moliner,occupation,wifes_father
+Bara,location,wifes_father
+joana,name,wifes_mother

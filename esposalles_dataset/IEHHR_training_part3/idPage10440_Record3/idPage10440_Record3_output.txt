@@ -1,0 +1,16 @@
+Joseph,name,husband
+Claveria,surname,husband
+sastre,occupation,husband
+Bara,location,husband
+Garau,name,husbands_father
+Cla,surname,husbands_father
+veria,surname,husbands_father
+sastre,occupation,husbands_father
+Bara,location,husbands_father
+Magdalena,name,husbands_mother
+Paula,name,wife
+dosella,state,wife
+Pere,name,wifes_father
+Serra,surname,wifes_father
+scudaller,occupation,wifes_father
+Magdalena,name,wifes_mother

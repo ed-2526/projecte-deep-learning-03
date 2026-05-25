@@ -1,0 +1,16 @@
+Juan,name,husband
+febrer,surname,husband
+studiant,occupation,husband
+Bara,location,husband
+Bar,name,husbands_father
+thomeu,name,husbands_father
+febrer,surname,husbands_father
+sastre,occupation,husbands_father
+Bara,location,husbands_father
+Juana,name,husbands_mother
+Marianna,name,wife
+viuda,state,wife
+Magi,name,other_person
+Cumi,surname,other_person
+parayre,occupation,wife
+Bara,location,wife

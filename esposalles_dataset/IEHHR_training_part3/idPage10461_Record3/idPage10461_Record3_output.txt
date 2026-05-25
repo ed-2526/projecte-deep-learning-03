@@ -1,0 +1,17 @@
+ferriol,name,husband
+Casale,surname,husband
+cotxero,occupation,husband
+regne,location,husband
+de,location,husband
+frança,location,husband
+Bara,location,husband
+Maryanna,name,wife
+donsella,state,wife
+Pere,name,wifes_father
+Brunet,surname,wifes_father
+parayre,occupation,wifes_father
+Cellent,location,wifes_father
+bisbat,location,wifes_father
+de,location,wifes_father
+Vich,location,wifes_father
+Magdalena,name,wifes_mother

@@ -1,0 +1,17 @@
+francesch,name,husband
+Vinyals,surname,husband
+hortola,occupation,husband
+Cardedeu,location,husband
+Bara,location,husband
+Pere,name,husbands_father
+Vinyals,surname,husbands_father
+pages,occupation,husbands_father
+Elisabeth,name,husbands_mother
+Mar,name,wife
+quesa,name,wife
+donsella,state,wife
+Pere,name,wifes_father
+Campmajor,surname,wifes_father
+parayre,occupation,wifes_father
+Cardedeu,location,wifes_father
+Beneta,name,wifes_mother

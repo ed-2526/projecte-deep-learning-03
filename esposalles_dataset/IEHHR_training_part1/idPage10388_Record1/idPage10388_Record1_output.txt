@@ -1,0 +1,11 @@
+Antoni,name,husband
+Bertran,surname,husband
+corder,location,husband
+Bara,location,husband
+viudo,state,husband
+Paula,name,wife
+viuda,state,wife
+juan,name,other_person
+Marti,surname,other_person
+mariner,occupation,wife
+Bara,location,wife

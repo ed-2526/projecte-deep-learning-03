@@ -1,0 +1,15 @@
+Narcis,name,husband
+çacamp,surname,husband
+parayre,occupation,husband
+Rocha,location,husband
+Miquel,name,husbands_father
+çacamp,surname,husbands_father
+parayre,occupation,husbands_father
+Granollers,location,husbands_father
+Juana,name,husbands_mother
+Paula,name,wife
+viuda,state,wife
+Montserrat,name,other_person
+Vidal,surname,other_person
+sastre,occupation,wife
+Rocha,location,wife

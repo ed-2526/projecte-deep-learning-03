@@ -1,0 +1,15 @@
+Matheu,name,husband
+Marcer,surname,husband
+calsater,occupation,husband
+de,occupation,husband
+agulla,occupation,husband
+Bellmut,location,husband
+Bara,location,husband
+viudo,state,husband
+Antiga,name,wife
+donsella,state,wife
+Antich,name,wifes_father
+Savina,surname,wifes_father
+pages,occupation,wifes_father
+Gualba,location,wifes_father
+Elienor,name,wifes_mother

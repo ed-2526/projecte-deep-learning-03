@@ -1,0 +1,16 @@
+Pere,name,husband
+Rey,surname,husband
+pages,occupation,husband
+frances,location,husband
+Argentona,location,husband
+Anna,name,wife
+viuda,state,wife
+Joachim,name,other_person
+Rossell,surname,other_person
+treballador,occupation,wife
+Arenys,location,wife
+de,location,wife
+munt,location,wife
+bisbat,location,wife
+de,location,wife
+Gerona,location,wife

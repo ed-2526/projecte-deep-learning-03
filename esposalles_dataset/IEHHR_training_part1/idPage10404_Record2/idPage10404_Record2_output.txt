@@ -1,0 +1,15 @@
+jaume,name,husband
+Barcelo,surname,husband
+pages,occupation,husband
+Ebrera,location,husband
+Antoni,name,husbands_father
+Barcelo,surname,husbands_father
+pages,occupation,husbands_father
+Montserrada,name,husbands_mother
+Marianna,name,wife
+donsella,state,wife
+Jua,name,wifes_father
+Moral,surname,wifes_father
+pages,occupation,wifes_father
+t,name,wifes_mother
+Ebrera,location,wife

@@ -1,0 +1,14 @@
+Guillem,name,husband
+Duran,surname,husband
+sastre,occupation,husband
+regne,location,husband
+de,location,husband
+frança,location,husband
+Molinderey,location,husband
+Antiga,name,wife
+donsella,state,wife
+francesch,name,wifes_father
+Cigalet,surname,wifes_father
+pages,occupation,wifes_father
+Molinderey,location,wifes_father
+Antiga,name,wifes_mother

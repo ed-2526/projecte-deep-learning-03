@@ -1,0 +1,17 @@
+Jaume,name,husband
+Tort,surname,husband
+pages,occupation,husband
+Molins,location,husband
+dereig,location,husband
+jaume,name,husbands_father
+Tort,surname,husbands_father
+pages,occupation,husbands_father
+Stephania,name,husbands_mother
+Catherina,name,wife
+donsella,state,wife
+March,name,wifes_father
+Coll,surname,wifes_father
+pages,occupation,wifes_father
+Catherina,name,wifes_mother
+dita,location,wife
+parrochia,location,wife

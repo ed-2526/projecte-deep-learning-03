@@ -1,0 +1,17 @@
+Jaume,name,husband
+Costa,surname,husband
+pages,occupation,husband
+Corro,location,husband
+devall,location,husband
+domingo,name,husbands_father
+Costa,surname,husbands_father
+rajoler,occupation,husbands_father
+francina,name,husbands_mother
+Magdalena,name,wife
+dosella,state,wife
+t,name,wifes_father
+Sala,surname,wifes_father
+pages,occupation,wifes_father
+Corro,location,wifes_father
+demunt,location,wifes_father
+t,name,wifes_mother

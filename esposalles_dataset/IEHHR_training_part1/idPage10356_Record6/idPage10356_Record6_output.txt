@@ -1,0 +1,11 @@
+Juan,name,husband
+Strugo,surname,husband
+forner,surname,husband
+frances,location,husband
+Bara,location,husband
+Paula,name,wife
+viuda,state,wife
+Antoni,name,other_person
+font,surname,other_person
+pescador,occupation,wife
+Bara,location,wife

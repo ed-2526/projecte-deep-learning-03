@@ -1,0 +1,17 @@
+Miquel,name,husband
+Galvany,surname,husband
+revenedor,occupation,husband
+Bara,location,husband
+Salvador,name,husbands_father
+Galvany,surname,husbands_father
+revenedor,occupation,husbands_father
+Petronilla,name,husbands_mother
+Mariagela,name,wife
+dosella,state,wife
+Maurici,name,wifes_father
+Molins,surname,wifes_father
+tintorer,occupation,wifes_father
+de,occupation,wifes_father
+draps,occupation,wifes_father
+Bara,location,wifes_father
+Francisca,name,wifes_mother

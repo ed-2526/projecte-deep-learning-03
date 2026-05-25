@@ -1,0 +1,13 @@
+Jua,name,husband
+Pages,surname,husband
+hortola,occupation,husband
+Bara,location,husband
+t,name,husbands_father
+t,name,husbands_mother
+Maryanna,name,wife
+donsella,state,wife
+Jua,name,wifes_father
+Padrell,surname,wifes_father
+hortola,occupation,wifes_father
+Bara,location,wifes_father
+Antonia,name,wifes_mother

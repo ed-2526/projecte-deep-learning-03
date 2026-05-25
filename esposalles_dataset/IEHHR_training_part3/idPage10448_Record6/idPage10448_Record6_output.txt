@@ -1,0 +1,13 @@
+Pau,name,husband
+Ribafort,surname,husband
+sabater,occupation,husband
+Palau,location,husband
+solitar,location,husband
+viudo,state,husband
+Catherina,name,wife
+viuda,state,wife
+Agusti,name,other_person
+Alsina,surname,other_person
+pages,occupation,wife
+llissa,location,wife
+demunt,location,wife

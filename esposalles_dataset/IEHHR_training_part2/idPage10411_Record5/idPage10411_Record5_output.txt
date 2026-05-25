@@ -1,0 +1,16 @@
+francesch,name,husband
+Canyado,surname,husband
+pages,occupation,husband
+Badalona,location,husband
+Hierony,name,husbands_father
+Canyado,surname,husbands_father
+pages,occupation,husbands_father
+Badalona,location,husbands_father
+Montserrada,name,husbands_mother
+Maria,name,wife
+donsella,state,wife
+Bernat,name,wifes_father
+Amigo,surname,wifes_father
+pages,occupation,wifes_father
+Badalona,location,wifes_father
+t,name,wifes_mother

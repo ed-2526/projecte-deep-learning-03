@@ -1,0 +1,17 @@
+Juan,name,husband
+Molins,surname,husband
+ferrer,occupation,husband
+Begas,location,husband
+juan,name,husbands_father
+Molins,surname,husbands_father
+ferrer,occupation,husbands_father
+Magdalena,name,husbands_mother
+Maria,name,wife
+donsella,state,wife
+Pau,name,wifes_father
+Rafols,surname,wifes_father
+pages,occupation,wifes_father
+hospital,location,wifes_father
+de,location,wifes_father
+Aulesa,location,wifes_father
+Juana,name,wifes_mother

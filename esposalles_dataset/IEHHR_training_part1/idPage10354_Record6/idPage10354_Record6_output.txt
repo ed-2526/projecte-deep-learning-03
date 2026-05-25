@@ -1,0 +1,13 @@
+Jua,name,husband
+Pau,name,husband
+Clos,surname,husband
+daguer,occupation,husband
+frança,location,husband
+Vilarodona,location,husband
+Elisabeth,name,wife
+viuda,state,wife
+Montserrat,name,other_person
+Senauja,surname,other_person
+pages,occupation,wife
+dita,location,wife
+vila,location,wife

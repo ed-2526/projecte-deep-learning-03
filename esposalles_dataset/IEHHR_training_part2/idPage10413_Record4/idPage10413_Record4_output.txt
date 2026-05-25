@@ -1,0 +1,15 @@
+juan,name,husband
+Piquer,surname,husband
+hortola,occupation,husband
+Bara,location,husband
+Antoni,name,husbands_father
+Piquer,surname,husbands_father
+pages,occupation,husbands_father
+Paleja,location,husbands_father
+Stephania,name,husbands_mother
+Hieronyma,name,wife
+donsella,state,wife
+Bernat,name,wifes_father
+Bodo,surname,wifes_father
+blanquinador,occupation,wifes_father
+Damiana,name,wifes_mother

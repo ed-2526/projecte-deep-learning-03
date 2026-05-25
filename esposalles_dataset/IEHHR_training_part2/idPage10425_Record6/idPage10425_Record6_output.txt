@@ -1,0 +1,12 @@
+Guillem,name,husband
+Gales,surname,husband
+sastre,occupation,husband
+Granollers,location,husband
+dorothea,name,wife
+don,state,wife
+sella,state,wife
+Antoni,name,wifes_father
+Volart,surname,wifes_father
+pages,occupation,wifes_father
+Cardedeu,location,wifes_father
+Magdalena,name,wifes_mother

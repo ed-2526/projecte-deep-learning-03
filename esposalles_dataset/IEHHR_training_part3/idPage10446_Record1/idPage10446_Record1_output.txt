@@ -1,0 +1,15 @@
+Pau,name,husband
+Torres,surname,husband
+oller,occupation,husband
+Bara,location,husband
+Barthomeu,name,husbands_father
+Torres,surname,husbands_father
+oller,occupation,husbands_father
+Eularia,name,husbands_mother
+Elisabeth,name,wife
+donsella,state,wife
+Pere,name,wifes_father
+Boveres,surname,wifes_father
+scudaller,occupation,wifes_father
+Bara,location,wifes_father
+Magdalena,name,wifes_mother

@@ -1,0 +1,16 @@
+Bernat,name,husband
+Vinyes,surname,husband
+pages,occupation,husband
+frances,location,husband
+viudo,state,husband
+en,location,husband
+St,location,husband
+Vicens,location,husband
+dels,location,husband
+horts,location,husband
+Paula,name,wife
+viuda,state,husband
+Sebastia,name,other_person
+Bassa,surname,other_person
+vedrier,occupation,wife
+Roca,location,wife

@@ -1,0 +1,15 @@
+Bernat,name,husband
+Llorens,surname,husband
+moliner,occupation,husband
+fransa,location,husband
+St,location,husband
+Iscla,location,husband
+Clara,name,wife
+Guillem,name,wifes_father
+Serra,surname,wifes_father
+pages,occupation,wifes_father
+Gurb,location,wifes_father
+bisbat,location,wifes_father
+de,location,wifes_father
+Vich,location,wifes_father
+t,name,wifes_mother

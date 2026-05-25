@@ -1,0 +1,16 @@
+Maurici,name,husband
+Torres,surname,husband
+cotoner,occupation,husband
+Bara,location,husband
+Pere,name,husbands_father
+Torres,surname,husbands_father
+pages,occupation,husbands_father
+Manresa,location,husbands_father
+t,name,husbands_mother
+Hieronyma,name,wife
+dosella,state,wife
+francesch,name,wifes_father
+Puig,surname,wifes_father
+sabater,occupation,wifes_father
+Servera,location,wifes_father
+Catherina,name,wifes_mother

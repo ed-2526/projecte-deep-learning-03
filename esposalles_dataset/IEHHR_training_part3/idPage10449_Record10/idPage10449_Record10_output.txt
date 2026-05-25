@@ -1,0 +1,13 @@
+Juan,name,husband
+fumentes,surname,husband
+serrador,occupation,husband
+Tarrassa,location,husband
+viudo,state,husband
+Speransa,name,wife
+viuda,state,wife
+Giralt,name,other_person
+Illa,surname,other_person
+mestre,occupation,wife
+de,occupation,wife
+cases,occupation,wife
+Terrassa,location,wife

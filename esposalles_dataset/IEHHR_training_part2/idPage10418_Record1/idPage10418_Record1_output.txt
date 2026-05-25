@@ -1,0 +1,12 @@
+Pau,name,husband
+Brunet,surname,husband
+pages,occupation,husband
+Bara,location,husband
+viudo,state,husband
+Maryanna,name,wife
+donsella,state,wife
+Pere,name,wifes_father
+Palou,surname,wifes_father
+blanquer,occupation,wifes_father
+Bara,location,wifes_father
+Anna,name,wifes_mother

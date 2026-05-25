@@ -1,0 +1,14 @@
+Pere,name,husband
+Samules,surname,husband
+sastre,occupation,husband
+Bara,location,husband
+Pere,name,husbands_father
+Sa,surname,husbands_father
+mules,surname,husbands_father
+Philippa,name,husbands_mother
+Elisabeth,name,wife
+Maria,name,wife
+donsella,state,wife
+Pere,name,wifes_father
+Escarrer,surname,wifes_father
+Elisabeth,name,wifes_mother

@@ -1,0 +1,13 @@
+Montserrat,name,husband
+Pou,surname,husband
+parayre,occupation,husband
+Terrassa,location,husband
+viudo,state,husband
+Margarida,name,wife
+donsella,state,wife
+Juan,name,wifes_father
+Coch,surname,wifes_father
+parayre,occupation,wifes_father
+dita,location,wifes_father
+vila,location,wifes_father
+Magdalena,name,wifes_mother

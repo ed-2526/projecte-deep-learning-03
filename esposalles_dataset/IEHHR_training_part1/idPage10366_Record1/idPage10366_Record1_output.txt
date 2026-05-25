@@ -1,0 +1,14 @@
+Nicolau,name,husband
+Llorens,surname,husband
+pages,occupation,husband
+frances,location,husband
+Dorrius,location,husband
+Maria,name,wife
+Angela,name,wife
+donsella,state,wife
+Antoni,name,wifes_father
+Jua,name,wifes_father
+Terrades,surname,wifes_father
+pages,occupation,wifes_father
+dorrius,location,wifes_father
+Eularia,name,wifes_mother

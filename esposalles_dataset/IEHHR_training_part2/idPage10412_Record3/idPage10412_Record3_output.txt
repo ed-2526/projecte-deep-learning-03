@@ -1,0 +1,14 @@
+francesch,name,husband
+Duran,surname,husband
+pages,occupation,husband
+Sitges,location,husband
+viudo,state,husband
+Maria,name,wife
+donsella,state,wife
+Pere,name,wifes_father
+Saborit,surname,wifes_father
+mestre,occupation,wifes_father
+de,occupation,wifes_father
+axa,occupation,wifes_father
+Sitges,location,wifes_father
+Catha,name,wifes_mother

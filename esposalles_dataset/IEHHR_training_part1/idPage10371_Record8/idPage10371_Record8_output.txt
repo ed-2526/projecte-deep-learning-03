@@ -1,0 +1,13 @@
+Ramon,name,husband
+Quadriu,surname,husband
+pages,occupation,husband
+fransa,location,husband
+Bara,location,husband
+Maryanna,name,wife
+viuda,state,wife
+Bernat,name,other_person
+Boxera,surname,other_person
+mestre,occupation,wife
+de,occupation,wife
+cases,occupation,wife
+Bara,location,wife

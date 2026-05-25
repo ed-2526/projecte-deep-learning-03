@@ -1,0 +1,17 @@
+Antoni,name,husband
+Clos,surname,husband
+pages,occupation,husband
+regne,location,husband
+de,location,husband
+frança,location,husband
+Bara,location,husband
+viudo,state,husband
+Anna,name,wife
+donsella,state,wife
+Berenguer,name,wifes_father
+Alaverni,surname,wifes_father
+blanquer,occupation,wifes_father
+Vilafranca,location,wifes_father
+de,location,wifes_father
+Conflent,location,wifes_father
+Violant,name,wifes_mother

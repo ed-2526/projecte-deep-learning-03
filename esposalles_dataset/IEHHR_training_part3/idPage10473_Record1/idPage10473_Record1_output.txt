@@ -1,0 +1,16 @@
+Anton,name,husband
+de,surname,husband
+Rotxe,surname,husband
+la,location,husband
+Islla,location,husband
+del,location,husband
+Brasil,location,husband
+Philippa,name,wife
+Paula,name,wife
+de,surname,wife
+Gusman,surname,wife
+Islla,location,wife
+de,location,wife
+Sto,location,wife
+Thome,location,wife
+Bara,location,wife

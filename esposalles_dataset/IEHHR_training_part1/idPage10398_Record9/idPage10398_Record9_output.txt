@@ -1,0 +1,11 @@
+March,name,husband
+Soler,surname,husband
+sabater,occupation,husband
+Bara,location,husband
+viudo,state,husband
+Elisabeth,name,wife
+viuda,state,wife
+Juan,name,other_person
+Garau,surname,other_person
+sparter,occupation,wife
+Bara,location,wife

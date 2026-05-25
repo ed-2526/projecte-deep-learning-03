@@ -1,0 +1,12 @@
+Pere,name,husband
+Pujol,surname,husband
+corder,occupation,husband
+regne,location,husband
+de,location,husband
+frança,location,husband
+Mon,location,husband
+cada,location,husband
+Juana,name,wife
+donsella,state,wife
+t,name,wifes_father
+t,name,wifes_mother

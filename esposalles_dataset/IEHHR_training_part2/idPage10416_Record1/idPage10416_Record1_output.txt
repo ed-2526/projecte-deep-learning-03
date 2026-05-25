@@ -1,0 +1,16 @@
+Juan,name,husband
+Batista,name,husband
+garbellador,occupation,husband
+Bara,location,husband
+Jua,name,husbands_father
+Batista,name,husbands_father
+Darder,surname,husbands_father
+garbellador,occupation,husbands_father
+Maryanna,name,husbands_mother
+Maria,name,wife
+donsella,state,wife
+Guillem,name,wifes_father
+Munt,surname,wifes_father
+traginer,occupation,wifes_father
+Mataro,location,wifes_father
+Speransa,name,wifes_mother

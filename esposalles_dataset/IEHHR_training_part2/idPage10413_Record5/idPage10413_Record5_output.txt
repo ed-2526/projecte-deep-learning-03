@@ -1,0 +1,15 @@
+franch,name,husband
+Saliges,surname,husband
+celler,occupation,husband
+Bara,location,husband
+franch,name,husbands_father
+Saliges,surname,husbands_father
+celler,occupation,husbands_father
+Elisabeth,name,husbands_mother
+Maryanna,name,wife
+donsella,state,wife
+Hieronym,name,wifes_father
+jorda,surname,wifes_father
+valer,occupation,wifes_father
+Bara,location,wifes_father
+francisca,name,wifes_mother

@@ -1,0 +1,15 @@
+jaume,name,husband
+Mates,surname,husband
+parayre,occupation,husband
+Bara,location,husband
+jaume,name,husbands_father
+Mates,surname,husbands_father
+pages,occupation,husbands_father
+Gerona,location,husbands_father
+Hieronyma,name,husbands_mother
+Hieronyma,name,wife
+viuda,state,wife
+Jaume,name,other_person
+Burell,surname,other_person
+parayre,occupation,wife
+Bara,location,wife

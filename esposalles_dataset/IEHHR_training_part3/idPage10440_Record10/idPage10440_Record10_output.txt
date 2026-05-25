@@ -1,0 +1,15 @@
+Antoni,name,husband
+Castanyer,surname,husband
+llibrater,occupation,husband
+Antoni,name,husbands_father
+Castanyer,surname,husbands_father
+sombrarer,occupation,husbands_father
+Bara,location,husbands_father
+Juana,name,husbands_mother
+Elisabeth,name,wife
+donsella,state,wife
+Llorens,name,wifes_father
+Rossell,surname,wifes_father
+llibrater,occupation,wifes_father
+Bara,location,wifes_father
+Hieronyma,name,wifes_mother

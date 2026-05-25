@@ -1,0 +1,16 @@
+Antoni,name,husband
+Comadara,surname,husband
+parayre,occupation,husband
+St,location,husband
+Llorens,location,husband
+ça,location,husband
+vall,location,husband
+viudo,state,husband
+Maria,name,wife
+donsella,state,wife
+Miquel,name,wifes_father
+Espalter,surname,wifes_father
+sastre,occupation,wifes_father
+dita,location,wifes_father
+parrochia,location,wifes_father
+t,name,wifes_mother

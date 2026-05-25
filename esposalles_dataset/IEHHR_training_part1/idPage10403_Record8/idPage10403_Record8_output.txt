@@ -1,0 +1,16 @@
+Pere,name,husband
+Anglada,surname,husband
+pages,occupation,husband
+regne,location,husband
+de,location,husband
+fransa,location,husband
+hospi,location,husband
+talet,location,husband
+francina,name,wife
+donsella,state,wife
+Hieronym,name,wifes_father
+Vinyals,surname,wifes_father
+traginer,occupation,wifes_father
+de,occupation,wifes_father
+mar,occupation,wifes_father
+Elisabeth,name,wifes_mother

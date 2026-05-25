@@ -1,0 +1,14 @@
+Pere,name,husband
+faura,surname,husband
+pages,occupation,husband
+Regne,location,husband
+de,location,husband
+frança,location,husband
+Badalona,location,husband
+Eularia,name,wife
+donsella,state,wife
+Simeon,name,wifes_father
+Roldos,surname,wifes_father
+pages,occupation,wifes_father
+Badalona,location,wifes_father
+Catherina,name,wifes_mother

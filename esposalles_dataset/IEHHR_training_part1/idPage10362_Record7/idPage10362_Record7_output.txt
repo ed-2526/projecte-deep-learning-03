@@ -1,0 +1,16 @@
+Pau,name,husband
+Sayol,surname,husband
+pages,occupation,husband
+Alella,location,husband
+Bernat,name,husbands_father
+Sayol,surname,husbands_father
+pages,occupation,husbands_father
+Anna,name,husbands_mother
+Catherina,name,wife
+donsella,state,wife
+jaume,name,wifes_father
+Sala,surname,wifes_father
+pages,occupation,wifes_father
+dita,location,wifes_father
+parrochia,location,wifes_father
+Catherina,name,wifes_mother

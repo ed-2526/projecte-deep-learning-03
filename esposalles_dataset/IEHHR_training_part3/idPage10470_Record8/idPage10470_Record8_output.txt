@@ -1,0 +1,17 @@
+Bernat,name,husband
+Orriols,surname,husband
+sombrarer,occupation,husband
+Premia,location,husband
+Mataro,location,husband
+Esteva,name,husbands_father
+Orriols,surname,husbands_father
+pages,occupation,husbands_father
+Paula,name,husbands_mother
+francisca,name,wife
+donsella,state,wife
+Antoni,name,wifes_father
+Pau,name,wifes_father
+Orriols,surname,wifes_father
+ferrer,occupation,wifes_father
+Mataro,location,wifes_father
+t,name,wifes_mother

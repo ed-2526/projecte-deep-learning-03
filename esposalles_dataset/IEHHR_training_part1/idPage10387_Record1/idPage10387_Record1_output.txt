@@ -1,0 +1,17 @@
+Antoni,name,husband
+Dauban,surname,husband
+treballador,occupation,husband
+Regne,location,husband
+de,location,husband
+frança,location,husband
+Prat,location,husband
+Saldonia,name,wife
+donsella,state,wife
+Miquel,name,wifes_father
+Sola,surname,wifes_father
+parayre,occupation,wifes_father
+Orista,location,wifes_father
+bisbat,location,wifes_father
+de,location,wifes_father
+Vich,location,wifes_father
+Elisabeth,name,wifes_mother

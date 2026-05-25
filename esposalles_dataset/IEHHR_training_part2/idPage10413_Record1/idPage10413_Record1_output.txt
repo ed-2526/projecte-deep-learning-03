@@ -1,0 +1,16 @@
+francesch,name,husband
+Servanti,surname,husband
+manya,occupation,husband
+Bara,location,husband
+Pere,name,husbands_father
+Servanti,surname,husbands_father
+manya,occupation,husbands_father
+Bara,location,husbands_father
+Catherina,name,husbands_mother
+Juana,name,wife
+donsella,state,wife
+Arnau,name,wifes_father
+Sever,surname,wifes_father
+flaquer,occupation,wifes_father
+Bara,location,wifes_father
+Angela,name,wifes_mother

@@ -1,0 +1,11 @@
+franch,name,husband
+Aromir,surname,husband
+cilurgia,occupation,husband
+Bara,location,husband
+Elisa,name,wife
+beth,name,wife
+viuda,state,husband
+Matheu,name,other_person
+Godobin,surname,other_person
+cilurgia,occupation,wife
+Urgell,location,wife

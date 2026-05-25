@@ -1,0 +1,11 @@
+Raphel,name,husband
+Noguera,surname,husband
+velluter,occupation,husband
+Bara,location,husband
+viudo,state,husband
+Maryanna,name,wife
+viuda,state,wife
+Hieronym,name,other_person
+Gassull,surname,other_person
+velluter,occupation,wife
+Bara,location,wife

@@ -1,0 +1,17 @@
+francesch,name,husband
+Pujalt,surname,husband
+pages,occupation,husband
+Llissa,location,husband
+demunt,location,husband
+francesch,name,husbands_father
+Pujalt,surname,husbands_father
+pages,occupation,husbands_father
+Mariangela,name,husbands_mother
+marian,name,wife
+gela,name,wife
+donsella,state,wife
+Juan,name,wifes_father
+Bosch,surname,wifes_father
+sabater,occupation,wifes_father
+Moya,location,wifes_father
+joana,name,wifes_mother

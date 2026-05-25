@@ -1,0 +1,11 @@
+Antoni,name,husband
+Arno,surname,husband
+traginer,occupation,husband
+Argentona,location,husband
+viudo,state,husband
+Joana,name,wife
+viuda,state,wife
+Antoni,name,other_person
+Llotge,surname,other_person
+sistaller,occupation,wife
+Argentona,location,wife

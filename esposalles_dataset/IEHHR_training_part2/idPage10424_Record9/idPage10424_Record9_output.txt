@@ -1,0 +1,16 @@
+jaume,name,husband
+Oriach,surname,husband
+pages,occupation,husband
+Sta,location,husband
+Agnes,location,husband
+de,location,husband
+Mala,location,husband
+nyanes,location,husband
+viudo,state,husband
+Juana,name,wife
+donsella,state,wife
+Antich,name,wifes_father
+Masferrer,surname,wifes_father
+pages,occupation,wifes_father
+Gualba,location,wifes_father
+Anna,name,wifes_mother

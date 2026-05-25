@@ -1,0 +1,16 @@
+Salvador,name,husband
+Amat,surname,husband
+sabater,occupation,husband
+Terrassa,location,husband
+jaume,name,husbands_father
+Amat,surname,husbands_father
+sabater,occupation,husbands_father
+Antiga,name,husbands_mother
+Elisabeth,name,wife
+donsella,state,wife
+Salvador,name,wifes_father
+Salas,surname,wifes_father
+parayre,occupation,wifes_father
+dita,location,wifes_father
+vila,location,wifes_father
+Elisabeth,name,wifes_mother

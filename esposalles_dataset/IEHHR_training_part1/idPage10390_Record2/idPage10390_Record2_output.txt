@@ -1,0 +1,15 @@
+Pau,name,husband
+Arbos,surname,husband
+assahonador,occupation,husband
+Bara,location,husband
+jua,name,husbands_father
+Arbos,surname,husbands_father
+barrater,occupation,husbands_father
+Maryangela,name,husbands_mother
+Elisabeth,name,wife
+donsella,state,wife
+franch,name,wifes_father
+Torrent,surname,wifes_father
+candaler,occupation,wifes_father
+seu,location,wifes_father
+Margarida,name,wifes_mother

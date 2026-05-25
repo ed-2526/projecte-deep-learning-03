@@ -1,0 +1,16 @@
+Jaume,name,husband
+Colomer,surname,husband
+sastre,occupation,husband
+Bara,location,husband
+Antoni,name,husbands_father
+Co,surname,husbands_father
+lomer,surname,husbands_father
+pages,occupation,husbands_father
+Andreua,name,husbands_mother
+Hieronyma,name,wife
+dosella,state,wife
+jaume,name,wifes_father
+Staper,surname,wifes_father
+staper,surname,wifes_father
+sastre,occupation,wifes_father
+Magdalena,name,wifes_mother

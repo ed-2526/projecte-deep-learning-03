@@ -1,0 +1,17 @@
+Pere,name,husband
+Marti,surname,husband
+forner,occupation,husband
+çarreal,location,husband
+Archebisbat,location,husband
+de,location,husband
+Tar,location,husband
+ragona,location,husband
+Bara,location,husband
+viudo,state,husband
+Eularia,name,wife
+viuda,state,wife
+Jua,name,other_person
+figue,surname,other_person
+res,surname,other_person
+forner,occupation,wife
+Bara,location,wife

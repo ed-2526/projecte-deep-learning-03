@@ -1,0 +1,17 @@
+Antoni,name,husband
+feliu,surname,husband
+pages,occupation,husband
+Horta,location,husband
+t,name,husbands_father
+feliu,surname,husbands_father
+pages,occupation,husbands_father
+Horta,location,husbands_father
+francina,name,husbands_mother
+Maryanna,name,wife
+donsella,state,wife
+Miquel,name,wifes_father
+Masot,surname,wifes_father
+traginer,occupation,wifes_father
+de,occupation,wifes_father
+mar,occupation,wifes_father
+Montserrada,name,wifes_mother

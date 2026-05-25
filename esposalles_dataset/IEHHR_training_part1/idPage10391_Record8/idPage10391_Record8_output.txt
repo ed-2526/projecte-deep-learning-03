@@ -1,0 +1,13 @@
+Jaume,name,husband
+Arquer,surname,husband
+pages,occupation,husband
+regne,location,husband
+de,location,husband
+fransa,location,husband
+Bara,location,husband
+Margarida,name,wife
+viuda,state,wife
+Pere,name,other_person
+Cortes,surname,other_person
+pages,occupation,wife
+Bara,location,wife

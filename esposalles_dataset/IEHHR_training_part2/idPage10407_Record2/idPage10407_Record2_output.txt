@@ -1,0 +1,16 @@
+Antoni,name,husband
+Cabrisses,surname,husband
+botiguer,occupation,husband
+de,occupation,husband
+telas,occupation,husband
+Castello,location,husband
+de,location,husband
+Empuries,location,husband
+Bara,location,husband
+viudo,state,husband
+Magdalena,name,wife
+viuda,state,wife
+t,name,other_person
+Matali,surname,other_person
+negociant,occupation,wife
+Bara,location,wife

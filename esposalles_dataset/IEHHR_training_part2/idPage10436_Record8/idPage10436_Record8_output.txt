@@ -1,0 +1,11 @@
+Thomas,name,husband
+Pyrro,surname,husband
+pintor,occupation,husband
+Bara,location,husband
+t,name,husbands_father
+t,name,husbands_mother
+Elena,name,wife
+donsella,state,wife
+t,name,wifes_father
+Llentisclar,surname,wifes_father
+t,name,wifes_mother

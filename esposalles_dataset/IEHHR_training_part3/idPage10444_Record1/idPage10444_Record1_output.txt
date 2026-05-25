@@ -1,0 +1,14 @@
+Montserrat,name,husband
+Cases,surname,husband
+pages,occupation,husband
+Serdanyola,location,husband
+Raphel,name,husbands_father
+Cases,surname,husbands_father
+pages,occupation,husbands_father
+Elisabeth,name,husbands_mother
+Elena,name,wife
+viuda,state,wife
+t,name,other_person
+Marti,surname,other_person
+forner,occupation,wife
+frança,location,wife

@@ -1,0 +1,14 @@
+Arnau,name,husband
+Broquera,surname,husband
+pages,occupation,husband
+regne,location,husband
+de,location,husband
+fransa,location,husband
+Prat,location,husband
+Magdalena,name,wife
+donsella,state,wife
+jaume,name,wifes_father
+Vinyes,surname,wifes_father
+pages,occupation,wifes_father
+Gava,location,wifes_father
+Magdalena,name,wifes_mother

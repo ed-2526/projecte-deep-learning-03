@@ -1,0 +1,16 @@
+Pere,name,husband
+Costa,surname,husband
+pages,occupation,husband
+Bara,location,husband
+Pere,name,husbands_father
+Costa,surname,husbands_father
+fuster,occupation,husbands_father
+Eleonor,name,husbands_mother
+Angela,name,wife
+donsella,state,wife
+Miquel,name,wifes_father
+Sala,surname,wifes_father
+pa,occupation,wifes_father
+rayre,occupation,wifes_father
+Maryanna,name,wifes_mother
+Bara,location,wife

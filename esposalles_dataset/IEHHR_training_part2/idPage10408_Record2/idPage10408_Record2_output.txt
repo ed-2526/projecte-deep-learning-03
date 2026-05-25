@@ -1,0 +1,16 @@
+Barthomeu,name,husband
+Miquel,surname,husband
+fuster,occupation,husband
+Bara,location,husband
+Bartho,name,husbands_father
+meu,name,husbands_father
+Miquel,surname,husbands_father
+musich,occupation,husbands_father
+Catherina,name,husbands_mother
+Magdalena,name,wife
+donsella,state,wife
+Miquel,name,wifes_father
+Porta,surname,wifes_father
+fuster,occupation,wifes_father
+Bara,location,wifes_father
+Margarida,name,wifes_mother

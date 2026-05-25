@@ -1,0 +1,17 @@
+Nicolau,name,husband
+Molner,surname,husband
+parayre,occupation,husband
+Sparaguera,location,husband
+Antoni,name,husbands_father
+Molner,surname,husbands_father
+parayre,occupation,husbands_father
+Maria,name,husbands_mother
+Maryanna,name,wife
+donsella,state,wife
+Jua,name,wifes_father
+font,surname,wifes_father
+mestre,occupation,wifes_father
+de,occupation,wifes_father
+cases,occupation,wifes_father
+Paula,name,wifes_mother
+Sparaguera,location,wife

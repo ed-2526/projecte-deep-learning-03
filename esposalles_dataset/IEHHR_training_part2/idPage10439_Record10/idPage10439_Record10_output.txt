@@ -1,0 +1,9 @@
+Bernat,name,husband
+Catoday,surname,husband
+mestre,occupation,husband
+de,occupation,husband
+axa,occupation,husband
+Bara,location,husband
+Magdalena,name,wife
+dosella,state,wife
+t,name,wifes_father

@@ -1,0 +1,16 @@
+Pere,name,husband
+Segura,surname,husband
+Tortosa,location,husband
+Bara,location,husband
+Pere,name,husbands_father
+Segura,surname,husbands_father
+notari,occupation,husbands_father
+Tortosa,location,husbands_father
+Hieronyma,name,husbands_mother
+Maria,name,wife
+donsella,state,wife
+Carles,name,wifes_father
+frexes,surname,wifes_father
+mercader,occupation,wifes_father
+Bara,location,wifes_father
+Marquesa,name,wifes_mother

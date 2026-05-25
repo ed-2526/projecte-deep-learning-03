@@ -1,0 +1,13 @@
+francesch,name,husband
+Rigual,surname,husband
+pages,occupation,husband
+Corbera,location,husband
+viudo,state,husband
+Eli,name,wife
+sabeth,name,wife
+viuda,state,wife
+Damia,name,other_person
+Tauder,surname,other_person
+doctor,occupation,wife
+en,occupation,wife
+Medicina,occupation,wife

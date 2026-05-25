@@ -1,0 +1,14 @@
+Giralt,name,husband
+Monlo,surname,husband
+parayre,occupation,husband
+regne,location,husband
+de,location,husband
+frança,location,husband
+Sabadell,location,husband
+Valentina,name,wife
+viuda,state,wife
+Pere,name,other_person
+Pau,name,other_person
+Barcelo,surname,other_person
+parayre,occupation,wife
+Sabadell,location,wife

@@ -1,0 +1,14 @@
+Giralt,name,husband
+Blanquart,surname,husband
+flaquer,occupation,husband
+regne,location,husband
+de,location,husband
+frança,location,husband
+Bara,location,husband
+Anna,name,wife
+viuda,state,wife
+Blasi,name,other_person
+Dimas,surname,other_person
+pas,occupation,wife
+tisser,occupation,wife
+Bara,location,wife

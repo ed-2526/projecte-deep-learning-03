@@ -1,0 +1,11 @@
+Guillem,name,husband
+Masnou,surname,husband
+pages,occupation,husband
+Collsabadell,location,husband
+viudo,state,husband
+Juana,name,wife
+viuda,state,wife
+t,name,other_person
+Mas,surname,other_person
+pages,occupation,wife
+Argentona,location,wife

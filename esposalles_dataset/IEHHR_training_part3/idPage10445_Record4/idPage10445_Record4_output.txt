@@ -1,0 +1,14 @@
+jaume,name,husband
+Llopis,surname,husband
+pages,occupation,husband
+St,location,husband
+Boy,location,husband
+viudo,state,husband
+Eularia,name,wife
+donsella,state,wife
+Miquel,name,wifes_father
+Cases,surname,wifes_father
+pages,occupation,wifes_father
+Castell,location,wifes_father
+bisbal,location,wifes_father
+Angela,name,wifes_mother

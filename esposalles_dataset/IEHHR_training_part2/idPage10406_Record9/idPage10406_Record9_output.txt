@@ -1,0 +1,17 @@
+Raphel,name,husband
+Riera,surname,husband
+candaler,occupation,husband
+de,occupation,husband
+cera,occupation,husband
+Bara,location,husband
+juan,name,husbands_father
+Riera,surname,husbands_father
+fuster,occupation,husbands_father
+Mathiana,name,husbands_mother
+Maria,name,wife
+donsella,state,wife
+Arcis,name,wifes_father
+Planes,surname,wifes_father
+vedrier,occupation,wifes_father
+Mataro,location,wifes_father
+Sperasa,name,wifes_mother

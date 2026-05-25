@@ -1,0 +1,16 @@
+Ramo,name,husband
+Basi,surname,husband
+pages,occupation,husband
+de,location,husband
+fransa,location,husband
+St,location,husband
+Andreu,location,husband
+de,location,husband
+Palomar,location,husband
+Maria,name,wife
+Deseny,surname,wife
+dosella,state,wife
+francesa,location,wife
+en,location,wife
+dita,location,wife
+parroa,location,wife

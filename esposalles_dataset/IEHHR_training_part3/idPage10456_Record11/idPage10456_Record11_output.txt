@@ -1,0 +1,13 @@
+Luys,name,husband
+Pi,surname,husband
+sastre,occupation,husband
+Bara,location,husband
+Montserrat,name,husbands_father
+Pi,surname,husbands_father
+sastre,occupation,husbands_father
+Monica,name,husbands_mother
+Madrona,name,wife
+viuda,state,wife
+jaume,name,other_person
+domenech,surname,other_person
+sabater,occupation,wife

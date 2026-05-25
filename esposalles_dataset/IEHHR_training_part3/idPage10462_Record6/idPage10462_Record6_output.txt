@@ -1,0 +1,14 @@
+Barthomeu,name,husband
+Dardenya,surname,husband
+sastre,occupation,husband
+Premia,location,husband
+Bara,location,husband
+Bernat,name,husbands_father
+Dardenya,surname,husbands_father
+sastre,occupation,husbands_father
+Cecilia,name,husbands_mother
+Maria,name,wife
+joan,name,wifes_father
+tavarner,occupation,wifes_father
+Bara,location,wifes_father
+joana,name,wifes_mother

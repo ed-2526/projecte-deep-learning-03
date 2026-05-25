@@ -1,0 +1,12 @@
+Antoni,name,husband
+Sidos,surname,husband
+serrador,occupation,husband
+fransa,location,husband
+Bara,location,husband
+Eleonor,name,wife
+viuda,state,wife
+Bertran,name,other_person
+Badia,surname,other_person
+hortola,occupation,wife
+fransa,location,wife
+Bara,location,wife

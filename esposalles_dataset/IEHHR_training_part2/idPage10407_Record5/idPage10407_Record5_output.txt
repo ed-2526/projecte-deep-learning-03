@@ -1,0 +1,17 @@
+Jua,name,husband
+Baldiri,surname,husband
+parayre,occupation,husband
+Livia,location,husband
+Bara,location,husband
+Jua,name,husbands_father
+Baldiri,surname,husbands_father
+pages,occupation,husbands_father
+Livia,location,husbands_father
+Juana,name,husbands_mother
+Magdalena,name,wife
+donsella,state,wife
+Andreu,name,wifes_father
+Cornet,surname,wifes_father
+pages,occupation,wifes_father
+Manresa,location,wifes_father
+Salvadora,name,wifes_mother

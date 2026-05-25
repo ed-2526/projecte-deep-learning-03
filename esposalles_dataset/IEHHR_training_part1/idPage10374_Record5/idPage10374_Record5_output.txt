@@ -1,0 +1,16 @@
+Juan,name,husband
+Lleonet,surname,husband
+ferrer,occupation,husband
+frança,location,husband
+viudo,state,husband
+St,location,husband
+Climent,location,husband
+de,location,husband
+Llobregat,location,other_person
+Eularia,name,wife
+donsella,state,wife
+jaume,name,wifes_father
+Albareda,surname,wifes_father
+pages,occupation,wifes_father
+Palleja,location,wifes_father
+t,name,wifes_mother

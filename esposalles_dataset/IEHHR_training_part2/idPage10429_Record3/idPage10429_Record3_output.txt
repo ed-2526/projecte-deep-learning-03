@@ -1,0 +1,12 @@
+francisco,name,husband
+Ramos,surname,husband
+argenter,occupation,husband
+viudo,state,husband
+Bara,location,husband
+Agnes,name,wife
+donsella,state,wife
+francesch,name,wifes_father
+Tarroja,surname,wifes_father
+argenter,occupation,wifes_father
+Cervera,location,wifes_father
+Aldonsa,name,wifes_mother

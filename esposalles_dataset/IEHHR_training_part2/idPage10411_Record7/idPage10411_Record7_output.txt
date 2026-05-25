@@ -1,0 +1,17 @@
+Hieronym,name,husband
+Marti,surname,husband
+pages,occupation,husband
+Alella,location,husband
+Sarria,location,husband
+viudo,state,husband
+Hieronyma,name,wife
+viuda,state,wife
+Pere,name,other_person
+St,surname,other_person
+Pons,surname,other_person
+pages,occupation,wife
+joval,location,wife
+bisbat,location,wife
+de,location,wife
+Solsona,location,wife
+Solsona,location,wife

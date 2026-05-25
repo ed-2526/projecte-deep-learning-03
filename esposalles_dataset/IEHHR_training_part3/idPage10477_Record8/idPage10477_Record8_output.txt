@@ -1,0 +1,13 @@
+Pere,name,husband
+Sala,surname,husband
+manya,occupation,husband
+regne,location,husband
+de,location,husband
+frança,location,husband
+Barcelona,location,husband
+Margarida,name,wife
+viuda,state,wife
+Antoni,name,other_person
+Castells,surname,other_person
+manya,occupation,wife
+Bara,location,wife

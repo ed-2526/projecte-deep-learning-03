@@ -1,0 +1,15 @@
+Lluis,name,husband
+Llobateres,surname,husband
+calsater,occupation,husband
+de,occupation,husband
+agulla,occupation,husband
+regne,location,husband
+de,location,husband
+fraça,location,husband
+Bara,location,husband
+Magdalena,name,wife
+donsella,state,wife
+t,name,wifes_father
+Campana,surname,wifes_father
+pages,occupation,wifes_father
+t,name,wifes_mother

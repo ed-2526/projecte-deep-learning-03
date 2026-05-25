@@ -1,0 +1,15 @@
+Pau,name,husband
+Garua,surname,husband
+apothecari,occupation,husband
+Mataro,location,husband
+Thomas,name,husbands_father
+Garua,surname,husbands_father
+apothecari,occupation,husbands_father
+Anna,name,husbands_mother
+Anna,name,wife
+donsella,state,wife
+Pere,name,wifes_father
+Roig,surname,wifes_father
+vedrier,occupation,wifes_father
+Angela,name,wifes_mother
+Mataro,location,wife

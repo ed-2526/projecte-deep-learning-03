@@ -1,0 +1,16 @@
+Pau,name,husband
+Panyella,surname,husband
+pages,occupation,husband
+Corbera,location,husband
+Antoni,name,husbands_father
+Pa,surname,husbands_father
+nyella,surname,husbands_father
+pages,occupation,husbands_father
+Elienor,name,husbands_mother
+Beneta,name,wife
+donsella,state,wife
+jaume,name,wifes_father
+Pages,surname,wifes_father
+pages,occupation,wifes_father
+Papiol,location,wifes_father
+Aldonsa,name,wifes_mother

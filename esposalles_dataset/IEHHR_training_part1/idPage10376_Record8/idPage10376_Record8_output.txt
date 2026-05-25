@@ -1,0 +1,12 @@
+Gratia,name,husband
+Prats,surname,husband
+hortola,occupation,husband
+Bara,location,husband
+viudo,state,husband
+Beneta,name,wife
+viuda,state,husband
+jaume,name,other_person
+Xiol,surname,other_person
+corredor,occupation,wife
+de,occupation,wife
+animals,occupation,wife

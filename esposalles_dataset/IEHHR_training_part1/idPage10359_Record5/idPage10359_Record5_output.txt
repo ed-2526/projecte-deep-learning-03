@@ -1,0 +1,17 @@
+Miquel,name,husband
+Olivelles,surname,husband
+parayre,occupation,husband
+Caldes,location,husband
+de,location,husband
+Monbuy,location,husband
+Steva,name,husbands_father
+Olivelles,surname,husbands_father
+parayre,occupation,husbands_father
+dita,location,husbands_father
+vila,location,husbands_father
+Gratia,name,husbands_mother
+Paula,name,wife
+donsella,state,wife
+Cortada,surname,wifes_father
+pages,occupation,wifes_father
+frança,location,wifes_father

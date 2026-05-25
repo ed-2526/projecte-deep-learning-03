@@ -1,0 +1,15 @@
+Narcis,name,husband
+Pou,surname,husband
+pages,occupation,husband
+Vilamajor,location,husband
+Pere,name,husbands_father
+Pou,surname,husbands_father
+pages,occupation,husbands_father
+Vilamajor,location,husbands_father
+Margarida,name,husbands_mother
+Sperasa,name,wife
+jaume,name,wifes_father
+Spital,surname,wifes_father
+sastre,occupation,wifes_father
+Canoves,location,wifes_father
+fracesca,name,wifes_mother

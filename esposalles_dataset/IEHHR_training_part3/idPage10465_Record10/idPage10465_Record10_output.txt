@@ -1,0 +1,16 @@
+francesch,name,husband
+Vilar,surname,husband
+parayre,occupation,husband
+regne,location,husband
+de,location,husband
+frança,location,husband
+Sabadell,location,husband
+Cecilia,name,wife
+donsella,state,wife
+Melchior,name,wifes_father
+March,surname,wifes_father
+retor,occupation,wifes_father
+sedor,occupation,wifes_father
+de,occupation,wifes_father
+llana,occupation,wifes_father
+t,name,wifes_mother

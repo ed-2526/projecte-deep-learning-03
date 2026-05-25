@@ -1,0 +1,16 @@
+Gabriel,name,husband
+Monner,surname,husband
+parayre,occupation,husband
+Sparaguera,location,husband
+Antoni,name,husbands_father
+Monner,surname,husbands_father
+parayre,occupation,husbands_father
+Justina,name,husbands_mother
+Catherina,name,wife
+dosella,state,wife
+Antoni,name,wifes_father
+Prats,surname,wifes_father
+parayre,occupation,wifes_father
+dita,location,wifes_father
+vila,location,wifes_father
+Catherina,name,wifes_mother

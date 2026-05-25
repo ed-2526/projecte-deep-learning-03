@@ -1,0 +1,17 @@
+Claudi,name,husband
+Casals,surname,husband
+mestre,occupation,husband
+de,occupation,husband
+cases,occupation,husband
+Mathia,name,husbands_father
+Ca,surname,husbands_father
+sals,surname,husbands_father
+pastisser,occupation,husbands_father
+Bara,location,husbands_father
+Catherina,name,husbands_mother
+Elisabeth,name,wife
+viuda,state,wife
+Juan,name,other_person
+Baldrich,surname,other_person
+veler,occupation,wife
+Bara,location,wife

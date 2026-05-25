@@ -1,0 +1,16 @@
+Juan,name,husband
+Armadans,surname,husband
+pages,occupation,husband
+Bara,location,husband
+Angela,name,wife
+Juan,name,other_person
+Oliver,surname,other_person
+texidor,occupation,wife
+de,occupation,wife
+lli,occupation,wife
+vila,location,wife
+de,location,wife
+Cervera,location,wife
+bisbat,location,wife
+de,location,wife
+Solsona,location,wife

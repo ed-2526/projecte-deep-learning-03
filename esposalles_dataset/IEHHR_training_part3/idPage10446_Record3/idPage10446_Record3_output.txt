@@ -1,0 +1,16 @@
+Luys,name,husband
+Altarriba,surname,husband
+mercader,occupation,husband
+Bara,location,husband
+Juan,name,husbands_father
+Altarriba,surname,husbands_father
+mercader,occupation,husbands_father
+Bellianes,location,husbands_father
+Paula,name,husbands_mother
+Eugenia,name,wife
+donsella,state,wife
+Antoni,name,wifes_father
+Molner,surname,wifes_father
+mercader,occupation,wifes_father
+Bara,location,wifes_father
+Hieronyma,name,wifes_mother

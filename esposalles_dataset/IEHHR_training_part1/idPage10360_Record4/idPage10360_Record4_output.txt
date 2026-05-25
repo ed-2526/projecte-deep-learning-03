@@ -1,0 +1,14 @@
+Raphel,name,husband
+Niubo,surname,husband
+perayre,occupation,husband
+Bara,location,husband
+Salvador,name,husbands_father
+Niubo,surname,husbands_father
+causidich,occupation,husbands_father
+Beneta,name,husbands_mother
+Anna,name,wife
+donsella,state,wife
+Jaume,name,wifes_father
+Suira,surname,wifes_father
+sisteller,occupation,wifes_father
+Raphela,name,wifes_mother

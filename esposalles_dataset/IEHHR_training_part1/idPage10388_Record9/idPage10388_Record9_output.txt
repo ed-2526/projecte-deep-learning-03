@@ -1,0 +1,13 @@
+juan,name,husband
+Codony,surname,husband
+treballador,occupation,husband
+regne,location,husband
+de,location,husband
+fransa,location,husband
+Cardedeu,location,husband
+Ursola,name,wife
+donsella,state,wife
+Barthomeu,name,wifes_father
+Subira,surname,wifes_father
+sisteller,occupation,wifes_father
+Juana,name,wifes_mother

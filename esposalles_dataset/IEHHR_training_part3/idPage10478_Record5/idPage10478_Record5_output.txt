@@ -1,0 +1,12 @@
+Antoni,name,husband
+Aguilar,surname,husband
+sastre,occupation,husband
+Bara,location,husband
+viudo,state,husband
+Eu,name,wife
+laria,name,wife
+viuda,state,wife
+Joan,name,other_person
+Boxo,surname,other_person
+carrater,occupation,wife
+Bara,location,wife

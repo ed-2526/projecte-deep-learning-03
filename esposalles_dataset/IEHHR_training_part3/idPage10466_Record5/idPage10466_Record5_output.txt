@@ -1,0 +1,13 @@
+Bernat,name,husband
+Sabater,surname,husband
+forner,occupation,husband
+regne,location,husband
+de,location,husband
+frança,location,husband
+Bara,location,husband
+Constansa,name,wife
+viuda,state,wife
+joan,name,other_person
+Roger,surname,other_person
+forner,occupation,wife
+Bara,location,wife

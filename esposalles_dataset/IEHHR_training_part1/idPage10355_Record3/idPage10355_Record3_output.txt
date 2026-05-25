@@ -1,0 +1,15 @@
+Matheu,name,husband
+Gasco,surname,husband
+moliner,occupation,husband
+frança,location,husband
+Rocha,location,husband
+Margarida,name,wife
+Pere,name,wifes_father
+Clapes,surname,wifes_father
+parayre,occupation,wifes_father
+Castell,location,wifes_father
+terçol,location,wifes_father
+bisbat,location,wifes_father
+de,location,wifes_father
+Vich,location,wifes_father
+Joana,name,wifes_mother

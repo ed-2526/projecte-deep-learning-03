@@ -1,0 +1,15 @@
+Juan,name,husband
+Dequer,surname,husband
+pages,occupation,husband
+regne,location,husband
+de,location,husband
+frança,location,husband
+Bara,location,husband
+Hieronyma,name,wife
+dosella,state,wife
+Juan,name,wifes_father
+Basi,surname,wifes_father
+pages,occupation,wifes_father
+St,location,wifes_father
+Sadorni,location,wifes_father
+Anna,name,wifes_mother

@@ -1,0 +1,13 @@
+francesch,name,husband
+font,surname,husband
+treballador,occupation,husband
+frances,location,husband
+viudo,state,husband
+Bara,location,husband
+Paula,name,wife
+donsella,state,wife
+Esteva,name,wifes_father
+franquesa,surname,wifes_father
+pages,occupation,wifes_father
+Premia,location,wifes_father
+Magdalena,name,wifes_mother

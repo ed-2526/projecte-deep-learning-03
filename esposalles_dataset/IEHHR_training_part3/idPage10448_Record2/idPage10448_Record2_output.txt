@@ -1,0 +1,12 @@
+Jua,name,husband
+font,surname,husband
+pages,occupation,husband
+Terrassa,location,husband
+viudo,state,husband
+Marga,name,wife
+rida,name,wife
+viuda,state,wife
+Narcis,name,other_person
+Guitart,surname,other_person
+parayre,occupation,wife
+Terrassa,location,wife

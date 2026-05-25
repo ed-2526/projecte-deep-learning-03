@@ -1,0 +1,16 @@
+francesch,name,husband
+Roig,surname,husband
+pages,occupation,husband
+Sitges,location,husband
+Joan,name,husbands_father
+Roig,surname,husbands_father
+pages,occupation,husbands_father
+Violant,name,husbands_mother
+Maria,name,wife
+donsella,state,wife
+joan,name,wifes_father
+Arevig,surname,wifes_father
+mariner,location,wifes_father
+Raphela,name,wifes_mother
+dita,location,wife
+vila,location,wife

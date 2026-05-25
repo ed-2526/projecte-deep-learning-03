@@ -1,0 +1,16 @@
+Antoni,name,husband
+Granera,surname,husband
+negociant,occupation,husband
+Terrassa,location,husband
+Antoni,name,husbands_father
+Granera,surname,husbands_father
+apothecari,occupation,husbands_father
+Eularia,name,husbands_mother
+Eularia,name,wife
+donsella,state,wife
+jaume,name,wifes_father
+Ameller,surname,wifes_father
+pages,occupation,wifes_father
+t,name,wifes_mother
+dita,location,wife
+vila,location,wife

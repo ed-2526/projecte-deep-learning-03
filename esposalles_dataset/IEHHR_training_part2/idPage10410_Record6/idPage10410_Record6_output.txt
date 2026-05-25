@@ -1,0 +1,17 @@
+Antoni,name,husband
+Morell,surname,husband
+droguer,occupation,husband
+Calella,location,husband
+Bara,location,husband
+Antoni,name,husbands_father
+Morell,surname,husbands_father
+mariner,occupation,husbands_father
+Calella,location,husbands_father
+Montserrada,name,husbands_mother
+Maryanna,name,wife
+donsella,state,wife
+Benet,name,wifes_father
+folch,surname,wifes_father
+droguer,occupation,wifes_father
+Bara,location,wifes_father
+Catherina,name,wifes_mother

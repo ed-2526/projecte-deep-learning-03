@@ -1,0 +1,12 @@
+Pere,name,husband
+Cugul,surname,husband
+treballador,occupation,husband
+Bara,location,husband
+viudo,state,husband
+Magina,name,wife
+donsella,state,wife
+Pere,name,wifes_father
+Roig,surname,wifes_father
+fuster,occupation,wifes_father
+Girona,location,wifes_father
+Elisabeth,name,wifes_mother

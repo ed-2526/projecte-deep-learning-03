@@ -1,0 +1,11 @@
+Barthomeu,name,husband
+Genelose,surname,husband
+Italia,location,husband
+pintor,occupation,husband
+Bara,location,husband
+Juana,name,wife
+donsella,state,wife
+Bernat,name,wifes_father
+febrer,surname,wifes_father
+Bara,location,wifes_father
+Anna,name,wifes_mother

@@ -1,0 +1,12 @@
+Climent,name,husband
+ferrer,surname,husband
+hortola,occupation,husband
+Bara,location,husband
+viudo,state,husband
+Magdalena,name,wife
+donsella,state,wife
+juan,name,wifes_father
+Guardia,surname,wifes_father
+pages,occupation,wifes_father
+Plegamans,location,wifes_father
+Angela,name,wifes_mother

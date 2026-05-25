@@ -1,0 +1,17 @@
+Nicolau,name,husband
+Juglar,surname,husband
+pages,occupation,husband
+regne,location,husband
+de,location,husband
+fransa,location,husband
+la,location,husband
+parrochia,location,husband
+de,location,husband
+Lavern,location,husband
+Catherina,name,wife
+donsella,state,wife
+Christophol,name,wifes_father
+Navarro,surname,wifes_father
+parayre,occupation,wifes_father
+Bara,location,wifes_father
+Catherina,name,wifes_mother

@@ -1,0 +1,16 @@
+Jaume,name,husband
+Oller,surname,husband
+pages,occupation,husband
+St,location,husband
+Andreu,location,husband
+de,location,husband
+Pa,location,husband
+lomar,location,husband
+Eularia,name,wife
+donsella,state,wife
+Pere,name,wifes_father
+Jua,name,wifes_father
+Llobateres,surname,wifes_father
+pages,occupation,wifes_father
+Ripollet,location,wifes_father
+Maryanna,name,wifes_mother

@@ -1,0 +1,15 @@
+Onofre,name,husband
+Vinyals,surname,husband
+pages,occupation,husband
+Sarria,location,husband
+Onofre,name,husbands_father
+Vinyals,surname,husbands_father
+pages,occupation,husbands_father
+Elisabeth,name,husbands_mother
+Magina,name,wife
+viuda,state,wife
+franch,name,other_person
+Ricart,surname,other_person
+jove,occupation,wife
+sastre,occupation,wife
+Bara,location,wife

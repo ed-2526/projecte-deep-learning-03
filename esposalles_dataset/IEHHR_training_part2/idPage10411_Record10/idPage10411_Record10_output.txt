@@ -1,0 +1,14 @@
+Jua,name,husband
+Romeu,surname,husband
+pages,occupation,husband
+Castellar,location,husband
+viudo,state,husband
+Violant,name,wife
+donsella,state,wife
+jaume,name,wifes_father
+Davi,surname,wifes_father
+pages,occupation,wifes_father
+St,location,wifes_father
+LLorens,location,wifes_father
+çavall,location,wifes_father
+Aldonsa,name,wifes_mother

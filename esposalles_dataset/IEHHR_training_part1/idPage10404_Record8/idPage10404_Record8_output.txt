@@ -1,0 +1,16 @@
+Bernat,name,husband
+Borrell,surname,husband
+negociant,occupation,husband
+Bara,location,husband
+Pere,name,husbands_father
+Borrell,surname,husbands_father
+baster,occupation,husbands_father
+Girona,location,husbands_father
+Elienor,name,husbands_mother
+Catherina,name,wife
+viuda,state,wife
+Bernadi,name,other_person
+Carantela,surname,other_person
+vedrier,occupation,wife
+Bara,location,wife
+Bara,location,wife

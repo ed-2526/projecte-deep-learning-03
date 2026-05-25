@@ -1,0 +1,16 @@
+Miquel,name,husband
+Barata,surname,husband
+parayre,occupation,husband
+Terrassa,location,husband
+An,name,husbands_father
+toni,name,husbands_father
+Barata,surname,husbands_father
+pages,occupation,husbands_father
+Gabriela,name,husbands_mother
+Aldonsa,name,wife
+donsella,state,wife
+Pere,name,wifes_father
+font,surname,wifes_father
+parayre,occupation,wifes_father
+Terrassa,location,wifes_father
+t,name,wifes_mother

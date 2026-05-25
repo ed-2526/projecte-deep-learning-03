@@ -1,0 +1,13 @@
+Pere,name,husband
+fages,surname,husband
+guadamaciler,occupation,husband
+regne,location,husband
+de,location,husband
+frança,location,husband
+Bara,location,husband
+Maria,name,wife
+viuda,state,wife
+Miquel,name,other_person
+Colomer,surname,other_person
+corder,occupation,wife
+Bara,location,wife

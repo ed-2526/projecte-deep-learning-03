@@ -1,0 +1,9 @@
+Guille,name,husband
+Resonable,surname,husband
+calsater,occupation,husband
+de,occupation,husband
+agulla,occupation,husband
+frances,location,husband
+Bara,location,husband
+Juana,name,wife
+donsella,state,wife

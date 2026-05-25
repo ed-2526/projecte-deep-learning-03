@@ -1,0 +1,15 @@
+Jua,name,husband
+Pau,name,husband
+Vilar,surname,husband
+pages,occupation,husband
+Junqueres,location,husband
+viudo,state,husband
+Eli,name,wife
+sabeth,name,wife
+donsella,state,wife
+Andreu,name,wifes_father
+Bosch,surname,wifes_father
+pages,occupation,wifes_father
+Llissa,location,wifes_father
+demunt,location,wifes_father
+Juna,name,wifes_mother

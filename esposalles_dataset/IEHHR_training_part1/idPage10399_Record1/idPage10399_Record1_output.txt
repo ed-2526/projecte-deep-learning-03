@@ -1,0 +1,15 @@
+Antoni,name,husband
+Duran,surname,husband
+pages,occupation,husband
+Regne,location,husband
+de,location,husband
+fransa,location,husband
+Bara,location,husband
+Elisabeth,name,wife
+Juana,name,wife
+donsella,state,wife
+Bernat,name,wifes_father
+Prats,surname,wifes_father
+forner,occupation,wifes_father
+Bara,location,wifes_father
+Juana,name,wifes_mother

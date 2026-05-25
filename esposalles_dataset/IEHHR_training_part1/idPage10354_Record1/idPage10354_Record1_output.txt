@@ -1,0 +1,16 @@
+Antoni,name,husband
+Colomer,surname,husband
+assaunador,occupation,husband
+Bara,location,husband
+Genis,name,husbands_father
+Colomer,surname,husbands_father
+pages,occupation,husbands_father
+Vilassar,location,husbands_father
+Antiga,name,husbands_mother
+Hieronyma,name,wife
+donsella,state,wife
+Onofre,name,wifes_father
+Esquer,surname,wifes_father
+morraler,occupation,wifes_father
+Bara,location,wifes_father
+Eularia,name,wifes_mother

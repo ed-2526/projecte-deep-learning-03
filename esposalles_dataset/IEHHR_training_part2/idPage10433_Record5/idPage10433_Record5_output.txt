@@ -1,0 +1,15 @@
+Pau,name,husband
+Soler,surname,husband
+scudaller,occupation,husband
+Bara,location,husband
+Pau,name,husbands_father
+Soler,surname,husbands_father
+pages,occupation,husbands_father
+Catherina,name,husbands_mother
+Maria,name,wife
+donsella,state,wife
+francesch,name,wifes_father
+febrer,surname,wifes_father
+pages,occupation,wifes_father
+Premia,location,wifes_father
+Eularia,name,wifes_mother

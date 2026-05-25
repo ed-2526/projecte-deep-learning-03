@@ -1,0 +1,12 @@
+Guerau,name,husband
+fargues,surname,husband
+pentiner,occupation,husband
+Bara,location,husband
+viudo,state,husband
+Maryanna,name,wife
+donsella,state,wife
+Juan,name,wifes_father
+Coll,surname,wifes_father
+pages,occupation,wifes_father
+Massanera,location,wifes_father
+Anna,name,wifes_mother

@@ -1,0 +1,14 @@
+Gabriel,name,husband
+Onofre,name,husband
+Rossell,surname,husband
+sastre,occupation,husband
+Bara,location,husband
+viudo,state,husband
+Monica,name,wife
+donsella,state,wife
+Benet,name,wifes_father
+Balsa,surname,wifes_father
+parayre,occupation,wifes_father
+Grano,location,wifes_father
+llers,location,wifes_father
+Hieronyma,name,wifes_mother

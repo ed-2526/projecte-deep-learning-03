@@ -1,0 +1,16 @@
+Barthomeu,name,husband
+Arus,surname,husband
+parayre,occupation,husband
+Sabadell,location,husband
+Juan,name,husbands_father
+Arus,surname,husbands_father
+parayre,occupation,husbands_father
+Sabadell,location,husbands_father
+Juana,name,husbands_mother
+dionysa,name,wife
+Juan,name,wifes_father
+Pujades,surname,wifes_father
+parayre,occupation,wifes_father
+dita,location,wifes_father
+vila,location,wifes_father
+Juana,name,wifes_mother

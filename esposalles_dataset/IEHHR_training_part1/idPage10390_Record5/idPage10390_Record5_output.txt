@@ -1,0 +1,12 @@
+Salvador,name,husband
+Cellent,surname,husband
+jove,occupation,husband
+cilurgia,occupation,husband
+Bara,location,husband
+viudo,state,husband
+dionysa,name,wife
+viuda,state,wife
+Antoni,name,other_person
+Campderos,surname,other_person
+assahonador,occupation,wife
+Bara,location,wife

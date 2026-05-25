@@ -1,0 +1,15 @@
+Pere,name,husband
+Bassons,surname,husband
+pages,occupation,husband
+Cervello,location,husband
+Jua,name,husbands_father
+Bassos,surname,husbands_father
+pages,occupation,husbands_father
+Antonia,name,husbands_mother
+Madrona,name,wife
+donsella,state,wife
+Pere,name,wifes_father
+Alegre,surname,wifes_father
+pages,occupation,wifes_father
+Castellvi,location,wifes_father
+Juana,name,wifes_mother

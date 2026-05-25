@@ -1,0 +1,12 @@
+Bernat,name,husband
+Glandina,surname,husband
+pages,occupation,husband
+regne,location,husband
+de,location,husband
+fransa,location,husband
+Gava,location,husband
+Elisabeth,name,wife
+viuda,state,wife
+Guille,name,other_person
+Guinot,surname,other_person
+pages,occupation,wife

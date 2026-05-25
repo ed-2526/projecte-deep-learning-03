@@ -1,0 +1,16 @@
+Antoni,name,husband
+Perez,surname,husband
+mestre,occupation,husband
+de,occupation,husband
+cases,occupation,husband
+regne,location,husband
+de,location,husband
+fransa,location,husband
+Bara,location,husband
+florentina,name,wife
+donsella,state,wife
+Pere,name,wifes_father
+de,surname,wifes_father
+Ayala,surname,wifes_father
+correu,occupation,wifes_father
+Maria,name,wifes_mother

@@ -1,0 +1,16 @@
+Gabriel,name,husband
+Prats,surname,husband
+blanquer,occupation,husband
+Bara,location,husband
+Valetia,location,husband
+Guillem,name,husbands_father
+Prats,surname,husbands_father
+sastre,occupation,husbands_father
+Margarida,name,husbands_mother
+Elena,name,wife
+donsella,state,wife
+Montserrat,name,wifes_father
+Solanes,surname,wifes_father
+blanquer,occupation,wifes_father
+Valentia,location,wifes_father
+Margarida,name,wifes_mother

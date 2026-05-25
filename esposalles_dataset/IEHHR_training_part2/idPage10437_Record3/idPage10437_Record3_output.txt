@@ -1,0 +1,14 @@
+Luys,name,husband
+Oller,surname,husband
+pages,occupation,husband
+regne,location,husband
+de,location,husband
+frança,location,husband
+Bara,location,husband
+Maryanna,name,wife
+donsella,state,wife
+Juan,name,wifes_father
+Duran,surname,wifes_father
+pages,occupation,wifes_father
+Puigcerda,location,wifes_father
+t,name,wifes_mother

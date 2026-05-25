@@ -1,0 +1,17 @@
+jaume,name,husband
+Llosada,surname,husband
+mercader,occupation,husband
+Bara,location,husband
+viudo,state,husband
+Maria,name,wife
+donsella,state,wife
+Pere,name,wifes_father
+Ballester,surname,wifes_father
+mercader,occupation,wifes_father
+çafra,location,wifes_father
+en,location,wifes_father
+lo,location,wifes_father
+regne,location,wifes_father
+de,location,wifes_father
+Castella,location,wifes_father
+Simona,name,wifes_mother

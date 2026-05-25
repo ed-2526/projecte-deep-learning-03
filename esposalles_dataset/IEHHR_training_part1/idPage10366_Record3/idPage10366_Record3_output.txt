@@ -1,0 +1,15 @@
+jaume,name,husband
+Masseres,surname,husband
+perayre,occupation,husband
+Terrassa,location,husband
+Guille,name,husbands_father
+Masseres,surname,husbands_father
+perayre,occupation,husbands_father
+Margarida,name,husbands_mother
+Anna,name,wife
+donsella,state,wife
+Honorat,name,wifes_father
+de,name,wifes_father
+Deu,name,wifes_father
+Lleyda,location,wifes_father
+Luciana,name,wifes_mother

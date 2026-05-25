@@ -1,0 +1,14 @@
+Pau,name,husband
+Madrera,surname,husband
+scudaller,occupation,husband
+Bara,location,husband
+Joan,name,husbands_father
+Madrera,surname,husbands_father
+hortola,occupation,husbands_father
+Marquesa,name,husbands_mother
+Angela,name,wife
+viuda,state,wife
+Joa,name,other_person
+Coyua,surname,other_person
+scudaller,occupation,wife
+Bara,location,wife

@@ -1,0 +1,14 @@
+Pere,name,husband
+Sans,surname,husband
+pages,occupation,husband
+regne,location,husband
+de,location,husband
+frança,location,husband
+Bara,location,husband
+Catherina,name,wife
+donsella,state,wife
+Gaspar,name,wifes_father
+Dalba,surname,wifes_father
+pages,occupation,wifes_father
+Bara,location,wifes_father
+francisca,name,wifes_mother

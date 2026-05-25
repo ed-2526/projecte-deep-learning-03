@@ -1,0 +1,17 @@
+francesch,name,husband
+Busquets,surname,husband
+notari,occupation,husband
+figueres,location,husband
+Bara,location,husband
+Barthomeu,name,husbands_father
+Busquets,surname,husbands_father
+sinter,occupation,husbands_father
+dita,location,husbands_father
+vila,location,husbands_father
+Hieronyma,name,husbands_mother
+Praxedis,name,wife
+donsella,state,wife
+Esteva,name,wifes_father
+Colell,surname,wifes_father
+notari,occupation,wifes_father
+franca,name,wifes_mother

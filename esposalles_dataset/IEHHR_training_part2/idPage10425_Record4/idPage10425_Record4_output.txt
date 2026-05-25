@@ -1,0 +1,13 @@
+joan,name,husband
+Vinyes,surname,husband
+treballador,occupation,husband
+regne,location,husband
+de,location,husband
+frança,location,husband
+Bara,location,husband
+Guilleuma,name,wife
+viuda,state,wife
+francesch,name,other_person
+Gualup,surname,other_person
+treballador,occupation,wife
+bara,location,wife

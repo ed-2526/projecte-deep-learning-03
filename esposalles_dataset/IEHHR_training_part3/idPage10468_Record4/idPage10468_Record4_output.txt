@@ -1,0 +1,17 @@
+Sebastia,name,husband
+Bachs,surname,husband
+pages,occupation,husband
+St,location,husband
+Cipria,location,husband
+Marti,name,husbands_father
+Pachs,surname,husbands_father
+pages,occupation,husbands_father
+joana,name,husbands_mother
+Antiga,name,wife
+donsella,state,wife
+An,name,wifes_father
+toni,name,wifes_father
+Plans,surname,wifes_father
+pages,occupation,wifes_father
+Gualba,location,wifes_father
+Margarida,name,wifes_mother

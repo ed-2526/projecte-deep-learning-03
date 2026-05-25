@@ -1,0 +1,15 @@
+Bertran,name,husband
+faubell,surname,husband
+mestre,occupation,husband
+de,occupation,husband
+cases,occupation,husband
+regne,location,husband
+de,location,husband
+frança,location,husband
+Bara,location,husband
+Cecilia,name,wife
+donsella,state,wife
+franch,name,wifes_father
+Redondo,surname,wifes_father
+pages,occupation,wifes_father
+Maria,name,wifes_mother

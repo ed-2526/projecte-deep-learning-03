@@ -1,0 +1,13 @@
+francesch,name,husband
+Nogues,surname,husband
+corder,occupation,husband
+viudo,state,husband
+Bara,location,husband
+Eu,name,wife
+laria,name,wife
+viuda,state,husband
+t,name,other_person
+Torrents,surname,other_person
+texidor,occupation,wife
+de,occupation,wife
+lli,occupation,wife

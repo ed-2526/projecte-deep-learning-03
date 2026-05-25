@@ -1,0 +1,15 @@
+Jua,name,husband
+Bot,surname,husband
+pages,occupation,husband
+Samalus,location,husband
+March,name,husbands_father
+Bot,surname,husbands_father
+pages,occupation,husbands_father
+Antonia,name,husbands_mother
+Antiga,name,wife
+donsella,state,wife
+Montserrat,name,wifes_father
+Busqueta,surname,wifes_father
+pages,occupation,wifes_father
+Castellar,location,wifes_father
+Margarida,name,wifes_mother

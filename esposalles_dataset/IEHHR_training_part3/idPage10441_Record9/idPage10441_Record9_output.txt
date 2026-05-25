@@ -1,0 +1,12 @@
+March,name,husband
+Colomer,surname,husband
+sparter,occupation,husband
+Bara,location,husband
+viudo,state,husband
+Hieronyma,name,wife
+donsella,state,wife
+Miquel,name,wifes_father
+Madril,surname,wifes_father
+sombrarer,occupation,wifes_father
+Bara,location,wifes_father
+Paula,name,wifes_mother

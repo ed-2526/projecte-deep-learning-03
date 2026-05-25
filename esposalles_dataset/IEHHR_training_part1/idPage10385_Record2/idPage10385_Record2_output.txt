@@ -1,0 +1,11 @@
+Pere,name,husband
+Juan,name,husband
+ferran,surname,husband
+mercader,occupation,husband
+Bara,location,husband
+viudo,state,husband
+Hieronyma,surname,wife
+msr,name,other_person
+Pere,surname,other_person
+Soler,surname,other_person
+Bara,location,wife

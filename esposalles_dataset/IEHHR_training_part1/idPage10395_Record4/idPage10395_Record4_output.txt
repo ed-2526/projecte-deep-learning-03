@@ -1,0 +1,14 @@
+Pere,name,husband
+Ros,surname,husband
+treballador,occupation,husband
+fransa,location,husband
+Gra,location,husband
+nollers,location,husband
+Elisabeth,name,wife
+donsella,state,wife
+Blasi,name,wifes_father
+duran,surname,wifes_father
+pages,occupation,wifes_father
+Corro,location,wifes_father
+Devall,location,wifes_father
+Catha,name,wifes_mother

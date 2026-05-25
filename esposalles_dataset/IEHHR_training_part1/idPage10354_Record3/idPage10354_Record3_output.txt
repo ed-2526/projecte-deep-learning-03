@@ -1,0 +1,12 @@
+Pere,name,husband
+fabregas,surname,husband
+tavarner,occupation,husband
+viudo,state,husband
+Bara,location,husband
+Antiga,name,wife
+donsella,state,wife
+Pere,name,wifes_father
+Llores,surname,wifes_father
+fuster,occupation,wifes_father
+Mataro,location,wifes_father
+Margarida,name,wifes_mother

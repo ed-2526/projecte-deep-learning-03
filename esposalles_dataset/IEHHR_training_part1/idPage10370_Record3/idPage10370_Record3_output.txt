@@ -1,0 +1,17 @@
+Pere,name,husband
+Mallol,surname,husband
+notari,occupation,husband
+real,occupation,husband
+Jua,name,husbands_father
+Cipria,name,husbands_father
+Mallol,surname,husbands_father
+notari,occupation,husbands_father
+real,occupation,husbands_father
+Elena,name,husbands_mother
+Mariangela,name,wife
+donsella,state,wife
+Climent,name,wifes_father
+Cortell,surname,wifes_father
+notari,occupation,wifes_father
+Bara,location,wifes_father
+Catherina,name,wifes_mother

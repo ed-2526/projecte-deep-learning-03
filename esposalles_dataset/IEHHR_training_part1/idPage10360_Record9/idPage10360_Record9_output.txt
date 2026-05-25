@@ -1,0 +1,15 @@
+Miquel,name,husband
+Riera,surname,husband
+Granollers,location,husband
+sabater,occupation,husband
+Jua,name,husbands_father
+Riera,surname,husbands_father
+blanquer,occupation,husbands_father
+Miquela,name,husbands_mother
+Marianna,name,wife
+donsella,state,wife
+Bernat,name,wifes_father
+Major,surname,wifes_father
+sastre,occupation,wifes_father
+Vilassar,location,wifes_father
+Paula,name,wifes_mother

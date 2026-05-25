@@ -1,0 +1,13 @@
+Jua,name,husband
+Perega,surname,husband
+comissari,occupation,husband
+real,occupation,husband
+Bara,location,husband
+viudo,state,husband
+Gratia,name,wife
+donsella,state,wife
+Juan,name,wifes_father
+Carbonell,surname,wifes_father
+negociant,occupation,wifes_father
+Bara,location,wifes_father
+Catherina,name,wifes_mother

@@ -1,0 +1,15 @@
+Hieronym,name,husband
+Colomer,surname,husband
+sastre,occupation,husband
+Ribes,location,husband
+Bara,location,husband
+Pheliu,name,husbands_father
+Colomer,surname,husbands_father
+parayre,occupation,husbands_father
+Andreua,name,husbands_mother
+Marianna,name,wife
+donsella,state,wife
+francesch,name,wifes_father
+Creus,surname,wifes_father
+paller,occupation,wifes_father
+joana,name,wifes_mother

@@ -1,0 +1,16 @@
+jaume,name,husband
+Bravo,surname,husband
+tapiner,occupation,husband
+Bara,location,husband
+diego,name,husbands_father
+Bravo,surname,husbands_father
+tapiner,occupation,husbands_father
+Bara,location,husbands_father
+Hieronyma,name,husbands_mother
+Anna,name,wife
+donsella,state,wife
+Montserrat,name,wifes_father
+duran,surname,wifes_father
+boter,occupation,wifes_father
+Bara,location,wifes_father
+Anna,name,wifes_mother

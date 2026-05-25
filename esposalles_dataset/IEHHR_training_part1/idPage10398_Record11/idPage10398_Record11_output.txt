@@ -1,0 +1,8 @@
+Valenti,name,husband
+Colomer,surname,husband
+pages,occupation,husband
+Pierola,location,husband
+Elisabeth,name,wife
+Mates,surname,wife
+dosella,state,wife
+Pierola,location,wife

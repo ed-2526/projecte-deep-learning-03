@@ -1,0 +1,15 @@
+Antoni,name,husband
+Jua,name,husband
+Sarmet,surname,husband
+parayre,occupation,husband
+bara,location,husband
+viudo,state,husband
+Catherina,name,wife
+donsella,state,wife
+jaume,name,wifes_father
+Maymo,surname,wifes_father
+fuster,occupation,wifes_father
+Monistrol,location,wifes_father
+de,location,wifes_father
+Montserrat,location,wifes_father
+Montserrada,name,wifes_mother

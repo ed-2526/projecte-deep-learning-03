@@ -1,0 +1,17 @@
+Esteva,name,husband
+Sayol,surname,husband
+botiguer,occupation,husband
+de,occupation,husband
+teles,occupation,husband
+Bara,location,husband
+Pau,name,husbands_father
+Sayol,surname,husbands_father
+pages,occupation,husbands_father
+Alella,location,husbands_father
+Susanna,name,husbands_mother
+Magdalena,name,wife
+donsella,state,wife
+Raphel,name,wifes_father
+Vinyes,surname,wifes_father
+negociant,occupation,wifes_father
+francina,name,wifes_mother

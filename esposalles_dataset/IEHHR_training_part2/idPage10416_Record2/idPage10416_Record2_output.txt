@@ -1,0 +1,15 @@
+Benet,name,husband
+Gorgui,surname,husband
+pages,occupation,husband
+Corro,location,husband
+devall,location,husband
+viudo,state,husband
+Catherina,name,wife
+viuda,state,wife
+Antoni,name,other_person
+Rocha,surname,other_person
+tavarner,occupation,wife
+LLoret,location,wife
+bisbat,location,wife
+de,location,wife
+Girona,location,wife

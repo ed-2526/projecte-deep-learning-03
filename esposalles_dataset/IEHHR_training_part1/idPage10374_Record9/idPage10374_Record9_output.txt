@@ -1,0 +1,11 @@
+Juan,name,husband
+Mas,surname,husband
+manya,occupation,husband
+Bara,location,husband
+Pere,name,husbands_father
+Mas,surname,husbands_father
+franer,occupation,husbands_father
+Gerona,location,husbands_father
+Margarida,name,husbands_mother
+Elena,name,wife
+dosella,state,wife

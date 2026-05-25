@@ -1,0 +1,15 @@
+jaume,name,husband
+Alzina,surname,husband
+pages,occupation,husband
+Cardedeu,location,husband
+Pere,name,husbands_father
+Alzina,surname,husbands_father
+pages,occupation,husbands_father
+joana,name,husbands_mother
+Hieronyma,name,wife
+donsella,state,wife
+Joa,name,wifes_father
+Gori,surname,wifes_father
+fuster,occupation,wifes_father
+Vilamajor,location,wifes_father
+Paula,name,wifes_mother

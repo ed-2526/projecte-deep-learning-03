@@ -1,0 +1,17 @@
+Valenti,name,husband
+fabrega,surname,husband
+cotoner,occupation,husband
+Manresa,location,husband
+Bara,location,husband
+Giralt,name,husbands_father
+fabrega,surname,husbands_father
+fargayre,occupation,husbands_father
+Manresa,location,husbands_father
+Catherina,name,husbands_mother
+Hieronyma,name,wife
+donsella,state,wife
+Juan,name,wifes_father
+Gatuellas,surname,wifes_father
+cotoner,occupation,wifes_father
+Bara,location,wifes_father
+Margarida,name,wifes_mother

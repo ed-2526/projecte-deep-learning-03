@@ -1,0 +1,12 @@
+Bernat,name,husband
+Devant,surname,husband
+pages,occupation,husband
+regne,location,husband
+de,location,husband
+frança,location,husband
+Prat,location,husband
+Maria,name,wife
+viuda,state,wife
+Barthomeu,name,other_person
+Pages,surname,other_person
+Bara,location,wife

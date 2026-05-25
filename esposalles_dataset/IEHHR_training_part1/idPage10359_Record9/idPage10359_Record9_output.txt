@@ -1,0 +1,14 @@
+Jua,name,husband
+Prescoli,surname,husband
+pages,occupation,husband
+Tortosa,location,husband
+bara,location,husband
+viudo,state,husband
+Speransa,name,wife
+viuda,state,wife
+Jorda,name,other_person
+pages,occupation,wife
+Perello,location,wife
+bisbat,location,wife
+de,location,wife
+Tortosa,location,wife

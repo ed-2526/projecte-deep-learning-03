@@ -1,0 +1,13 @@
+Bernat,name,husband
+Sala,surname,husband
+parayre,occupation,husband
+regne,location,husband
+de,location,husband
+frança,location,husband
+Sabadell,location,husband
+Antonia,name,wife
+donsella,state,wife
+regne,location,wife
+de,location,wife
+frança,location,wife
+Sabadell,location,wife

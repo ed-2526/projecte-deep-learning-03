@@ -1,0 +1,17 @@
+Llorens,name,husband
+Lloix,surname,husband
+pages,occupation,husband
+regne,location,husband
+de,location,husband
+frança,location,husband
+St,location,husband
+Andreu,location,husband
+de,location,husband
+Palomar,location,husband
+Elisabeth,name,wife
+viuda,state,wife
+Bernat,name,other_person
+Casals,surname,other_person
+pages,occupation,wife
+dita,location,wife
+parrochia,location,wife

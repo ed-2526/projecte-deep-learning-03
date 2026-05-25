@@ -1,0 +1,15 @@
+Arnau,name,husband
+Cardalech,surname,husband
+baxador,occupation,husband
+Caldes,location,husband
+de,location,husband
+Monbuy,location,husband
+frances,location,husband
+Beneta,name,wife
+donsella,state,wife
+Barthomeu,name,wifes_father
+olivelles,surname,wifes_father
+parayre,occupation,wifes_father
+dita,location,wifes_father
+vila,location,wifes_father
+Margarida,name,wifes_mother

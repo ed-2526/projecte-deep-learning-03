@@ -1,0 +1,16 @@
+Pau,name,husband
+Soler,surname,husband
+pescador,occupation,husband
+Badalona,location,husband
+franch,name,husbands_father
+Soler,surname,husbands_father
+pescador,occupation,husbands_father
+Badalona,location,husbands_father
+Catherina,name,husbands_mother
+Maria,name,wife
+donsella,state,wife
+Benet,name,wifes_father
+Montagut,surname,wifes_father
+pescador,occupation,wifes_father
+Bara,location,wifes_father
+Juana,name,wifes_mother

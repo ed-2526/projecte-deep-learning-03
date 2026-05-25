@@ -1,0 +1,16 @@
+francesch,name,husband
+Isern,surname,husband
+flaquer,occupation,husband
+regne,location,husband
+de,location,husband
+fraça,location,husband
+Bara,location,husband
+viudo,state,husband
+Elisabeth,name,wife
+Juana,name,wife
+viuda,state,wife
+francesch,name,other_person
+St,surname,other_person
+Pere,surname,other_person
+hortola,occupation,wife
+Bara,location,wife

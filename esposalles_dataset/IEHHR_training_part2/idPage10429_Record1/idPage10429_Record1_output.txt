@@ -1,0 +1,15 @@
+Onofre,name,husband
+Carentella,surname,husband
+vedrier,occupation,husband
+Bara,location,husband
+Juan,name,husbands_father
+Carentella,surname,husbands_father
+vedrier,occupation,husbands_father
+Hieronyma,name,husbands_mother
+Margarida,name,wife
+dosella,state,wife
+Bernat,name,wifes_father
+Vilar,surname,wifes_father
+pages,occupation,wifes_father
+Cornella,location,wifes_father
+Elienor,name,wifes_mother

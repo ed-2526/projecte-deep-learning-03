@@ -1,0 +1,15 @@
+Juan,name,husband
+Guardia,surname,husband
+argenter,occupation,husband
+Bara,location,husband
+Juan,name,husbands_father
+Guardia,surname,husbands_father
+blanquer,occupation,husbands_father
+Bara,location,husbands_father
+Elienor,name,husbands_mother
+Madrona,name,wife
+donsella,state,wife
+Pau,name,wifes_father
+Martell,surname,wifes_father
+garbellador,occupation,wifes_father
+Paula,name,wifes_mother

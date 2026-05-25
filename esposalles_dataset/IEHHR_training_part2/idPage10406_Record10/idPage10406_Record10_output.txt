@@ -1,0 +1,14 @@
+Guillem,name,husband
+Cases,surname,husband
+pages,occupation,husband
+Regne,location,husband
+de,location,husband
+fransa,location,husband
+Sarria,location,husband
+Maryanna,name,wife
+donsella,state,wife
+Pere,name,wifes_father
+Tanyera,surname,wifes_father
+pages,occupation,wifes_father
+bara,location,wifes_father
+Montserrada,name,wifes_mother

@@ -1,0 +1,14 @@
+Luys,name,husband
+Burgues,surname,husband
+llibrater,occupation,husband
+Bara,location,husband
+Jua,name,husbands_father
+Burgues,surname,husbands_father
+llibrater,occupation,husbands_father
+Angela,name,husbands_mother
+Anna,name,wife
+viuda,state,wife
+Jua,name,other_person
+Basili,surname,other_person
+sastre,occupation,wife
+Bara,location,wife

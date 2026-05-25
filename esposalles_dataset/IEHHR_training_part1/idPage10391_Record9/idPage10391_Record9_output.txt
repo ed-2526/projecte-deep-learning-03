@@ -1,0 +1,17 @@
+Juan,name,husband
+Morral,surname,husband
+pages,occupation,husband
+Ebrera,location,husband
+Juan,name,husbands_father
+Morral,surname,husbands_father
+pages,occupation,husbands_father
+Eularia,name,husbands_mother
+Hieronyma,name,wife
+donsella,state,wife
+Llauger,name,wifes_father
+Puiguentos,surname,wifes_father
+pages,occupation,wifes_father
+Aulesa,location,wifes_father
+de,location,wifes_father
+Montserrat,location,wifes_father
+Elisabeth,name,wifes_mother

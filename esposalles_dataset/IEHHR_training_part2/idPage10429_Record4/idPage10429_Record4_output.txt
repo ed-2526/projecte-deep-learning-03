@@ -1,0 +1,14 @@
+Pere,name,husband
+Roses,surname,husband
+sastre,occupation,husband
+Caldes,location,husband
+de,location,husband
+Monbuy,location,husband
+viudo,state,husband
+Catherina,name,wife
+viuda,state,wife
+francesch,name,other_person
+Pedro,surname,other_person
+parayre,occupation,wife
+dita,location,wife
+vila,location,wife

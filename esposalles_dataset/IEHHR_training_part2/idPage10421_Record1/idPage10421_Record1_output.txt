@@ -1,0 +1,16 @@
+Gabriel,name,husband
+Masos,surname,husband
+parayre,occupation,husband
+Bara,location,husband
+viudo,state,husband
+Maryangela,name,wife
+donsella,state,wife
+Vicens,name,wifes_father
+Comes,surname,wifes_father
+sabater,occupation,wifes_father
+Car,location,wifes_father
+dona,location,wifes_father
+bisbat,location,wifes_father
+de,location,wifes_father
+Urgell,location,wifes_father
+juana,name,wifes_mother

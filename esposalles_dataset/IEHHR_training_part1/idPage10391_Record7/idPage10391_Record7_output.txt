@@ -1,0 +1,15 @@
+Luys,name,husband
+Mari,surname,husband
+pescador,occupation,husband
+Bara,location,husband
+franch,name,husbands_father
+Mari,surname,husbands_father
+pescador,occupation,husbands_father
+Montserrada,name,husbands_mother
+Jolita,name,wife
+donsella,state,wife
+Pere,name,wifes_father
+Colomer,surname,wifes_father
+treballador,occupation,wifes_father
+Bara,location,wifes_father
+Magdalena,name,wifes_mother

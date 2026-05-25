@@ -1,0 +1,17 @@
+Joseph,name,husband
+Vives,surname,husband
+negociant,occupation,husband
+Manresa,location,husband
+March,name,husbands_father
+Vives,surname,husbands_father
+botiguer,occupation,husbands_father
+de,occupation,husbands_father
+telas,occupation,husbands_father
+Agnes,name,husbands_mother
+Apollonia,name,wife
+dosella,state,wife
+Miquel,name,wifes_father
+Llargues,surname,wifes_father
+passamaner,occupation,wifes_father
+Bara,location,wifes_father
+Maryanna,name,wifes_mother

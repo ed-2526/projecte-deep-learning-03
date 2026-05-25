@@ -1,0 +1,13 @@
+Phelip,name,husband
+Soler,surname,husband
+sabater,occupation,husband
+Bara,location,husband
+viudo,state,husband
+Catherina,name,wife
+viuda,state,wife
+Domingo,name,other_person
+Cortia,surname,other_person
+calsater,occupation,wife
+de,occupation,wife
+agulla,occupation,wife
+Bara,location,wife

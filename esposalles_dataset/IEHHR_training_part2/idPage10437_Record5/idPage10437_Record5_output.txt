@@ -1,0 +1,13 @@
+Ramon,name,husband
+Dort,surname,husband
+ferrer,occupation,husband
+regne,location,husband
+de,location,husband
+frança,location,husband
+Bara,location,husband
+Paula,name,wife
+viuda,state,wife
+francesch,name,other_person
+Simo,surname,other_person
+pages,occupation,wife
+Bara,location,wife

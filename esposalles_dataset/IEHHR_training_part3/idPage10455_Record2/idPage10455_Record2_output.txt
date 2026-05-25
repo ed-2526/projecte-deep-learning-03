@@ -1,0 +1,17 @@
+Juan,name,husband
+Mauri,surname,husband
+hortola,occupation,husband
+regne,location,husband
+de,location,husband
+frança,location,husband
+Bara,location,husband
+Elena,name,wife
+donsella,state,wife
+Arnau,name,wifes_father
+Romanya,surname,wifes_father
+te,occupation,wifes_father
+xidor,occupation,wifes_father
+de,occupation,wifes_father
+lli,occupation,wifes_father
+Bara,location,wifes_father
+Condo,name,wifes_mother

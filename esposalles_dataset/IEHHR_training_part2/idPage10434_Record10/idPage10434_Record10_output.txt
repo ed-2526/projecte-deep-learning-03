@@ -1,0 +1,13 @@
+Raphel,name,husband
+Contijoch,surname,husband
+notari,occupation,husband
+Luys,name,husbands_father
+Contijoch,surname,husbands_father
+pages,occupation,husbands_father
+Bara,location,husbands_father
+Catherina,name,husbands_mother
+Hieronyma,name,wife
+viuda,state,wife
+jaume,name,other_person
+Comalada,surname,other_person
+cilurgia,occupation,wife

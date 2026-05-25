@@ -1,0 +1,16 @@
+Montserrat,name,husband
+Gibert,surname,husband
+treballador,occupation,husband
+Bara,location,husband
+Montserrat,name,husbands_father
+Gibert,surname,husbands_father
+traginer,occupation,husbands_father
+de,occupation,husbands_father
+mar,occupation,husbands_father
+janota,name,husbands_mother
+Magdalena,name,wife
+donsella,state,wife
+t,name,wifes_father
+Sabater,surname,wifes_father
+parayre,occupation,wifes_father
+t,name,wifes_mother

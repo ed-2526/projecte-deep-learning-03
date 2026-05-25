@@ -1,0 +1,15 @@
+Bertran,name,husband
+Serra,surname,husband
+pages,occupation,husband
+frança,location,husband
+Mon,location,husband
+cada,location,husband
+Maryanna,name,wife
+donsella,state,wife
+Juan,name,wifes_father
+Cifra,surname,wifes_father
+musich,occupation,wifes_father
+Caldes,location,wifes_father
+de,location,wifes_father
+Monbuy,location,wifes_father
+Maria,name,wifes_mother

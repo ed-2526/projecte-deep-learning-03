@@ -1,0 +1,15 @@
+Domingo,name,husband
+Domenech,surname,husband
+treballador,occupation,husband
+regne,location,husband
+de,location,husband
+frança,location,husband
+Hospitalet,location,husband
+Margarida,name,wife
+donsella,state,wife
+Antoni,name,wifes_father
+de,surname,wifes_father
+Uban,surname,wifes_father
+pages,occupation,wifes_father
+Hospitalet,location,wifes_father
+Bertrana,name,wifes_mother

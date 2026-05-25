@@ -1,0 +1,16 @@
+Pere,name,husband
+Subira,surname,husband
+pages,occupation,husband
+Caldes,location,husband
+Destarach,location,husband
+viudo,state,husband
+Margarida,name,wife
+donsella,state,wife
+Benet,name,wifes_father
+Escola,surname,wifes_father
+pages,occupation,wifes_father
+Pineda,location,wifes_father
+bisbat,location,wifes_father
+de,location,wifes_father
+Girona,location,wifes_father
+Eufrasina,name,wifes_mother

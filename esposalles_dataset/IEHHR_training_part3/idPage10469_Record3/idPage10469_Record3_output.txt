@@ -1,0 +1,17 @@
+Bernat,name,husband
+Maumur,surname,husband
+pages,occupation,husband
+regne,location,husband
+de,location,husband
+frança,location,husband
+St,location,husband
+Boy,location,husband
+Maria,name,wife
+viuda,state,wife
+t,name,other_person
+de,surname,other_person
+Latre,surname,other_person
+del,location,wife
+regne,location,wife
+de,location,wife
+Arago,location,wife

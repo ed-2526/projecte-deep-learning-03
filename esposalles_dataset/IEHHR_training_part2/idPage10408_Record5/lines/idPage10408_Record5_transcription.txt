@@ -1,0 +1,4 @@
+idPage10408_Record5_Line0:Dimecres a 3 rebere de Pau Rossell # negociant de Bara fill de
+idPage10408_Record5_Line1:Jua Rossell negociant de Bara y de Catherina defuncts ab Cecilia
+idPage10408_Record5_Line2:donsella filla de francesch Llinas pages de Vilamajor y de Juana
+idPage10408_Record5_Line3:defuncts

@@ -1,0 +1,17 @@
+Hypolit,name,husband
+Muntaner,surname,husband
+doctor,occupation,husband
+del,occupation,husband
+Real,occupation,husband
+Consell,occupation,husband
+viudo,state,husband
+francisca,name,wife
+donsella,state,wife
+Solanell,surname,wifes_father
+donsell,occupation,wifes_father
+Ribes,location,wifes_father
+domiciliat,location,wifes_father
+bisbat,location,wifes_father
+de,location,wifes_father
+Urgell,location,wifes_father
+t,name,wifes_mother

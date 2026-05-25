@@ -1,0 +1,16 @@
+Antoni,name,husband
+Del,surname,husband
+Peig,surname,husband
+parayre,occupation,husband
+regne,location,husband
+de,location,husband
+frança,location,husband
+Sabadell,location,husband
+Antonia,name,wife
+viuda,state,wife
+Guinot,name,other_person
+Amoros,surname,other_person
+mestre,occupation,wife
+de,occupation,wife
+cases,occupation,wife
+Sabadell,location,wife

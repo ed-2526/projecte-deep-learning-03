@@ -1,0 +1,11 @@
+franch,name,husband
+Saurina,surname,husband
+manya,occupation,husband
+Bara,location,husband
+viudo,state,husband
+Catherina,name,wife
+viuda,state,wife
+t,name,other_person
+Grau,surname,other_person
+blanquer,occupation,wife
+Cervera,location,wife

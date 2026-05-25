@@ -1,0 +1,16 @@
+Miquel,name,husband
+Vedrinas,surname,husband
+parayre,occupation,husband
+Terrassa,location,husband
+Miquel,name,husbands_father
+Vedrinas,surname,husbands_father
+parayre,occupation,husbands_father
+Montserrada,name,husbands_mother
+Elisabeth,name,wife
+donsella,state,wife
+Jua,name,wifes_father
+Mathia,surname,wifes_father
+parayre,occupation,wifes_father
+dita,location,wifes_father
+vila,location,wifes_father
+Elisabeth,name,wifes_mother

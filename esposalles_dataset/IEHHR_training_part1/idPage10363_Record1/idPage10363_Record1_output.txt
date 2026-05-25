@@ -1,0 +1,14 @@
+Salvador,name,husband
+Vinyals,surname,husband
+viudo,state,husband
+parayre,occupation,husband
+Aulesa,location,husband
+de,location,husband
+Montserrat,location,husband
+Antiga,name,wife
+viuda,state,husband
+Salvador,name,other_person
+Mates,surname,other_person
+traginer,occupation,wife
+dita,location,wife
+parrochia,location,wife

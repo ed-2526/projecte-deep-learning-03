@@ -1,0 +1,14 @@
+Pau,name,husband
+Baget,surname,husband
+pages,occupation,husband
+St,location,husband
+Andreu,location,husband
+de,location,husband
+Palomar,location,husband
+viudo,state,husband
+Anna,name,wife
+viuda,state,wife
+Jua,name,other_person
+Graner,surname,other_person
+sastre,occupation,wife
+Bara,location,wife

@@ -1,0 +1,14 @@
+Pau,name,husband
+ferran,surname,husband
+botiguer,occupation,husband
+de,occupation,husband
+telas,occupation,husband
+viudo,state,husband
+Bara,location,husband
+Marianna,name,wife
+donsella,state,wife
+jaume,name,wifes_father
+Blanxart,surname,wifes_father
+mercader,occupation,wifes_father
+Bara,location,wifes_father
+francina,name,wifes_mother

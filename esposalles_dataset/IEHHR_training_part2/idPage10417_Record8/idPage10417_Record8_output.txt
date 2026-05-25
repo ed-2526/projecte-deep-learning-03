@@ -1,0 +1,16 @@
+Juan,name,husband
+Sunyol,surname,husband
+pages,occupation,husband
+Badalona,location,husband
+Jua,name,husbands_father
+Sunyol,surname,husbands_father
+pages,occupation,husbands_father
+Margarida,name,husbands_mother
+Catherina,name,wife
+donsella,state,wife
+Gabriel,name,wifes_father
+Nadal,surname,wifes_father
+Creus,surname,wifes_father
+pages,occupation,wifes_father
+Taya,location,wifes_father
+Hieronyma,name,wifes_mother

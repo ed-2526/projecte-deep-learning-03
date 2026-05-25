@@ -1,0 +1,16 @@
+Pere,name,husband
+Pellisser,surname,husband
+assahonador,occupation,husband
+Guimera,location,husband
+Bara,location,husband
+viudo,state,husband
+Antonia,name,wife
+donsella,state,wife
+Barthomeu,name,wifes_father
+Verges,surname,wifes_father
+pages,occupation,wifes_father
+Baga,location,wifes_father
+bisbat,location,wifes_father
+de,location,wifes_father
+Urgell,location,wifes_father
+joana,name,wifes_mother

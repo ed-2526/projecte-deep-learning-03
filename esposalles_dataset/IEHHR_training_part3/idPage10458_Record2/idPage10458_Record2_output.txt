@@ -1,0 +1,15 @@
+Jordi,name,husband
+Bolvena,surname,husband
+pages,occupation,husband
+regne,location,husband
+de,location,husband
+frança,location,husband
+Mataro,location,husband
+Maria,name,wife
+donsella,state,wife
+Antoni,name,wifes_father
+Tarrego,surname,wifes_father
+pes,occupation,wifes_father
+cador,occupation,wifes_father
+Mataro,location,wifes_father
+Margarida,name,wifes_mother

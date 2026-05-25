@@ -1,0 +1,16 @@
+Guillem,name,husband
+Manent,surname,husband
+pages,occupation,husband
+Gava,location,husband
+Arnau,name,husbands_father
+Manet,surname,husbands_father
+pages,occupation,husbands_father
+Tecla,name,husbands_mother
+Paula,name,wife
+donsella,state,wife
+Vicens,name,wifes_father
+Vinader,surname,wifes_father
+pages,occupation,wifes_father
+Castell,location,wifes_father
+defels,location,wifes_father
+Margarida,name,wifes_mother

@@ -1,0 +1,12 @@
+Vidal,name,husband
+Pas,surname,husband
+carrater,occupation,husband
+Bara,location,husband
+viudo,state,husband
+Hieronyma,name,wife
+donsella,state,wife
+Juan,name,wifes_father
+Marti,surname,wifes_father
+pages,occupation,wifes_father
+Agulla,location,wifes_father
+Angela,name,wifes_mother

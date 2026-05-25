@@ -1,0 +1,15 @@
+Jua,name,husband
+Crich,surname,husband
+frança,location,husband
+Spa,location,husband
+raguera,location,husband
+Maryanna,name,wife
+dosella,state,wife
+Jua,name,wifes_father
+Valta,surname,wifes_father
+texidor,occupation,wifes_father
+de,occupation,wifes_father
+llana,occupation,wifes_father
+frança,location,wifes_father
+Sparaguera,location,wifes_father
+Catherina,name,wifes_mother

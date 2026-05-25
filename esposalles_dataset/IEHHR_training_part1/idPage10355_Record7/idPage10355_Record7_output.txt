@@ -1,0 +1,11 @@
+Climent,name,husband
+Llobet,surname,husband
+passamaner,occupation,husband
+viudo,state,husband
+Bara,location,husband
+Magdalena,name,wife
+viuda,state,husband
+Barthomeu,name,other_person
+Noves,surname,other_person
+batifuller,occupation,wife
+bara,location,wife

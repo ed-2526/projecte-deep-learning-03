@@ -1,0 +1,13 @@
+Antoni,name,husband
+Bauras,surname,husband
+texidor,occupation,husband
+de,occupation,husband
+lli,occupation,husband
+Bara,location,husband
+viudo,state,husband
+Elienor,name,wife
+viuda,state,husband
+Pere,name,other_person
+font,surname,other_person
+pages,occupation,wife
+Bara,location,wife

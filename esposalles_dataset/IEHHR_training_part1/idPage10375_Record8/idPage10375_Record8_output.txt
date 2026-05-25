@@ -1,0 +1,14 @@
+Samso,name,husband
+Demont,surname,husband
+frances,location,husband
+mestre,occupation,husband
+de,occupation,husband
+cases,occupation,husband
+Mataro,location,husband
+Maria,name,wife
+donsella,state,wife
+Antoni,name,wifes_father
+Carles,surname,wifes_father
+parayre,occupation,wifes_father
+Mataro,location,wifes_father
+francina,name,wifes_mother

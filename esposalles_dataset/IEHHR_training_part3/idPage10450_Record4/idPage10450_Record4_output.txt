@@ -1,0 +1,14 @@
+Antoni,name,husband
+Valls,surname,husband
+pages,occupation,husband
+St,location,husband
+Vicens,location,husband
+de,location,husband
+Llevaneres,location,husband
+viudo,state,husband
+Maryangela,name,wife
+viuda,state,wife
+francesch,name,other_person
+Modolell,surname,other_person
+pages,occupation,wife
+Sarria,location,wife

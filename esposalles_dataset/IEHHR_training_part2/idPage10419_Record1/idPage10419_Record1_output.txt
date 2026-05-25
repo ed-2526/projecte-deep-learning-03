@@ -1,0 +1,17 @@
+Vicens,name,husband
+Cabessa,surname,husband
+sabater,occupation,husband
+Sparaguera,location,husband
+jaume,name,husbands_father
+Cabessa,surname,husbands_father
+sabater,occupation,husbands_father
+Sparaguera,location,husbands_father
+Catherina,name,husbands_mother
+Hieronyma,name,wife
+donsella,state,wife
+Juan,name,wifes_father
+Boter,surname,wifes_father
+parayre,occupation,wifes_father
+spara,location,wifes_father
+guera,location,wifes_father
+Magdalena,name,wifes_mother

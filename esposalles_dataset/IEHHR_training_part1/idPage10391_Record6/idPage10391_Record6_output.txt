@@ -1,0 +1,13 @@
+Jua,name,husband
+Oliveres,surname,husband
+pages,occupation,husband
+Llissa,location,husband
+demunt,location,husband
+viudo,state,husband
+Maria,name,wife
+donsella,state,wife
+Juan,name,wifes_father
+Pruna,surname,wifes_father
+pages,occupation,wifes_father
+far,location,wifes_father
+Beneta,name,wifes_mother

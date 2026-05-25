@@ -1,0 +1,10 @@
+Pere,name,husband
+Guardia,surname,husband
+mercer,occupation,husband
+fransa,location,husband
+Bara,location,husband
+Victoria,name,wife
+viuda,state,wife
+Rocha,name,other_person
+pages,occupation,wife
+Bara,location,wife

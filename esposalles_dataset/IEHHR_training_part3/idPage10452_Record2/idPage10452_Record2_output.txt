@@ -1,0 +1,15 @@
+Pere,name,husband
+Gori,surname,husband
+pages,occupation,husband
+Vilamajor,location,husband
+Pere,name,husbands_father
+Gori,surname,husbands_father
+pages,occupation,husbands_father
+Catherina,name,husbands_mother
+Margarida,name,wife
+donsella,state,wife
+Onofre,name,wifes_father
+Puiguert,surname,wifes_father
+pages,occupation,wifes_father
+Coll,location,wifes_father
+t,name,wifes_mother

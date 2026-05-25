@@ -1,0 +1,16 @@
+Jua,name,husband
+Viguet,surname,husband
+blanquer,occupation,husband
+Mallorca,location,husband
+Bara,location,husband
+Antoni,name,husbands_father
+Viguet,surname,husbands_father
+blanquer,occupation,husbands_father
+Mallorca,location,husbands_father
+Hieronyma,name,husbands_mother
+Antonina,name,wife
+viuda,state,wife
+Gaspar,name,other_person
+Alguer,surname,other_person
+forner,occupation,wife
+Mallorca,location,wife

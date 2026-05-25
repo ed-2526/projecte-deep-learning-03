@@ -1,0 +1,11 @@
+Jua,name,husband
+forment,surname,husband
+treballador,occupation,husband
+frances,location,husband
+Bara,location,husband
+Elisabeth,name,wife
+donsella,state,wife
+Perriz,name,wifes_father
+Badia,surname,wifes_father
+treballador,occupation,wifes_father
+Elisabeth,name,wifes_mother

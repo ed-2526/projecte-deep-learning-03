@@ -1,0 +1,6 @@
+Bertran,name,husband
+Sola,surname,husband
+baxador,occupation,husband
+Eleonor,name,wife
+Vinyals,surname,wife
+viuda,state,wife

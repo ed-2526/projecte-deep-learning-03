@@ -1,0 +1,15 @@
+Antoni,name,husband
+Asca,surname,husband
+guadamaciler,occupation,husband
+frances,location,husband
+Bara,location,husband
+Margarida,name,wife
+donsella,state,wife
+Pere,name,wifes_father
+Blanch,surname,wifes_father
+fuster,occupation,wifes_father
+Ripoll,location,wifes_father
+bisbat,location,wifes_father
+de,location,wifes_father
+Vich,location,wifes_father
+Catherina,name,wifes_mother

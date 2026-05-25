@@ -1,0 +1,10 @@
+Pere,name,husband
+Sala,surname,husband
+pages,occupation,husband
+Taya,location,husband
+Juan,name,husbands_father
+Sala,surname,husbands_father
+pages,occupation,husbands_father
+Angela,name,husbands_mother
+Magdalena,name,wife
+donsella,state,wife

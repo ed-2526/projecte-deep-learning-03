@@ -1,0 +1,16 @@
+francesch,name,husband
+Oms,surname,husband
+pages,occupation,husband
+LLerona,location,husband
+Antoni,name,husbands_father
+Oms,surname,husbands_father
+pages,occupation,husbands_father
+Llerona,location,husbands_father
+Antiga,name,husbands_mother
+Maria,name,wife
+donsella,state,wife
+t,name,wifes_father
+Cosco,surname,wifes_father
+pages,occupation,wifes_father
+Palaudaries,location,wifes_father
+t,name,wifes_mother

@@ -1,0 +1,11 @@
+Juan,name,husband
+Isan,surname,husband
+frances,location,husband
+Bara,location,husband
+Sperasa,name,wife
+donsella,state,wife
+Pere,name,wifes_father
+Prexens,surname,wifes_father
+porter,occupation,wifes_father
+real,occupation,wifes_father
+Speransa,name,wifes_mother

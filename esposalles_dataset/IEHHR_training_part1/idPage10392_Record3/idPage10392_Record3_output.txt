@@ -1,0 +1,11 @@
+jaume,name,husband
+Alomar,surname,husband
+calafat,occupation,husband
+viudo,state,husband
+Bara,location,husband
+Margarida,name,wife
+viuda,state,wife
+Antoni,name,other_person
+Casanoves,surname,other_person
+pescador,occupation,wife
+Bara,location,wife

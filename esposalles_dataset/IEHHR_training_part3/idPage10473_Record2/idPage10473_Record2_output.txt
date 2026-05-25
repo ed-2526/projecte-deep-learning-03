@@ -1,0 +1,15 @@
+Joan,name,husband
+Soler,surname,husband
+sabater,occupation,husband
+Bara,location,husband
+Pere,name,husbands_father
+Soler,surname,husbands_father
+pages,occupation,husbands_father
+Joana,name,husbands_mother
+Tecla,name,wife
+donsella,state,wife
+jaume,name,wifes_father
+Mi,surname,wifes_father
+randa,surname,wifes_father
+sabater,occupation,wifes_father
+Tecla,name,wifes_mother

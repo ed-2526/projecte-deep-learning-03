@@ -1,0 +1,14 @@
+Barthomeu,name,husband
+Dunyo,surname,husband
+pages,occupation,husband
+St,location,husband
+Boy,location,husband
+viudo,state,husband
+Elisabeth,name,wife
+donsella,state,wife
+Barthomeu,name,wifes_father
+Vendrell,surname,wifes_father
+pages,occupation,wifes_father
+dita,location,wifes_father
+vila,location,wifes_father
+t,name,wifes_mother

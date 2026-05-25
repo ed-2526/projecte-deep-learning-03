@@ -1,0 +1,15 @@
+Pere,name,husband
+Lorman,surname,husband
+pages,occupation,husband
+frança,location,husband
+Bara,location,husband
+Hieronyma,name,wife
+donsella,state,wife
+Juan,name,wifes_father
+Borrell,surname,wifes_father
+pages,occupation,wifes_father
+Agramunt,location,wifes_father
+bisbat,location,wifes_father
+de,location,wifes_father
+Urgell,location,wifes_father
+Elisabeth,name,wifes_mother

@@ -1,0 +1,14 @@
+Juan,name,husband
+Anglada,surname,husband
+parayre,occupation,husband
+regne,location,husband
+de,location,husband
+fransa,location,husband
+Bara,location,husband
+Maria,name,wife
+donsella,state,wife
+francesch,name,wifes_father
+Alomir,surname,wifes_father
+parayre,occupation,wifes_father
+Bara,location,wifes_father
+Coloma,name,wifes_mother

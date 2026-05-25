@@ -1,0 +1,17 @@
+Marsal,name,husband
+Minvart,surname,husband
+parayre,occupation,husband
+St,location,husband
+Celoni,location,husband
+Nicolau,name,husbands_father
+Minvart,surname,husbands_father
+Catherina,name,husbands_mother
+Maria,name,wife
+donsella,state,wife
+Bernat,name,wifes_father
+Alba,surname,wifes_father
+nell,surname,wifes_father
+parayre,occupation,wifes_father
+dita,location,wifes_father
+vila,location,wifes_father
+Maryanna,name,wifes_mother

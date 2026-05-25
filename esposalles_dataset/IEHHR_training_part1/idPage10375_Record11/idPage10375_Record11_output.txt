@@ -1,0 +1,13 @@
+Pere,name,husband
+fornes,surname,husband
+pentiner,occupation,husband
+regne,location,husband
+de,location,husband
+fransa,location,husband
+Bara,location,husband
+Margarida,name,wife
+donsella,state,wife
+Perriz,name,wifes_father
+Patau,surname,wifes_father
+poater,occupation,wifes_father
+Juana,name,wifes_mother

@@ -1,0 +1,16 @@
+jaume,name,husband
+Pages,surname,husband
+pages,occupation,husband
+Parelada,location,husband
+Bara,location,husband
+Antoni,name,husbands_father
+Pages,surname,husbands_father
+pages,occupation,husbands_father
+Parelada,location,husbands_father
+Elisabeth,name,husbands_mother
+Maryanna,name,wife
+viuda,state,wife
+Pere,name,other_person
+Mila,surname,other_person
+fuster,occupation,wife
+Bara,location,wife

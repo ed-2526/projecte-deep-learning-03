@@ -1,0 +1,14 @@
+Narcis,name,husband
+Peralta,surname,husband
+Bara,location,husband
+jaume,name,husbands_father
+Peralta,surname,husbands_father
+notari,occupation,husbands_father
+Elisabeth,name,wife
+donsella,state,wife
+Miquel,name,wifes_father
+Marti,surname,wifes_father
+mercader,occupation,wifes_father
+Bara,location,wifes_father
+t,name,husbands_mother
+t,name,wifes_mother

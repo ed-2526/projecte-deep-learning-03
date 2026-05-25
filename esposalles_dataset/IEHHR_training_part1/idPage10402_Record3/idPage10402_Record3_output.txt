@@ -1,0 +1,16 @@
+Joseph,name,husband
+Muntells,surname,husband
+daguer,occupation,husband
+Bara,location,husband
+franch,name,husbands_father
+Muntells,surname,husbands_father
+veler,occupation,husbands_father
+Bara,location,husbands_father
+Anna,name,husbands_mother
+francisca,name,wife
+donsella,state,wife
+francesch,name,wifes_father
+Castells,surname,wifes_father
+daguer,occupation,wifes_father
+Bara,location,wifes_father
+Violant,name,wifes_mother

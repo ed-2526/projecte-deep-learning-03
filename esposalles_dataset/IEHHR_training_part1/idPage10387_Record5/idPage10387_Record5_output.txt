@@ -1,0 +1,14 @@
+Benet,name,husband
+Bernuix,surname,husband
+flaquer,occupation,husband
+Bara,location,husband
+Hierony,name,husbands_father
+Bernuix,surname,husbands_father
+flaquer,occupation,husbands_father
+Maria,name,husbands_mother
+Margarida,name,wife
+viuda,state,wife
+francesch,name,other_person
+Bertran,surname,other_person
+sastre,occupation,wife
+Bara,location,wife

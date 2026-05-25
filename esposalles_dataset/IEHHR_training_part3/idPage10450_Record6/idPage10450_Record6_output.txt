@@ -1,0 +1,14 @@
+Pere,name,husband
+Lacumba,surname,husband
+pastisser,occupation,husband
+regne,location,husband
+de,location,husband
+frança,location,husband
+Bara,location,husband
+Maria,name,wife
+donsella,state,wife
+Pere,name,wifes_father
+Davesa,surname,wifes_father
+pastisser,occupation,wifes_father
+Bara,location,wifes_father
+t,name,wifes_mother

@@ -1,0 +1,14 @@
+Juan,name,husband
+Tatare,surname,husband
+treballador,occupation,husband
+regne,location,husband
+de,location,husband
+fraça,location,husband
+Bara,location,husband
+Juana,name,wife
+donsella,state,wife
+Juan,name,wifes_father
+Idrach,surname,wifes_father
+treballador,occupation,wifes_father
+Granollers,location,wifes_father
+Bernada,name,wifes_mother

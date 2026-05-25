@@ -1,0 +1,16 @@
+Barthomeu,name,husband
+Pere,name,husband
+Gual,surname,husband
+texidor,occupation,husband
+de,occupation,husband
+llana,occupation,husband
+Bara,location,husband
+viudo,state,husband
+Margarida,name,wife
+Pere,name,other_person
+ferrer,surname,other_person
+treballador,occupation,wife
+Montalegre,location,wife
+Archebisbat,location,wife
+de,location,wife
+Tarragona,location,wife

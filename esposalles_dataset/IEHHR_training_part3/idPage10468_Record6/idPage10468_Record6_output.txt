@@ -1,0 +1,15 @@
+Bernat,name,husband
+Xerri,surname,husband
+manya,occupation,husband
+regne,location,husband
+de,location,husband
+frança,location,husband
+Bara,location,husband
+viudo,state,husband
+Maria,name,wife
+donsella,state,wife
+Antoni,name,wifes_father
+Amat,surname,wifes_father
+ferrer,occupation,wifes_father
+Bara,location,wifes_father
+Speransa,name,wifes_mother

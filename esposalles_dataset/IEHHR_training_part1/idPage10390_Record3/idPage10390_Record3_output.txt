@@ -1,0 +1,13 @@
+Juan,name,husband
+Pons,surname,husband
+pages,occupation,husband
+regne,location,husband
+de,location,husband
+fransa,location,husband
+Bara,location,husband
+Catherina,name,wife
+viuda,state,wife
+Esteve,name,other_person
+Vinyar,surname,other_person
+sastre,occupation,wife
+Bara,location,wife

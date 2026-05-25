@@ -1,0 +1,11 @@
+jaume,name,husband
+Nadal,surname,husband
+pages,occupation,husband
+Tiana,location,husband
+viudo,state,husband
+Maryanna,name,wife
+viuda,state,wife
+Barthomeu,name,other_person
+Sora,surname,other_person
+pages,occupation,wife
+Rocha,location,wife

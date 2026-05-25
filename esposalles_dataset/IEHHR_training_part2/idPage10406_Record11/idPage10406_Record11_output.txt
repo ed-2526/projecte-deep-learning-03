@@ -1,0 +1,16 @@
+Pere,name,husband
+Riera,surname,husband
+pages,occupation,husband
+St,location,husband
+Vicens,location,husband
+de,location,husband
+llavaneres,location,husband
+viudo,state,husband
+Antonia,name,wife
+viuda,state,wife
+Barthomeu,name,other_person
+Riera,surname,other_person
+fener,surname,other_person
+pages,occupation,wife
+dita,location,wife
+parrochia,location,wife

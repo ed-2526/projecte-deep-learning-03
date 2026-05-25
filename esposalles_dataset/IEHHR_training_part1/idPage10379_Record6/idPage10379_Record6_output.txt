@@ -1,0 +1,17 @@
+Jaume,name,husband
+Salavert,surname,husband
+parayre,occupation,husband
+Terrassa,location,husband
+Antich,name,husbands_father
+Salavert,surname,husbands_father
+parayre,occupation,husbands_father
+Sabadell,location,husbands_father
+Juana,name,husbands_mother
+Maria,name,wife
+donsella,state,wife
+March,name,wifes_father
+March,name,wifes_father
+Maseres,surname,wifes_father
+parayre,occupation,wifes_father
+Terrassa,location,wifes_father
+Marianna,name,wifes_mother

@@ -1,0 +1,13 @@
+Pere,name,husband
+Serra,surname,husband
+pages,occupation,husband
+regne,location,husband
+de,location,husband
+fransa,location,husband
+Cornella,location,husband
+Paula,name,wife
+donsella,state,wife
+Phelip,name,wifes_father
+Liberos,surname,wifes_father
+pages,occupation,wifes_father
+Juana,name,wifes_mother

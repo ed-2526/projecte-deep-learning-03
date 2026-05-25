@@ -1,0 +1,15 @@
+Hierony,name,husband
+Toreno,surname,husband
+pintor,occupation,husband
+Mataro,location,husband
+t,name,husbands_father
+t,name,husbands_mother
+Margarida,name,wife
+donsella,state,wife
+Pere,name,wifes_father
+Tries,surname,wifes_father
+pages,occupation,wifes_father
+de,location,wifes_father
+St,location,wifes_father
+Boy,location,wifes_father
+Eularia,name,wifes_mother

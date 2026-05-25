@@ -1,0 +1,12 @@
+Domingo,name,husband
+Claros,surname,husband
+corder,occupation,husband
+Bara,location,husband
+viudo,state,husband
+Philippa,name,wife
+donsella,state,wife
+Joan,name,wifes_father
+Rovira,surname,wifes_father
+pescador,occupation,wifes_father
+Bara,location,wifes_father
+Speransa,name,wifes_mother

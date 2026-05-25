@@ -1,0 +1,15 @@
+Joseph,name,husband
+Papiol,surname,husband
+matalafer,occupation,husband
+Bara,location,husband
+Hieronym,name,husbands_father
+Papiol,surname,husbands_father
+matalafer,occupation,husbands_father
+Maryanna,name,husbands_mother
+Maryanna,name,wife
+donsella,state,wife
+Gaspar,name,wifes_father
+Rostoll,surname,wifes_father
+algutsir,occupation,wifes_father
+extraordinari,occupation,wifes_father
+Anna,name,wifes_mother

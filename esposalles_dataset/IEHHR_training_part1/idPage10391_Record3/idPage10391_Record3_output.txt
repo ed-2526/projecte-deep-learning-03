@@ -1,0 +1,15 @@
+Jua,name,husband
+Alavedra,surname,husband
+parayre,occupation,husband
+Abrera,location,husband
+Juan,name,husbands_father
+Alavedra,surname,husbands_father
+pages,occupation,husbands_father
+francina,name,husbands_mother
+Eularia,name,wife
+donsella,state,wife
+Antoni,name,wifes_father
+Jua,name,wifes_father
+Bassa,surname,wifes_father
+Hieronyma,name,wifes_mother
+Abrera,location,wife

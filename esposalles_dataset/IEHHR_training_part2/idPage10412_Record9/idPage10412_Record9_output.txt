@@ -1,0 +1,14 @@
+jaume,name,husband
+Bergada,surname,husband
+blanquer,occupation,husband
+Bara,location,husband
+Matheu,name,husbands_father
+Bergada,surname,husbands_father
+blanquer,occupation,husbands_father
+Maryanna,name,husbands_mother
+Susanna,name,wife
+donsella,state,wife
+Pau,name,wifes_father
+Masons,surname,wifes_father
+perayre,occupation,wifes_father
+Elisabeth,name,wifes_mother

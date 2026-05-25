@@ -1,0 +1,15 @@
+Pere,name,husband
+Vidal,surname,husband
+pages,occupation,husband
+Vinyols,location,husband
+Juan,name,husbands_father
+Vidal,surname,husbands_father
+pages,occupation,husbands_father
+Magdalena,name,husbands_mother
+Maria,name,wife
+donsella,state,wife
+Gregori,name,wifes_father
+Pomes,surname,wifes_father
+tavarner,occupation,wifes_father
+Bara,location,wifes_father
+Magdalena,name,wifes_mother

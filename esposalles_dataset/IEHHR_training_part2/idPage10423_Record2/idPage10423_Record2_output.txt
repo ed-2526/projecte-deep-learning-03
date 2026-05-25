@@ -1,0 +1,13 @@
+juan,name,husband
+Pros,surname,husband
+pages,occupation,husband
+Regne,location,husband
+de,location,husband
+frança,location,husband
+Sarria,location,husband
+Beneta,name,wife
+viuda,state,wife
+Bernat,name,other_person
+Costant,surname,other_person
+sastre,occupation,wife
+Sarria,location,wife

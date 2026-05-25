@@ -1,0 +1,17 @@
+Antoni,name,husband
+janer,surname,husband
+mariner,occupation,husband
+Vilalba,location,husband
+Bara,location,husband
+Miquel,name,husbands_father
+janer,surname,husbands_father
+pages,occupation,husbands_father
+Catherina,name,husbands_mother
+Anna,name,wife
+Maria,name,wife
+donsella,state,wife
+Sagimon,name,wifes_father
+ferran,surname,wifes_father
+hortola,occupation,wifes_father
+Bara,location,wifes_father
+Magdalena,name,wifes_mother

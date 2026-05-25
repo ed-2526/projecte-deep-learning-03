@@ -1,0 +1,16 @@
+Pau,name,husband
+Rialt,surname,husband
+parayre,occupation,husband
+Sparaguera,location,husband
+Miquel,name,husbands_father
+Rialt,surname,husbands_father
+pages,occupation,husbands_father
+Juana,name,husbands_mother
+Eularia,name,wife
+donsella,state,wife
+Antoni,name,wifes_father
+Es,surname,wifes_father
+teva,surname,wifes_father
+pages,occupation,wifes_father
+Mediona,location,wifes_father
+Catherina,name,wifes_mother

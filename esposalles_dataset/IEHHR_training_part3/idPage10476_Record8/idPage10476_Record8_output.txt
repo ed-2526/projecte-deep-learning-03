@@ -1,0 +1,16 @@
+Bernat,name,husband
+Pampinya,surname,husband
+sastre,occupation,husband
+Granollers,location,husband
+Antoni,name,husbands_father
+Pampinya,surname,husbands_father
+sastre,occupation,husbands_father
+Eleonor,name,husbands_mother
+Antiga,name,wife
+viuda,state,wife
+Jua,name,other_person
+Antich,name,other_person
+Alavall,surname,other_person
+argenter,occupation,wife
+dita,location,wife
+vila,location,wife

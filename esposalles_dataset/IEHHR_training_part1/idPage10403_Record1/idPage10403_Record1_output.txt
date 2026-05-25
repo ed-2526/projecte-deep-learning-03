@@ -1,0 +1,16 @@
+Pere,name,husband
+Raurell,surname,husband
+parayre,occupation,husband
+Tegas,location,husband
+bisbat,location,husband
+de,location,husband
+Urgell,location,husband
+terrassa,location,husband
+viudo,state,husband
+Hieronyma,name,wife
+viuda,state,wife
+Miquel,name,other_person
+Valls,surname,other_person
+parayre,occupation,wife
+dita,location,wife
+vila,location,wife

@@ -1,0 +1,17 @@
+Montserrat,name,husband
+Colomer,surname,husband
+pages,occupation,husband
+Viladecans,location,husband
+viudo,state,husband
+Cathe,name,wife
+rina,name,wife
+viuda,state,wife
+jaume,name,other_person
+Llondra,surname,other_person
+oller,occupation,wife
+parrochia,location,wife
+de,location,wife
+Quart,location,wife
+bisbat,location,wife
+de,location,wife
+Girona,location,wife

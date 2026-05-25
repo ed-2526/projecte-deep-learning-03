@@ -1,0 +1,15 @@
+Giralt,name,husband
+del,surname,husband
+Bosch,surname,husband
+botiguer,occupation,husband
+de,occupation,husband
+vidre,occupation,husband
+frança,location,husband
+Martorell,location,husband
+Catherina,name,wife
+viuda,state,wife
+Jua,name,other_person
+Cellers,surname,other_person
+pages,occupation,wife
+dita,location,wife
+vila,location,wife

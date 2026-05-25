@@ -1,0 +1,14 @@
+Miquel,name,husband
+Strada,surname,husband
+pages,occupation,husband
+Martorell,location,husband
+Pere,name,husbands_father
+Strada,surname,husbands_father
+pages,occupation,husbands_father
+Catherina,name,husbands_mother
+francisca,name,wife
+Joan,name,wifes_father
+Petit,surname,wifes_father
+sastre,occupation,wifes_father
+Eularia,name,wifes_mother
+Martorell,location,wifes_father

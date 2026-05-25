@@ -1,0 +1,13 @@
+Bernat,name,husband
+Xivaller,surname,husband
+frances,location,husband
+criat,occupation,husband
+font,occupation,husband
+Bara,location,husband
+Mariangela,name,wife
+donsella,state,wife
+Andreu,name,wifes_father
+Sarradell,surname,wifes_father
+tapiner,occupation,wifes_father
+Bara,location,wifes_father
+Marian#na,name,wifes_mother

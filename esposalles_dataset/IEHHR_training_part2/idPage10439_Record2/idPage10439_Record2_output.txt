@@ -1,0 +1,11 @@
+Domingo,name,husband
+Mados,surname,husband
+pages,occupation,husband
+regne,location,husband
+de,location,husband
+frança,location,husband
+Bara,location,husband
+Anna,name,wife
+donsella,state,wife
+Hospital,location,wife
+general,location,wife

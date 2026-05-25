@@ -1,0 +1,17 @@
+Montserrat,name,husband
+Romeu,surname,husband
+calsater,occupation,husband
+Vilaredona,location,husband
+Antoni,name,husbands_father
+botiguer,occupation,husbands_father
+Montserrada,name,husbands_mother
+Phi,name,wife
+lippa,name,wife
+donsella,state,wife
+Guillem,name,wifes_father
+Gari,surname,wifes_father
+matalafer,occupation,wifes_father
+Vilanova,location,wifes_father
+de,location,wifes_father
+Sitges,location,wifes_father
+Speransa,name,wifes_mother

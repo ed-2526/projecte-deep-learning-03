@@ -1,0 +1,15 @@
+Juan,name,husband
+Rocha,surname,husband
+sastre,occupation,husband
+Bara,location,husband
+t,name,husbands_father
+Rocha,surname,husbands_father
+sastre,occupation,husbands_father
+Torrelles,location,husbands_father
+t,name,husbands_mother
+Ramona,name,wife
+viuda,state,wife
+Jua,name,other_person
+Trabatje,surname,other_person
+enblanquinador,occupation,wife
+Bara,location,wife

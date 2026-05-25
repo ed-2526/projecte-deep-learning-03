@@ -1,0 +1,14 @@
+Pau,name,husband
+Monicot,surname,husband
+tavarner,occupation,husband
+Bara,location,husband
+Bertran,name,husbands_father
+Monicot,surname,husbands_father
+pages,occupation,husbands_father
+Elisabeth,name,husbands_mother
+Antiga,name,wife
+viuda,state,wife
+Pau,name,other_person
+Capellades,surname,other_person
+passamaner,occupation,wife
+Bara,location,wife

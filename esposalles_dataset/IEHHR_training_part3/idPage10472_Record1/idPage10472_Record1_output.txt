@@ -1,0 +1,16 @@
+Sylvestre,name,husband
+Ramon,surname,husband
+pages,occupation,husband
+Ripollet,location,husband
+Antich,name,husbands_father
+Ramon,surname,husbands_father
+pages,occupation,husbands_father
+Magdalena,name,husbands_mother
+Marianna,name,wife
+donsella,state,wife
+Barthomeu,name,wifes_father
+Clos,surname,wifes_father
+pages,occupation,wifes_father
+t,name,wifes_mother
+dita,location,wife
+parrochia,location,wife

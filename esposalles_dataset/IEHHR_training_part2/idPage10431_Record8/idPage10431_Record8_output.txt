@@ -1,0 +1,17 @@
+Juan,name,husband
+Isern,surname,husband
+parayre,occupation,husband
+Sparaguera,location,husband
+viudo,state,husband
+Juana,name,wife
+viuda,state,wife
+Antoni,name,other_person
+Serra,surname,other_person
+pages,occupation,wife
+St,location,wife
+llorens,location,wife
+de,location,wife
+Morull,location,wife
+bisbat,location,wife
+de,location,wife
+Solsona,location,wife

@@ -1,0 +1,15 @@
+Gabriel,name,husband
+Tost,surname,husband
+parayre,occupation,husband
+Bara,location,husband
+Gabriel,name,husbands_father
+Tost,surname,husbands_father
+parayre,occupation,husbands_father
+Alemanda,name,husbands_mother
+Anna,name,wife
+donsella,state,wife
+Emanuel,name,wifes_father
+Massaguer,surname,wifes_father
+parayre,occupation,wifes_father
+Bara,location,wifes_father
+Stephania,name,wifes_mother

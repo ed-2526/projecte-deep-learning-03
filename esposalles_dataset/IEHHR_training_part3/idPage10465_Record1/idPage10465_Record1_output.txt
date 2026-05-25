@@ -1,0 +1,12 @@
+Pere,name,husband
+Blanquer,surname,husband
+hortola,occupation,husband
+Bara,location,husband
+viudo,state,husband
+Hieronyma,name,wife
+donsella,state,wife
+francesch,name,wifes_father
+Masons,surname,wifes_father
+pages,occupation,wifes_father
+Granollers,location,wifes_father
+Eularia,name,wifes_mother

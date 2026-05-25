@@ -1,0 +1,17 @@
+Pau,name,husband
+Garriga,surname,husband
+parayre,occupation,husband
+Cabrera,location,husband
+Piera,location,husband
+jaume,name,husbands_father
+Garriga,surname,husbands_father
+pages,occupation,husbands_father
+Piera,location,husbands_father
+Eularia,name,husbands_mother
+Elisabeth,name,wife
+donsella,state,wife
+Magi,name,wifes_father
+Tudo,surname,wifes_father
+pages,occupation,wifes_father
+Piera,location,wifes_father
+juana,name,wifes_mother

@@ -1,0 +1,17 @@
+Arnau,name,husband
+Aret,surname,husband
+parayre,occupation,husband
+regne,location,husband
+de,location,husband
+fraça,location,husband
+Sabadell,location,husband
+Elisabeth,name,wife
+donsella,state,wife
+Pere,name,wifes_father
+Serra,surname,wifes_father
+pages,occupation,wifes_father
+Granera,location,wifes_father
+bisbat,location,wifes_father
+de,location,wifes_father
+Vich,location,wifes_father
+t,name,wifes_mother

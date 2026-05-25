@@ -1,0 +1,15 @@
+Julia,name,husband
+Armengol,surname,husband
+sabater,occupation,husband
+Bara,location,husband
+jaume,name,husbands_father
+Armengol,surname,husbands_father
+sabater,occupation,husbands_father
+Bara,location,husbands_father
+Catherina,name,husbands_mother
+francisca,name,wife
+donsella,state,wife
+Antoni,name,wifes_father
+febrer,surname,wifes_father
+blanquer,occupation,wifes_father
+Montserrada,name,wifes_mother

@@ -1,0 +1,15 @@
+Pere,name,husband
+Texidor,surname,husband
+pages,occupation,husband
+Bara,location,husband
+Antich,name,husbands_father
+Texidor,surname,husbands_father
+pages,occupation,husbands_father
+Gerona,location,husbands_father
+francesca,name,husbands_mother
+Juana,name,wife
+viuda,state,wife
+Pere,name,other_person
+Puig,surname,other_person
+hostaler,occupation,wife
+Bara,location,wife

@@ -1,0 +1,15 @@
+Pere,name,husband
+Samunta,surname,husband
+pages,occupation,husband
+St,location,husband
+Quirse,location,husband
+Pere,name,husbands_father
+Samunta,surname,husbands_father
+pages,occupation,husbands_father
+Juana,name,husbands_mother
+Eularia,name,wife
+viuda,state,wife
+Juan,name,other_person
+Andusillo,surname,other_person
+pages,occupation,wife
+Terrassa,location,wife

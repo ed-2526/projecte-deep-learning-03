@@ -1,0 +1,12 @@
+Bertran,name,husband
+font,surname,husband
+traginer,occupation,husband
+Bara,location,husband
+viudo,state,husband
+Sperasa,name,wife
+donsella,state,wife
+Raphel,name,wifes_father
+Pages,surname,wifes_father
+traginer,occupation,wifes_father
+Mataro,location,wifes_father
+julita,name,wifes_mother

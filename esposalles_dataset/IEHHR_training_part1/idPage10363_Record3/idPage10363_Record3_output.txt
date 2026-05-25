@@ -1,0 +1,11 @@
+Pere,name,husband
+Vigueros,surname,husband
+pentiner,occupation,husband
+Bara,location,husband
+Juan,name,husbands_father
+Vi,surname,husbands_father
+gueros,surname,husbands_father
+pescador,occupation,husbands_father
+Anna,name,husbands_mother
+Eularia,name,wife
+Bruneta,surname,wife

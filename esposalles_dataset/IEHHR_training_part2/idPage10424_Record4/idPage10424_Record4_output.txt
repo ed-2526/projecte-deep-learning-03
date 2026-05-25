@@ -1,0 +1,12 @@
+Juan,name,husband
+Tratxo,surname,husband
+parayre,occupation,husband
+Berga,location,husband
+Bara,location,husband
+viudo,state,husband
+Maryangela,name,wife
+viuda,state,wife
+t,name,other_person
+Soler,surname,other_person
+traginer,occupation,wife
+Bara,location,wife

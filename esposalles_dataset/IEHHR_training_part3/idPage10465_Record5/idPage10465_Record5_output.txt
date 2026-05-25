@@ -1,0 +1,14 @@
+Antich,name,husband
+Dorda,surname,husband
+pages,occupation,husband
+regne,location,husband
+de,location,husband
+franca,location,husband
+Argentona,location,husband
+Joana,name,wife
+donsella,state,wife
+Sebastia,name,wifes_father
+Sever,surname,wifes_father
+pages,occupation,wifes_father
+Mataro,location,wifes_father
+Catherina,name,wifes_mother

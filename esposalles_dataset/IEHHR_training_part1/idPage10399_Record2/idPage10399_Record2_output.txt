@@ -1,0 +1,15 @@
+Benet,name,husband
+Ifern,surname,husband
+farrer,occupation,husband
+Bigues,location,husband
+viudo,state,husband
+mar,name,wife
+garida,name,wife
+donsella,state,wife
+francesch,name,wifes_father
+Blancafort,surname,wifes_father
+als,surname,wifes_father
+Boger,surname,wifes_father
+pages,occupation,wifes_father
+Montmany,location,wifes_father
+Elisabeth,name,wifes_mother

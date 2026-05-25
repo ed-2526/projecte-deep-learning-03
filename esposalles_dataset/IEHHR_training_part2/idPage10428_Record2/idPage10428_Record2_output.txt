@@ -1,0 +1,17 @@
+francesch,name,husband
+Brugues,surname,husband
+baxador,occupation,husband
+Regne,location,husband
+de,location,husband
+frança,location,husband
+Sabadell,location,husband
+Salvadora,name,wife
+donsella,state,wife
+An,name,wifes_father
+tich,name,wifes_father
+Rocha,surname,wifes_father
+pages,occupation,wifes_father
+St,location,wifes_father
+Llorens,location,wifes_father
+çavall,location,wifes_father
+Elisabeth,name,wifes_mother

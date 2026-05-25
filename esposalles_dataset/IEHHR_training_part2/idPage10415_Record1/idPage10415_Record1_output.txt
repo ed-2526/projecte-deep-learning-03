@@ -1,0 +1,13 @@
+francesch,name,husband
+Pou,surname,husband
+pages,occupation,husband
+Vilamajor,location,husband
+Mollet,location,husband
+viudo,state,husband
+Paula,name,wife
+donsella,state,wife
+Jua,name,wifes_father
+Mollet,surname,wifes_father
+pages,occupation,wifes_father
+Mollet,location,wifes_father
+t,name,wifes_mother

@@ -1,0 +1,16 @@
+Juan,name,husband
+Ricart,surname,husband
+pages,occupation,husband
+fransa,location,husband
+St,location,husband
+feliu,location,husband
+de,location,husband
+Llobregat,location,husband
+Elisabeth,name,wife
+Gasso,surname,wife
+viuda,state,wife
+Juan,name,other_person
+Gasso,surname,other_person
+texidor,occupation,wife
+de,occupation,wife
+lli,occupation,wife

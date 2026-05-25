@@ -1,0 +1,15 @@
+Salvador,name,husband
+fexes,surname,husband
+notari,occupation,husband
+St,location,husband
+Seloni,location,husband
+viudo,state,husband
+Anna,name,wife
+Puigmari,surname,wife
+dosella,state,wife
+Damia,name,wifes_father
+Puigmari,surname,wifes_father
+cilurgia,occupation,wifes_father
+Hostal,location,wifes_father
+rich,location,wifes_father
+Elisabeth,name,wifes_mother

@@ -1,0 +1,13 @@
+Jua,name,husband
+Pujol,surname,husband
+pages,occupation,husband
+Vilassar,location,husband
+viudo,state,husband
+Clara,name,wife
+donsella,state,wife
+Pau,name,wifes_father
+Polls,surname,wifes_father
+pages,occupation,wifes_father
+dita,location,wifes_father
+parrochia,location,wifes_father
+Elienor,name,wifes_mother

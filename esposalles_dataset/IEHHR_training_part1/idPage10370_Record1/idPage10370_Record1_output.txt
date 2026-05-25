@@ -1,0 +1,10 @@
+Juan,name,husband
+Termens,surname,husband
+pages,occupation,husband
+fransa,location,husband
+Sarria,location,husband
+Magdalena,name,wife
+viuda,state,wife
+jua,name,other_person
+Gallart,surname,other_person
+pages,occupation,wife

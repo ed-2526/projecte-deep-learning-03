@@ -1,0 +1,16 @@
+Gabriel,name,husband
+March,surname,husband
+parayre,occupation,husband
+regne,location,husband
+de,location,husband
+frança,location,husband
+Sabadell,location,husband
+Elisabeth,name,wife
+donsella,state,wife
+Joan,name,wifes_father
+Scors,surname,wifes_father
+pages,occupation,wifes_father
+regne,location,wifes_father
+de,location,wifes_father
+frança,location,wifes_father
+Antiga,name,wifes_mother

@@ -1,0 +1,16 @@
+Andreu,name,husband
+Soler,surname,husband
+pages,occupation,husband
+Olesa,location,husband
+de,location,husband
+Montserrat,location,husband
+Agusti,name,husbands_father
+Soler,surname,husbands_father
+pages,occupation,husbands_father
+Eularia,name,husbands_mother
+Eularia,name,wife
+viuda,state,wife
+t,name,other_person
+Borgonyo,surname,other_person
+fuster,occupation,wife
+Terrassa,location,wife

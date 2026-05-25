@@ -1,0 +1,15 @@
+Juan,name,husband
+Rocha,surname,husband
+cotxero,occupation,husband
+regne,location,husband
+de,location,husband
+frança,location,husband
+Bara,location,husband
+Magdalena,name,wife
+donsella,state,wife
+Sagimon,name,wifes_father
+Masramon,surname,wifes_father
+tra,occupation,wifes_father
+giner,occupation,wifes_father
+Vich,location,wifes_father
+Elisabeth,name,wifes_mother

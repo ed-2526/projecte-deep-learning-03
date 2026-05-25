@@ -1,0 +1,16 @@
+Pau,name,husband
+Phelip,surname,husband
+pages,occupation,husband
+figuerola,location,husband
+Bal,name,husbands_father
+thesar,name,husbands_father
+Phelip,surname,husbands_father
+pages,occupation,husbands_father
+Elisabeth,name,husbands_mother
+Margarida,name,wife
+donsella,state,wife
+francesch,name,wifes_father
+Coll,surname,wifes_father
+pages,occupation,wifes_father
+Torrellas,location,wifes_father
+juana,name,wifes_mother

@@ -1,0 +1,15 @@
+Bernat,name,husband
+Salto,surname,husband
+hostaler,occupation,husband
+Bara,location,husband
+viudo,state,husband
+Ca,name,wife
+therina,name,wife
+donsella,state,wife
+Joa,name,wifes_father
+Caravajal,surname,wifes_father
+capita,occupation,wifes_father
+de,occupation,wifes_father
+sa,occupation,wifes_father
+Magt,occupation,wifes_father
+Patronilla,name,wifes_mother

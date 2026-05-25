@@ -1,0 +1,15 @@
+Jua,name,husband
+Pau,name,husband
+Texidor,surname,husband
+sastre,occupation,husband
+Bara,location,husband
+Pau,name,husbands_father
+Texidor,surname,husbands_father
+barber,occupation,husbands_father
+Elisabeth,name,husbands_mother
+Angela,name,wife
+viuda,state,wife
+Gaspar,name,other_person
+Torrents,surname,other_person
+pages,occupation,wife
+Bara,location,wife

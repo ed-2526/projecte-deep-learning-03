@@ -1,0 +1,13 @@
+Ramo,name,husband
+Giralt,surname,husband
+sabater,occupation,husband
+Regne,location,husband
+de,location,husband
+fransa,location,husband
+Hospitalet,location,husband
+Juana,name,wife
+donsella,state,wife
+Jua,name,wifes_father
+Isglesias,surname,wifes_father
+pages,occupation,wifes_father
+Bertrana,name,wifes_mother

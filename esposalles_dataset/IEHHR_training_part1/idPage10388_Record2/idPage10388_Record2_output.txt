@@ -1,0 +1,15 @@
+francesch,name,husband
+Saviara,surname,husband
+mestre,occupation,husband
+de,occupation,husband
+cases,occupation,husband
+frances,location,husband
+Mataro,location,husband
+Magdalena,name,wife
+donsella,state,wife
+t,name,wifes_father
+Barbera,surname,wifes_father
+mestre,occupation,wifes_father
+de,occupation,wifes_father
+cases,occupation,wifes_father
+Ramona,name,wifes_mother

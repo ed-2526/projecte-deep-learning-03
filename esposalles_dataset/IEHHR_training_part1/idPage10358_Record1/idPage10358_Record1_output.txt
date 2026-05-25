@@ -1,0 +1,16 @@
+francesch,name,husband
+Llampis,surname,husband
+ferrer,occupation,husband
+Bara,location,husband
+francesch,name,husbands_father
+llampis,surname,husbands_father
+ferrer,occupation,husbands_father
+Bara,location,husbands_father
+Maryanna,name,husbands_mother
+Eularia,name,wife
+donsella,state,wife
+Juan,name,wifes_father
+Llibo,surname,wifes_father
+pescador,occupation,wifes_father
+Bara,location,wifes_father
+Antiga,name,wifes_mother

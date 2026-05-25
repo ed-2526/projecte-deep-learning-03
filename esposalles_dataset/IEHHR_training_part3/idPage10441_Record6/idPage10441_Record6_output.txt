@@ -1,0 +1,13 @@
+Pau,name,husband
+Sabater,surname,husband
+parayre,occupation,husband
+Bara,location,husband
+viudo,state,husband
+Eularia,name,wife
+donsella,state,wife
+t,name,wifes_father
+font,surname,wifes_father
+pages,occupation,wifes_father
+hospitalet,location,wifes_father
+Mar,name,wifes_mother
+garida,name,wifes_mother

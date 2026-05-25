@@ -1,0 +1,15 @@
+Luys,name,husband
+Gornes,surname,husband
+sabater,occupation,husband
+Mataro,location,husband
+Luys,name,husbands_father
+Gornes,surname,husbands_father
+sabater,occupation,husbands_father
+Antiga,name,husbands_mother
+Maria,name,wife
+donsella,state,wife
+francesch,name,wifes_father
+Gontes,surname,wifes_father
+vedrier,occupation,wifes_father
+Mataro,location,wifes_father
+t,name,wifes_mother

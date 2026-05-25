@@ -1,0 +1,15 @@
+Antoni,name,husband
+Arisart,surname,husband
+sastre,occupation,husband
+Bara,location,husband
+Antoni,name,husbands_father
+Arisart,surname,husbands_father
+hostaler,occupation,husbands_father
+Juana,name,husbands_mother
+Monica,name,wife
+donsella,state,wife
+Galcera,name,wifes_father
+Texidor,surname,wifes_father
+oller,occupation,wifes_father
+Bara,location,wifes_father
+Antiga,name,wifes_mother

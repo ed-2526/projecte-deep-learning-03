@@ -1,0 +1,11 @@
+Jaume,name,husband
+Spinos,surname,husband
+pages,occupation,husband
+Viladecans,location,husband
+viudo,state,husband
+Magdalena,name,wife
+dosella,state,wife
+Montserrat,name,wifes_father
+Colomer,surname,wifes_father
+pages,occupation,wifes_father
+Eufrahina,name,wifes_mother

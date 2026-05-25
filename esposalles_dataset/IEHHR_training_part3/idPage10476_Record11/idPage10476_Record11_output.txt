@@ -1,0 +1,16 @@
+Gabriel,name,husband
+Miret,surname,husband
+burges,occupation,husband
+Vilafranca,location,husband
+de,location,husband
+Panaders,location,husband
+Miquel,name,husbands_father
+Miret,surname,husbands_father
+burges,occupation,husbands_father
+Elisabeth,name,husbands_mother
+Magdalena,name,wife
+donsella,state,wife
+Barthomeu,name,wifes_father
+Riera,surname,wifes_father
+mercr,occupation,wifes_father
+Eularia,name,wifes_mother

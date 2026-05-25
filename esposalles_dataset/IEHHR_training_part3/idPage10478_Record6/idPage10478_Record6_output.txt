@@ -1,0 +1,14 @@
+Pere,name,husband
+Jua,name,husband
+Canals,surname,husband
+traginer,occupation,husband
+regne,location,husband
+de,location,husband
+frança,location,husband
+Sparaguera,location,husband
+Maryanna,name,wife
+viuda,state,wife
+Bertran,name,other_person
+Corretger,surname,other_person
+pages,occupation,wife
+Sparaguera,location,wife

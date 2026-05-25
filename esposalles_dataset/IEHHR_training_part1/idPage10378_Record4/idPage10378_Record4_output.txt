@@ -1,0 +1,17 @@
+Bernat,name,husband
+Mauri,surname,husband
+mariner,occupation,husband
+la,location,husband
+Geltru,location,husband
+Arnau,name,husbands_father
+Mauri,surname,husbands_father
+mariner,occupation,husbands_father
+Eufrahina,name,husbands_mother
+Maria,name,wife
+donsella,state,wife
+Galcera,name,wifes_father
+Urgelles,surname,wifes_father
+pages,occupation,wifes_father
+dita,location,wifes_father
+parrochia,location,wifes_father
+Eufrahina,name,wifes_mother

@@ -1,0 +1,17 @@
+Antoni,name,husband
+Oliver,surname,husband
+pages,occupation,husband
+Badalona,location,husband
+Pau,name,husbands_father
+Oliver,surname,husbands_father
+pages,occupation,husbands_father
+Paula,name,husbands_mother
+Magdalena,name,wife
+donsella,state,wife
+Jua,name,wifes_father
+Calvet,surname,wifes_father
+Banus,surname,wifes_father
+pages,occupation,wifes_father
+dita,location,wifes_father
+parrochia,location,wifes_father
+Rafela,name,wifes_mother

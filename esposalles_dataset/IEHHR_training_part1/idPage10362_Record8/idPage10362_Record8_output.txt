@@ -1,0 +1,12 @@
+Pere,name,husband
+Lerissa,surname,husband
+traginer,occupation,husband
+fransa,location,husband
+Bara,location,husband
+Beneta,name,wife
+donsella,state,wife
+Guillem,name,wifes_father
+Manalt,surname,wifes_father
+fuster,occupation,wifes_father
+Bara,location,wifes_father
+Elisabeth,name,wifes_mother

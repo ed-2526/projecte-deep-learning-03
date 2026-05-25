@@ -1,0 +1,14 @@
+Hieronym,name,husband
+Bo,surname,husband
+mariner,occupation,husband
+Sitges,location,husband
+Hieronym,name,husbands_father
+Bo,surname,husbands_father
+mariner,occupation,husbands_father
+Elisabeth,name,husbands_mother
+Maria,name,wife
+donsella,state,wife
+Llorens,name,wifes_father
+Sagarra,surname,wifes_father
+mariner,occupation,wifes_father
+t,name,wifes_mother

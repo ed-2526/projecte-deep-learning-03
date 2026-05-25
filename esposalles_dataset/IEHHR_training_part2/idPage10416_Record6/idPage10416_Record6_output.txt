@@ -1,0 +1,12 @@
+Juan,name,husband
+Payas,surname,husband
+pages,occupation,husband
+Granollers,location,husband
+viudo,state,husband
+Juana,name,wife
+donsella,state,wife
+jaume,name,wifes_father
+Monllor,surname,wifes_father
+pages,occupation,wifes_father
+Terrassa,location,wifes_father
+Paula,name,wifes_mother

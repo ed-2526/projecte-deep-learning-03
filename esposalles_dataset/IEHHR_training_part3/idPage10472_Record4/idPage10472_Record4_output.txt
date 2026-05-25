@@ -1,0 +1,17 @@
+Gabriel,name,husband
+Taraval,surname,husband
+calsater,occupation,husband
+Bara,location,husband
+An,name,husbands_father
+toni,name,husbands_father
+Taraval,surname,husbands_father
+calsater,occupation,husbands_father
+Aldonsa,name,husbands_mother
+Margarida,name,wife
+donsella,state,wife
+Joa,name,wifes_father
+Alzina,surname,wifes_father
+pages,occupation,wifes_father
+llissa,location,wifes_father
+Damunt,location,wifes_father
+Eularia,name,wifes_mother

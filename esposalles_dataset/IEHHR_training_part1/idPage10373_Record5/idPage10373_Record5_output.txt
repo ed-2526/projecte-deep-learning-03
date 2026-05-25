@@ -1,0 +1,16 @@
+domingo,name,husband
+Castany,surname,husband
+moliner,occupation,husband
+St,location,husband
+Esteva,location,husband
+de,location,husband
+Cervello,location,husband
+viudo,state,husband
+Margarida,name,wife
+donsella,state,wife
+t,name,wifes_father
+Coll,surname,wifes_father
+palmer,location,wifes_father
+pages,occupation,wifes_father
+Pallejar,location,wifes_father
+t,name,wifes_mother

@@ -1,0 +1,16 @@
+Ramon,name,husband
+Vila,surname,husband
+carreter,occupation,husband
+Bara,location,husband
+viudo,state,husband
+Ca,name,wife
+therina,name,wife
+donsella,state,wife
+juan,name,wifes_father
+Sabater,surname,wifes_father
+pages,occupation,wifes_father
+Copons,location,wifes_father
+bisbat,location,wifes_father
+de,location,wifes_father
+Vich,location,wifes_father
+Catherina,name,wifes_mother

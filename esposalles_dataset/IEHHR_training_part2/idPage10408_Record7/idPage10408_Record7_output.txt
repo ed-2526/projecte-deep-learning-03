@@ -1,0 +1,17 @@
+Antoni,name,husband
+Beneya,surname,husband
+adroguer,occupation,husband
+Vich,location,husband
+Bara,location,husband
+Llorens,name,husbands_father
+Beneya,surname,husbands_father
+fuster,occupation,husbands_father
+Vich,location,husbands_father
+Antonia,name,husbands_mother
+Agnes,name,wife
+donsella,state,wife
+Pere,name,wifes_father
+Real,surname,wifes_father
+notari,occupation,wifes_father
+real,occupation,wifes_father
+Angela,name,wifes_mother

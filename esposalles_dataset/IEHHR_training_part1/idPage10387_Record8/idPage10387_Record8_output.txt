@@ -1,0 +1,16 @@
+Miquel,name,husband
+de,surname,husband
+Cortit,surname,husband
+donsell,occupation,husband
+Bara,location,husband
+Onofre,name,husbands_father
+de,surname,husbands_father
+Cortit,surname,husbands_father
+Catherina,name,husbands_mother
+fracisca,name,wife
+Illa,surname,wife
+dosella,state,wife
+Esteva,name,wifes_father
+Illa,surname,wifes_father
+Isabel,name,wifes_mother
+Juana,name,wifes_mother

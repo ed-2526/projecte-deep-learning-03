@@ -1,0 +1,14 @@
+jaume,name,husband
+Carles,name,husband
+Coll,surname,husband
+Marques,surname,husband
+fuster,occupation,husband
+Mataro,location,husband
+viudo,state,husband
+Margarida,name,wife
+viuda,state,wife
+t,name,other_person
+Guiteres,surname,other_person
+carra,occupation,wife
+ter,occupation,wife
+Bara,location,wife

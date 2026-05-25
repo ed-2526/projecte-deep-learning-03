@@ -1,0 +1,12 @@
+Pere,name,husband
+Vaxer,surname,husband
+pages,occupation,husband
+regne,location,husband
+de,location,husband
+fransa,location,husband
+Robi,location,husband
+Angela,name,wife
+viuda,state,wife
+Pere,name,other_person
+Riquer,surname,other_person
+pages,occupation,wife

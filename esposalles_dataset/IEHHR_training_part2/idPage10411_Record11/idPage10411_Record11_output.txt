@@ -1,0 +1,14 @@
+Pere,name,husband
+Ulla,surname,husband
+tavarner,occupation,husband
+Bara,location,husband
+viudo,state,husband
+Elisabeth,name,wife
+viuda,state,wife
+francesch,name,other_person
+Cervera,surname,other_person
+pages,occupation,wife
+St,location,wife
+julia,location,wife
+de,location,wife
+Monseny,location,wife

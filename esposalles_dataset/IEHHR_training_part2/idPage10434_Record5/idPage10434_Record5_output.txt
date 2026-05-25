@@ -1,0 +1,16 @@
+Pere,name,husband
+ferrer,surname,husband
+argenter,occupation,husband
+Bara,location,husband
+Montserrat,name,husbands_father
+ferrer,surname,husbands_father
+tisorer,occupation,husbands_father
+Bara,location,husbands_father
+Elisabeth,name,husbands_mother
+Elena,name,wife
+donsella,state,wife
+Climet,name,wifes_father
+Soler,surname,wifes_father
+argenter,occupation,wifes_father
+Bara,location,wifes_father
+Maria,name,wifes_mother

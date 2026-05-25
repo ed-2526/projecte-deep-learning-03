@@ -1,0 +1,16 @@
+Llorens,name,husband
+Massanes,surname,husband
+peller,occupation,husband
+Bara,location,husband
+Pere,name,husbands_father
+Massanes,surname,husbands_father
+parayre,occupation,husbands_father
+Solsona,location,husbands_father
+Eularia,name,husbands_mother
+Speransa,name,wife
+donsella,state,wife
+francesch,name,wifes_father
+ferrer,surname,wifes_father
+pages,occupation,wifes_father
+Cornella,location,wifes_father
+Speransa,name,wifes_mother

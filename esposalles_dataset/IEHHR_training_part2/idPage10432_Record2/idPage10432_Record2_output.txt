@@ -1,0 +1,15 @@
+Bernat,name,husband
+Sabater,surname,husband
+carder,occupation,husband
+Bara,location,husband
+viudo,state,husband
+Maryana,name,wife
+donsella,state,wife
+Andreu,name,wifes_father
+Vila,surname,wifes_father
+pages,occupation,wifes_father
+St,location,wifes_father
+Andreu,location,wifes_father
+de,location,wifes_father
+Palomar,location,wifes_father
+Hieronyma,name,wifes_mother

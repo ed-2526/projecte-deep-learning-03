@@ -1,0 +1,12 @@
+Diego,name,husband
+Ros,surname,husband
+mariner,occupation,husband
+Menorca,location,husband
+Bara,location,husband
+Paula,name,wife
+donsella,state,wife
+Juan,name,wifes_father
+Morato,surname,wifes_father
+calafat,occupation,wifes_father
+Bara,location,wifes_father
+Juana,name,wifes_mother

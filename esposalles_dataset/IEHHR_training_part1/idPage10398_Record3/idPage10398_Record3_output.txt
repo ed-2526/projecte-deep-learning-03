@@ -1,0 +1,12 @@
+Juan,name,husband
+Passanant,surname,husband
+calsater,occupation,husband
+fransa,location,husband
+Bara,location,husband
+Maria,name,wife
+donsella,state,wife
+Antoni,name,wifes_father
+Company,surname,wifes_father
+parayre,occupation,wifes_father
+Bara,location,wifes_father
+Casilda,name,wifes_mother

@@ -1,0 +1,16 @@
+Pere,name,husband
+Ramundi,surname,husband
+sastre,occupation,husband
+Bara,location,husband
+Pere,name,husbands_father
+ra,surname,husbands_father
+mundi,surname,husbands_father
+pages,occupation,husbands_father
+Bara,location,husbands_father
+Beneta,name,husbands_mother
+Hieronyma,name,wife
+donsella,state,wife
+Juan,name,wifes_father
+Vicens,surname,wifes_father
+carder,occupation,wifes_father
+Maryanna,name,wifes_mother

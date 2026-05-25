@@ -1,0 +1,15 @@
+Joseph,name,husband
+Puig,surname,husband
+mariner,occupation,husband
+Bara,location,husband
+Giralt,name,husbands_father
+Puig,surname,husbands_father
+hostaler,occupation,husbands_father
+Maryanna,name,husbands_mother
+Maryanna,name,wife
+donsella,state,wife
+Pau,name,wifes_father
+Tremoler,surname,wifes_father
+pescador,occupation,wifes_father
+Bara,location,wifes_father
+Anna,name,wifes_mother

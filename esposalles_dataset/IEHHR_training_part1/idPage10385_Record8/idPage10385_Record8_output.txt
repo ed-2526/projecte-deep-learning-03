@@ -1,0 +1,11 @@
+Phelip,name,husband
+Gassia,surname,husband
+sisteller,occupation,husband
+Moncada,location,husband
+viudo,state,husband
+Maryanna,name,wife
+viuda,state,wife
+t,name,other_person
+carreter,occupation,wife
+dita,location,wife
+parrochia,location,wife

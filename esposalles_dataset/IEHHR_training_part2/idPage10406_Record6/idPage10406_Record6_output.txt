@@ -1,0 +1,13 @@
+Vicens,name,husband
+Salvador,surname,husband
+candaler,occupation,husband
+de,occupation,husband
+cera,occupation,husband
+Bara,location,husband
+viudo,state,husband
+Margarida,name,wife
+viuda,state,wife
+joseph,name,other_person
+Miro,surname,other_person
+velluter,occupation,wife
+Bara,location,wife

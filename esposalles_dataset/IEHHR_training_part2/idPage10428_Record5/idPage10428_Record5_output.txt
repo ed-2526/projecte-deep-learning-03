@@ -1,0 +1,14 @@
+Juan,name,husband
+Rocha,surname,husband
+treballador,occupation,husband
+regne,location,husband
+de,location,husband
+frança,location,husband
+Castellar,location,husband
+Juana,name,wife
+donsella,state,wife
+Pau,name,wifes_father
+Romeu,surname,wifes_father
+pages,occupation,wifes_father
+Castellar,location,wifes_father
+Eularia,name,wifes_mother

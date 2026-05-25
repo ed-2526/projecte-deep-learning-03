@@ -1,0 +1,12 @@
+Hieronym,name,husband
+Assensio,surname,husband
+pages,occupation,husband
+Ge,location,husband
+rona,location,husband
+viudo,state,husband
+Juana,name,wife
+viuda,state,wife
+francesch,name,other_person
+Pages,surname,other_person
+treballador,occupation,wife
+Llevaneres,location,wife

@@ -1,0 +1,16 @@
+Pere,name,husband
+Juan,name,husband
+Riera,surname,husband
+sabater,occupation,husband
+Bara,location,husband
+Jua,name,husbands_father
+Riera,surname,husbands_father
+daguer,occupation,husbands_father
+Elisabeth,name,husbands_mother
+Eularia,name,wife
+donsella,state,wife
+Jua,name,wifes_father
+Castello,surname,wifes_father
+pages,occupation,wifes_father
+Sarria,location,wifes_father
+Angela,name,wifes_mother

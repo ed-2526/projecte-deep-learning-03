@@ -1,0 +1,15 @@
+Juan,name,husband
+Texidor,surname,husband
+pages,occupation,husband
+regne,location,husband
+de,location,husband
+fransa,location,husband
+St,location,husband
+Gervasi,location,husband
+Anna,name,wife
+donsella,state,wife
+Pere,name,wifes_father
+Perez,surname,wifes_father
+treballador,occupation,wifes_father
+Bara,location,wifes_father
+Juana,name,wifes_mother

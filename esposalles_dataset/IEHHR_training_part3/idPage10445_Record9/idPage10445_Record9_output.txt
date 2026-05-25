@@ -1,0 +1,13 @@
+Juan,name,husband
+Graner,surname,husband
+pages,occupation,husband
+regne,location,husband
+de,location,husband
+frança,location,husband
+Mollet,location,husband
+Antiga,name,wife
+viuda,state,wife
+Juan,name,other_person
+Salamo,surname,other_person
+pages,occupation,wife
+Mollet,location,wife

@@ -1,0 +1,11 @@
+Agusti,name,husband
+Villaro,surname,husband
+parayre,occupation,husband
+Bara,location,husband
+viudo,state,husband
+Hieronyma,name,wife
+viuda,state,husband
+Saldoni,name,other_person
+Sans,surname,other_person
+sabater,occupation,wife
+Bara,location,wife

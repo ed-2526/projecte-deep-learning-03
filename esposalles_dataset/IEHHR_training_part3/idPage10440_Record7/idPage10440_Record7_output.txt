@@ -1,0 +1,12 @@
+francesch,name,husband
+Calvell,surname,husband
+pages,occupation,husband
+Sta,location,husband
+Perpetua,location,husband
+viudo,state,husband
+Mar,name,wife
+garida,name,wife
+donsella,state,wife
+t,name,wifes_father
+Ribalta,surname,wifes_father
+t,name,wifes_mother

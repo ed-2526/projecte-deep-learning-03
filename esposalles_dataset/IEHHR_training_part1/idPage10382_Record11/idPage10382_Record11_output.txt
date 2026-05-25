@@ -1,0 +1,16 @@
+Henrich,name,husband
+Cortes,surname,husband
+pages,occupation,husband
+Plegamans,location,husband
+Miquel,name,husbands_father
+Cortes,surname,husbands_father
+pages,occupation,husbands_father
+Angela,name,husbands_mother
+Sperasa,name,wife
+dosella,state,wife
+Pere,name,wifes_father
+duran,surname,wifes_father
+pages,occupation,wifes_father
+Palau,location,wifes_father
+solitar,location,wifes_father
+Hieronyma,name,wifes_mother

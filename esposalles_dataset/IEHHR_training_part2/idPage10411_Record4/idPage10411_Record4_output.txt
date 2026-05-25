@@ -1,0 +1,16 @@
+jaume,name,husband
+Rovira,surname,husband
+garbellador,occupation,husband
+Bara,location,husband
+Nicolau,name,husbands_father
+Ro,surname,husbands_father
+vira,surname,husbands_father
+garbellador,occupation,husbands_father
+Brigida,name,husbands_mother
+Catherina,name,wife
+donsella,state,wife
+jaume,name,wifes_father
+Prats,surname,wifes_father
+revenedor,occupation,wifes_father
+Bara,location,wifes_father
+Violant,name,wifes_mother

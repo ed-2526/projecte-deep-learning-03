@@ -1,0 +1,15 @@
+Pere,name,husband
+Badia,surname,husband
+pages,occupation,husband
+regne,location,husband
+de,location,husband
+frança,location,husband
+St,location,husband
+Iga,location,husband
+Eularia,name,wife
+donsella,state,wife
+Miquel,name,wifes_father
+Bruguera,surname,wifes_father
+parayre,occupation,wifes_father
+Sabadell,location,wifes_father
+Catherina,name,wifes_mother

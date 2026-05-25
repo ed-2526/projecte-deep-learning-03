@@ -1,0 +1,14 @@
+Pere,name,husband
+Juan,name,husband
+Marcia,surname,husband
+pages,occupation,husband
+fransa,location,husband
+la,location,husband
+Rocha,location,husband
+francesca,name,wife
+viuda,state,wife
+jaume,name,other_person
+Cases,surname,other_person
+pages,occupation,wife
+dita,location,wife
+parrochia,location,wife

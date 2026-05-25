@@ -1,0 +1,15 @@
+Blasi,name,husband
+Gimach,surname,husband
+treballador,occupation,husband
+regne,location,husband
+de,location,husband
+frança,location,husband
+Bara,location,husband
+viudo,state,husband
+Saldonia,name,wife
+donsella,state,wife
+Guillem,name,wifes_father
+Petit,surname,wifes_father
+treballador,occupation,wifes_father
+frança,location,wifes_father
+Saldonia,name,wifes_mother

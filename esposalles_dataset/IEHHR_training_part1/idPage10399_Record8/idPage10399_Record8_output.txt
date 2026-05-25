@@ -1,0 +1,14 @@
+Juan,name,husband
+Sors,surname,husband
+sabater,occupation,husband
+Bara,location,husband
+Pere,name,husbands_father
+Sors,surname,husbands_father
+pages,occupation,husbands_father
+Beatriu,name,husbands_mother
+Margarida,name,wife
+viuda,state,wife
+Luys,name,other_person
+Magrinya,surname,other_person
+peller,occupation,wife
+Bara,location,wife

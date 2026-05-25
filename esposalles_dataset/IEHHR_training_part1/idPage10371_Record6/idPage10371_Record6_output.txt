@@ -1,0 +1,11 @@
+Antoni,name,husband
+Roca,surname,husband
+sabater,occupation,husband
+Bara,location,husband
+viudo,state,husband
+Speransa,name,wife
+viuda,state,husband
+Pere,name,other_person
+Belluesi,surname,other_person
+sastre,occupation,wife
+Bara,location,wife

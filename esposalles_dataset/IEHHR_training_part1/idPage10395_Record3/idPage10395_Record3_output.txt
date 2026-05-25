@@ -1,0 +1,12 @@
+Pau,name,husband
+Rossell,surname,husband
+gerrer,occupation,husband
+fransa,location,husband
+Bara,location,husband
+Elisabeth,name,wife
+donsella,state,wife
+Miquel,name,wifes_father
+Arago,surname,wifes_father
+parayre,occupation,wifes_father
+Lleyda,location,wifes_father
+Catherina,name,wifes_mother

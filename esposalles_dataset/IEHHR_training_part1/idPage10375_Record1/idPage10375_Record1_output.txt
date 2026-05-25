@@ -1,0 +1,11 @@
+Guillem,name,husband
+Mascurt,surname,husband
+parayre,occupation,husband
+viudo,state,husband
+Bara,location,husband
+Magdalena,name,wife
+viuda,state,husband
+Galcera,name,other_person
+Cardona,surname,other_person
+parayre,occupation,wife
+Bara,location,wife

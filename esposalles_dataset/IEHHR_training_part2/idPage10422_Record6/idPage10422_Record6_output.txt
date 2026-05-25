@@ -1,0 +1,16 @@
+Ambros,name,husband
+Gallart,surname,husband
+de,surname,husband
+Calders,surname,husband
+Bara,location,husband
+viudo,state,husband
+Maria,name,wife
+donsella,state,wife
+Juan,name,wifes_father
+Batista,name,wifes_father
+Cassador,surname,wifes_father
+de,surname,wifes_father
+Aguilar,surname,wifes_father
+donsell,occupation,wifes_father
+Bara,location,wifes_father
+Luysa,name,wifes_mother

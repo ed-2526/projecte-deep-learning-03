@@ -1,0 +1,12 @@
+Nicolau,name,husband
+Masferrer,surname,husband
+pages,occupation,husband
+Argentona,location,husband
+viudo,state,husband
+Elisabeth,name,wife
+donsella,state,wife
+Galcera,name,wifes_father
+Serra,surname,wifes_father
+pages,occupation,wifes_father
+Mataro,location,wifes_father
+Margarida,name,wifes_mother

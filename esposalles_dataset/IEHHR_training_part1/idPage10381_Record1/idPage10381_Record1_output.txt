@@ -1,0 +1,14 @@
+Pere,name,husband
+Bonet,surname,husband
+serrador,occupation,husband
+regne,location,husband
+de,location,husband
+fransa,location,husband
+Bara,location,husband
+Margarida,name,wife
+donsella,state,wife
+Pere,name,wifes_father
+Molner,surname,wifes_father
+porter,occupation,wifes_father
+real,occupation,wifes_father
+Catherina,name,wifes_mother

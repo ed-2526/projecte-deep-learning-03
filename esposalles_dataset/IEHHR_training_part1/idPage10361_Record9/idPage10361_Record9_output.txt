@@ -1,0 +1,16 @@
+Salvador,name,husband
+Llobet,surname,husband
+pages,occupation,husband
+Rocafort,location,husband
+Alfonso,name,husbands_father
+Llo,surname,husbands_father
+bet,surname,husbands_father
+pages,occupation,husbands_father
+Elienor,name,husbands_mother
+Margarida,name,wife
+donsella,state,wife
+Benet,name,wifes_father
+Sunyol,surname,wifes_father
+pages,occupation,wifes_father
+Castellet,location,wifes_father
+Angela,name,wifes_mother

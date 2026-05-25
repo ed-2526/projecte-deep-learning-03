@@ -1,0 +1,16 @@
+Hieronym,name,husband
+Comes,surname,husband
+pages,occupation,husband
+Badalona,location,husband
+Hieronym,name,husbands_father
+Comes,surname,husbands_father
+sastre,occupation,husbands_father
+Margarida,name,husbands_mother
+Anna,name,wife
+dosella,state,wife
+Miquel,name,wifes_father
+Campmany,surname,wifes_father
+pages,occupation,wifes_father
+dita,location,wifes_father
+parrochia,location,wifes_father
+Magdalena,name,wifes_mother

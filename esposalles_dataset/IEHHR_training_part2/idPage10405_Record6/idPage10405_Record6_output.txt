@@ -1,0 +1,13 @@
+Arnau,name,husband
+Pauta,surname,husband
+sastre,occupation,husband
+Regne,location,husband
+de,location,husband
+fransa,location,husband
+Bara,location,husband
+Bernada,name,wife
+viuda,state,wife
+Juan,name,other_person
+Samatan,surname,other_person
+hortola,occupation,wife
+Bara,location,wife

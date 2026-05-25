@@ -1,0 +1,12 @@
+Juan,name,husband
+Barba,surname,husband
+sabater,occupation,husband
+Sarria,location,husband
+viudo,state,husband
+Maria,name,wife
+dosella,state,wife
+Pere,name,wifes_father
+Planes,surname,wifes_father
+pages,occupation,wifes_father
+Sarria,location,wifes_father
+Antonia,name,wifes_mother

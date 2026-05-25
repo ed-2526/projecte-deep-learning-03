@@ -1,0 +1,15 @@
+jaume,name,husband
+Bosch,surname,husband
+pages,occupation,husband
+Bara,location,husband
+viudo,state,husband
+Hiero,name,wife
+nyma,name,wife
+viuda,state,wife
+Joan,name,other_person
+Phelip,surname,other_person
+pages,occupation,wife
+Alp,location,wife
+bisbat,location,wife
+de,location,wife
+Urgell,location,wife

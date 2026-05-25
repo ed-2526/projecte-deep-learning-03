@@ -1,0 +1,14 @@
+Raphel,name,husband
+Clariana,surname,husband
+parayre,occupation,husband
+Tarragona,location,husband
+Bara,location,husband
+Hieronym,name,husbands_father
+Clariana,surname,husbands_father
+daguer,occupation,husbands_father
+Elisabeth,name,husbands_mother
+Angela,name,wife
+viuda,state,wife
+Gaspar,name,other_person
+Torrent,surname,other_person
+pages,occupation,wife

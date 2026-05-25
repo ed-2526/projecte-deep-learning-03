@@ -1,0 +1,8 @@
+Andreu,name,husband
+Marrugat,surname,husband
+fuster,occupation,husband
+Bara,location,husband
+Paula,name,wife
+viuda,state,wife
+t,name,other_person
+Colada,surname,other_person

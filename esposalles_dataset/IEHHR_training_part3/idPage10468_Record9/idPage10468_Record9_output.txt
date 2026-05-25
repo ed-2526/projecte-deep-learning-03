@@ -1,0 +1,17 @@
+Pere,name,husband
+Mas,surname,husband
+corredor,occupation,husband
+de,occupation,husband
+coll,occupation,husband
+Bara,location,husband
+viudo,state,husband
+Paula,name,wife
+donsella,state,wife
+Pau,name,wifes_father
+Sayol,surname,wifes_father
+pages,occupation,wifes_father
+St,location,wifes_father
+Marti,location,wifes_father
+de,location,wifes_father
+Prohensals,location,wifes_father
+Susanna,name,wifes_mother

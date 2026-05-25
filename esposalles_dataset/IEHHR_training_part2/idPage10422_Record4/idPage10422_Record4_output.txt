@@ -1,0 +1,15 @@
+francesch,name,husband
+Verges,surname,husband
+pages,occupation,husband
+Bara,location,husband
+franch,name,husbands_father
+Verges,surname,husbands_father
+pages,occupation,husbands_father
+Bara,location,husbands_father
+t,name,husbands_mother
+Maria,name,wife
+viuda,state,wife
+Pere,name,other_person
+font,surname,other_person
+pages,occupation,wife
+Bara,location,wife

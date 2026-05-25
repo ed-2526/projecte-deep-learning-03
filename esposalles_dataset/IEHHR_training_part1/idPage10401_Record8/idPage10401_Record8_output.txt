@@ -1,0 +1,16 @@
+Gabriel,name,husband
+Muntaner,surname,husband
+fuster,occupation,husband
+Bara,location,husband
+Bernat,name,husbands_father
+Muntaner,surname,husbands_father
+imaginayre,occupation,husbands_father
+Bara,location,husbands_father
+Juana,name,husbands_mother
+Juana,name,wife
+do,state,wife
+sella,state,wife
+Juan#,name,wifes_father
+Capdevila,surname,wifes_father
+sastre,occupation,wifes_father
+Juana,name,wifes_mother

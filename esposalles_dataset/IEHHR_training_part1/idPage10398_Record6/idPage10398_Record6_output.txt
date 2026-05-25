@@ -1,0 +1,12 @@
+Pau,name,husband
+St,surname,husband
+jaume,surname,husband
+tavarner,occupation,husband
+Bara,location,husband
+viudo,state,husband
+Paula,name,wife
+viuda,state,wife
+Miquel,name,other_person
+Salines,surname,other_person
+sastre,occupation,wife
+Bara,location,wife

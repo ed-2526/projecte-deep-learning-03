@@ -1,0 +1,13 @@
+Diego,name,husband
+Ramos,surname,husband
+oripeller,occupation,husband
+Regne,location,husband
+de,location,husband
+Valentia,location,husband
+Hieronyma,name,wife
+donsella,state,wife
+jaume,name,wifes_father
+Monpeo,surname,wifes_father
+pages,occupation,wifes_father
+Cervera,location,wifes_father
+Catherina,name,wifes_mother

@@ -1,0 +1,11 @@
+Juan,name,husband
+Dexen,surname,husband
+pages,occupation,husband
+fransa,location,husband
+Bara,location,husband
+Anna,name,wife
+Moles,surname,wife
+viuda,state,wife
+Juan,name,other_person
+Moles,surname,other_person
+pages,occupation,wife

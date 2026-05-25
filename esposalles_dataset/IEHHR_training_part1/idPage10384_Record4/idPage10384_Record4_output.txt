@@ -1,0 +1,14 @@
+Pau,name,husband
+Taulada,surname,husband
+blanquer,occupation,husband
+Bara,location,husband
+viudo,state,husband
+Angela,name,wife
+donsella,state,wife
+Jua,name,wifes_father
+Canyadell,surname,wifes_father
+pages,occupation,wifes_father
+Molin,location,wifes_father
+de,location,wifes_father
+rey,location,wifes_father
+Violant,name,wifes_mother

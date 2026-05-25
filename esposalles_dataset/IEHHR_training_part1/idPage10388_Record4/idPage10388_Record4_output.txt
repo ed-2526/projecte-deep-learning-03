@@ -1,0 +1,17 @@
+Melchior,name,husband
+Porta,surname,husband
+fuster,occupation,husband
+Bara,location,husband
+Miquel,name,husbands_father
+Porta,surname,husbands_father
+fuster,occupation,husbands_father
+Bara,location,husbands_father
+Margarida,name,husbands_mother
+Elisabeth,name,wife
+donsella,state,wife
+Aleix,name,wifes_father
+Brunet,surname,wifes_father
+correu,occupation,wifes_father
+de,occupation,wifes_father
+cavall,occupation,wifes_father
+Antiga,name,wifes_mother

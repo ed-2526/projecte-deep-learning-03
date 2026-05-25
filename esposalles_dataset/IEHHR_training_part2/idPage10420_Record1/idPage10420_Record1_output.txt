@@ -1,0 +1,15 @@
+francesch,name,husband
+Pomadera,surname,husband
+negociant,occupation,husband
+Bara,location,husband
+francesch,name,husbands_father
+Pomadera,surname,husbands_father
+notari,occupation,husbands_father
+Maryangela,name,husbands_mother
+Catherina,name,wife
+donsella,state,wife
+Sebastia,name,wifes_father
+Matevat,surname,wifes_father
+stamper,occupation,wifes_father
+Bara,location,wifes_father
+Paula,name,wifes_mother

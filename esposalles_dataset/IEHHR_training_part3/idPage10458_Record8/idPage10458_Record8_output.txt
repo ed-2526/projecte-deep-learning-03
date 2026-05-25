@@ -1,0 +1,13 @@
+Simon,name,husband
+Buada,surname,husband
+pages,occupation,husband
+regne,location,husband
+de,location,husband
+frança,location,husband
+Sabadell,location,husband
+Elisabeth,name,wife
+viuda,state,wife
+Antich,name,other_person
+Vallcorba,surname,other_person
+pages,occupation,wife
+Sabadell,location,wife

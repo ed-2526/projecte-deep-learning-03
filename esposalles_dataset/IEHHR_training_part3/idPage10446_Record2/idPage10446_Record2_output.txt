@@ -1,0 +1,13 @@
+francesch,name,husband
+fontanils,surname,husband
+botiguer,occupation,husband
+de,occupation,husband
+telas,occupation,husband
+Bara,location,husband
+viudo,state,husband
+Catherina,name,wife
+viuda,state,wife
+Bernat,name,other_person
+Puig,surname,other_person
+sastre,occupation,wife
+Bara,location,wife

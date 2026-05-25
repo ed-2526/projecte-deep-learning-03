@@ -1,0 +1,16 @@
+Juan,name,husband
+Raphel,name,husband
+Spital,surname,husband
+fuster,occupation,husband
+Bara,location,husband
+Miquel,name,husbands_father
+Narcis,name,husbands_father
+Spital,surname,husbands_father
+Maryanna,name,husbands_mother
+Coloma,name,wife
+donsella,state,wife
+Antoni,name,wifes_father
+Matas,surname,wifes_father
+pages,occupation,wifes_father
+Pierola,location,wifes_father
+Angela,name,wifes_mother
