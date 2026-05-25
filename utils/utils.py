@@ -21,8 +21,8 @@ def get_transforms(architecture_name):
             transforms.Resize((32, 128)),    # Mantenir les imatges de la mateixa mida
             transforms.RandomRotation(3),    # Rotar la imatge [-x,x] graus
             transforms.RandomAffine(0, shear=10),    # Aplica una transformació d'inclinació (shear) d'un màxim de 10 graus del text
-            transforms.ColorJitter(brightness=0.5, contrast=0.5), # DATA AUGMENTATION NOU: Canvi de contrast/brillantor
-            transforms.GaussianBlur(kernel_size=(3, 3), sigma=(0.1, 2.0)), # DATA AUGMENTATION NOU: Difuminat (simula mala qualitat)
+            # transforms.ColorJitter(brightness=0.5, contrast=0.5), # DATA AUGMENTATION NOU: Canvi de contrast/brillantor
+            # transforms.GaussianBlur(kernel_size=(3, 3), sigma=(0.1, 2.0)), # DATA AUGMENTATION NOU: Difuminat (simula mala qualitat)
             transforms.ToTensor(),           # Ho converteix a PyTorch entre 0 i 1
             transforms.Normalize((0.5,), (0.5,))    # Normalització dels valors dels píxels entre -1 i 1
         ])
@@ -45,8 +45,8 @@ def get_transforms(architecture_name):
             transforms.Grayscale(num_output_channels=3), # Enganyem a RGB
             transforms.RandomRotation(3),
             transforms.RandomAffine(0, shear=10),
-            transforms.ColorJitter(brightness=0.5, contrast=0.5), # DATA AUGMENTATION NOU: Canvi de contrast/brillantor
-            transforms.GaussianBlur(kernel_size=(3, 3), sigma=(0.1, 2.0)), # DATA AUGMENTATION NOU: Difuminat (simula mala qualitat)
+            # transforms.ColorJitter(brightness=0.5, contrast=0.5), # DATA AUGMENTATION NOU: Canvi de contrast/brillantor
+            # transforms.GaussianBlur(kernel_size=(3, 3), sigma=(0.1, 2.0)), # DATA AUGMENTATION NOU: Difuminat (simula mala qualitat)
             transforms.ToTensor(),
             transforms.Normalize(imagenet_mean, imagenet_std) # Normalització d'ImageNet
         ])
@@ -146,26 +146,123 @@ class EarlyStopping:
         print(f'   💾 Validation loss decreased. Saving best model to {self.path}...')
         torch.save(model.state_dict(), self.path)
 
-def decode_predictions(outputs, targets, target_lengths, char_to_idx):
-    """Tradueix els tensors de la xarxa a text real (Strings)."""
+
+# ==========================================
+# CTC BEAM SEARCH DECODER (sense dependències externes)
+# ==========================================
+def ctc_beam_search_decode(log_probs_batch, idx_to_char, beam_width=5):
+    """
+    CTC Beam Search Decoder implementat en Python pur (sense ctcdecode).
+
+    Per què és millor que el Greedy Decoder per reduir el WER?
+    ──────────────────────────────────────────────────────────
+    El Greedy agafa sempre la lletra amb probabilitat màxima a cada pas temporal.
+    Si en un moment la 'l' de 'Hello' cau per sota del blank, el greedy obté "Helo".
+
+    El Beam Search manté les 'beam_width' millors hipòtesis actives i les combina.
+    Si globalment "Hello" és més probable que "Helo" (sumant totes les alineacions
+    CTC possibles), el Beam Search ho detecta i retorna "Hello".
+
+    Args:
+        log_probs_batch : tensor [seq_len, batch, num_classes] (log-probabilitats)
+        idx_to_char     : dict {int → str}, el vocabulari invers
+        beam_width      : nombre de hipòtesis actives (5 és un bon equilibri)
+
+    Returns:
+        list[str] : text decodificat per a cada element del batch
+    """
+    # Convertim de log-probabilitats a probabilitats normals
+    probs_batch = torch.exp(log_probs_batch).cpu()  # [seq_len, batch, num_classes]
+    seq_len, batch_size, num_classes = probs_batch.shape
+
+    decoded_batch = []
+
+    for b in range(batch_size):
+        probs = probs_batch[:, b, :].numpy()  # [seq_len, num_classes]
+
+        # Cada hipòtesi: (prefix_tuple, prob_blank, prob_non_blank)
+        # prefix_tuple: la seqüència de caràcters acumulada (sense blanks ni repetits CTC)
+        beams = [((), 1.0, 0.0)]  # (prefix, Pb, Pnb)
+
+        for t in range(seq_len):
+            p_t = probs[t]        # [num_classes]
+            new_beams = {}
+
+            for prefix, Pb, Pnb in beams:
+                P_total = Pb + Pnb
+
+                # Opció 1: afegir el token BLANK (índex 0) → el prefix no canvia
+                key = prefix
+                if key not in new_beams:
+                    new_beams[key] = [0.0, 0.0]
+                new_beams[key][0] += P_total * p_t[0]  # actualitzem Pb
+
+                # Opció 2: afegir un caràcter no-blank
+                for c in range(1, num_classes):
+                    p_c = p_t[c]
+                    new_prefix = prefix + (c,)
+
+                    # Si repetim el mateix caràcter consecutiu, cal que vingui d'un blank
+                    if len(prefix) > 0 and prefix[-1] == c:
+                        new_Pnb = Pb * p_c
+                    else:
+                        new_Pnb = P_total * p_c
+
+                    if new_prefix not in new_beams:
+                        new_beams[new_prefix] = [0.0, 0.0]
+                    new_beams[new_prefix][1] += new_Pnb  # actualitzem Pnb
+
+            # Ordenem per probabilitat total i mantenim els beam_width millors
+            beams_sorted = sorted(
+                new_beams.items(),
+                key=lambda x: x[1][0] + x[1][1],
+                reverse=True
+            )
+            beams = [(pfx, pb, pnb) for pfx, (pb, pnb) in beams_sorted[:beam_width]]
+
+        # Millor hipòtesi: la primera de la llista (la de major probabilitat)
+        best_prefix, _, _ = beams[0]
+        decoded_text = "".join([idx_to_char.get(c, '') for c in best_prefix])
+        decoded_batch.append(decoded_text)
+
+    return decoded_batch
+
+
+def decode_predictions(outputs, targets, target_lengths, char_to_idx, use_beam_search=False, beam_width=5):
+    """
+    Tradueix els tensors de la xarxa a text real (Strings).
+
+    Args:
+        outputs         : [seq_len, batch, num_classes] (log-softmax de la xarxa)
+        targets         : tensor concatenat del ground-truth
+        target_lengths  : longituds de cada seqüència target
+        char_to_idx     : diccionari lletra → índex
+        use_beam_search : si True, usa CTC Beam Search en lloc de Greedy (millor WER)
+        beam_width      : nombre de hipòtesis actives del Beam Search (default: 5)
+    """
     # 1. Creem un diccionari invers per passar de números a lletres
     idx_to_char = {v: k for k, v in char_to_idx.items()}
     
-    # 2. TRADUCCIÓ DE PREDICCIONS (CTC Greedy Decoder)
-    # outputs fa [seq_len, batch, classes]. Ho girem i agafem la lletra amb més %
-    _, max_indices = torch.max(outputs.transpose(0, 1), 2) 
-    
-    pred_strings = []
-    for i in range(max_indices.size(0)):
-        raw_pred = max_indices[i].tolist()
-        decoded_str = []
-        prev_char = -1
-        for c in raw_pred:
-            if c != prev_char: # Elimina duplicats seguits (a_a -> a)
-                if c != 0:     # 0 és el token 'blank', l'ignorem
-                    decoded_str.append(idx_to_char.get(c, ''))
-            prev_char = c
-        pred_strings.append("".join(decoded_str))
+    # 2. TRADUCCIÓ DE PREDICCIONS
+    if use_beam_search:
+        # ── CTC Beam Search Decoder (millor qualitat, redueix WER) ──────
+        pred_strings = ctc_beam_search_decode(outputs, idx_to_char, beam_width=beam_width)
+    else:
+        # ── CTC Greedy Decoder (ràpid, per a entrenament) ───────────────
+        # outputs fa [seq_len, batch, classes]. Ho girem i agafem la lletra amb més %
+        _, max_indices = torch.max(outputs.transpose(0, 1), 2) 
+        
+        pred_strings = []
+        for i in range(max_indices.size(0)):
+            raw_pred = max_indices[i].tolist()
+            decoded_str = []
+            prev_char = -1
+            for c in raw_pred:
+                if c != prev_char: # Elimina duplicats seguits (a_a -> a)
+                    if c != 0:     # 0 és el token 'blank', l'ignorem
+                        decoded_str.append(idx_to_char.get(c, ''))
+                prev_char = c
+            pred_strings.append("".join(decoded_str))
         
     # 3. TRADUCCIÓ DEL GROUND TRUTH (Solucions reals)
     split_targets = torch.split(targets, target_lengths.tolist())

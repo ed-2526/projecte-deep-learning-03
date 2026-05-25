@@ -10,11 +10,8 @@ def train(model, train_loader, val_loader, criterion, optimizer, config, char_to
     wandb.watch(model, criterion, log="all", log_freq=10)
 
     # 1. INICIALITZEM L'EARLY STOPPING AQUÍ (Abans del bucle d'èpoques)
-    # Paciència de 3 significa que si en 3 èpoques no millora, s'atura.
-    if config.architecture == "CRNN_Original":
-        early_stopping = EarlyStopping(patience=3, path='best_crnn_model.pth', min_delta=0.015)
-    else:
-        early_stopping = EarlyStopping(patience=3, path='best_crnn_model.pth', min_delta=0.01)
+    # Paciència de 5 significa que si en 5 èpoques no millora, s'atura.
+    early_stopping = EarlyStopping(patience=config.patience, path='best_crnn_model.pth', min_delta=config.min_delta)
 
     # Run training and track with wandb
     example_ct = 0  # number of examples seen
@@ -71,7 +68,11 @@ def train(model, train_loader, val_loader, criterion, optimizer, config, char_to
                 v_loss = criterion(outputs, targets, input_lengths, target_lengths)
                 total_val_loss += v_loss.item()
                 
-                true_strs, pred_strs = decode_predictions(outputs, targets, target_lengths, char_to_idx)
+                true_strs, pred_strs = decode_predictions(
+                    outputs, targets, target_lengths, char_to_idx,
+                    use_beam_search=getattr(config, 'use_beam_search', False),
+                    beam_width=getattr(config, 'beam_width', 5)
+                )
                 all_true_strings.extend(true_strs)
                 all_pred_strings.extend(pred_strs)
                 

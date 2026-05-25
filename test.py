@@ -1,33 +1,13 @@
 import wandb
 import torch
-import jiwer # Utilitzarem jiwer, l'estàndard de la indústria per a OCR/ASR
+import jiwer
 
-def decode_predictions(predictions, idx_to_char):
-    """
-    Neteja la sortida de la CTC. 
-    Elimina el token 'blank' (assumint que és el 0) i els caràcters repetits consecutius.
-    Exemple: [0, G, G, 0, a, 0, t, t] -> "Gat"
-    """
-    decoded_texts = []
-    for pred in predictions:
-        text = ""
-        prev_char = -1
-        for p in pred:
-            p = p.item()
-            # Si no és el token en blanc (0) i no és exactament la mateixa lletra d'abans
-            if p != 0 and p != prev_char:
-                text += idx_to_char.get(p, '')
-            prev_char = p
-        decoded_texts.append(text)
-    return decoded_texts
+from utils.utils import decode_predictions  # Usem la mateixa funció que el train (amb Beam Search)
 
 
-def test(model, test_loader, char_to_idx, device="cuda", save:bool=True):
+def test(model, test_loader, char_to_idx, device="cuda", save:bool=True, use_beam_search=True, beam_width=5):
     # Posem el model en mode avaluació (desactiva Dropout, BatchNorm, etc.)
     model.eval()
-    
-    # Creem el diccionari invers per passar de número a lletra
-    idx_to_char = {v: k for k, v in char_to_idx.items()}
     
     correct_words = 0
     total_words = 0
@@ -43,29 +23,23 @@ def test(model, test_loader, char_to_idx, device="cuda", save:bool=True):
         # 🌟 CANVI MÍNIM: Afegim enumerate per saber si estem al primer batch
         for batch_idx, (images, targets, target_lengths) in enumerate(test_loader):
             images = images.to(device)
+            targets = targets.to(device)
+            target_lengths = target_lengths.to(device)
             
             # 1. Predicció de la xarxa
-            outputs = model(images) # Mida: [seq_len, batch_size, num_classes]
+            outputs = model(images)  # Mida: [seq_len, batch_size, num_classes]
             
-            # 2. Agafem la lletra amb més probabilitat per a cada franja
-            _, preds = torch.max(outputs, 2) 
-            
-            # Passem a format [batch_size, seq_len] per poder iterar fàcilment
-            preds = preds.transpose(1, 0)
-            
-            # 3. Descodifiquem les prediccions a text llegible
-            pred_texts = decode_predictions(preds, idx_to_char)
-            
-            # 4. Reconstruïm els textos reals (targets) per poder-los comparar
-            start_idx = 0
-            for i in range(len(target_lengths)):
-                length = target_lengths[i].item()
-                # Extraiem la seqüència numèrica d'aquesta paraula en concret
-                real_target = targets[start_idx : start_idx + length].tolist()
-                start_idx += length
-                
-                # Convertim a text
-                real_text = "".join([idx_to_char.get(c, '') for c in real_target])
+            # 2. Descodifiquem amb la funció de utils (Beam Search o Greedy segons config)
+            # Nota: decode_predictions també reconstrueix el ground truth internament
+            real_texts, pred_texts = decode_predictions(
+                outputs, targets, target_lengths, char_to_idx,
+                use_beam_search=use_beam_search,
+                beam_width=beam_width
+            )
+
+            # 3. Recorrem els resultats del batch
+            for i in range(len(pred_texts)):
+                real_text = real_texts[i]
                 pred_text = pred_texts[i]
                 
                 # Guardem per a calcular CER i WER al final
@@ -107,7 +81,8 @@ def test(model, test_loader, char_to_idx, device="cuda", save:bool=True):
     cer = jiwer.cer(clean_trues, clean_preds)
     wer = jiwer.wer(clean_trues, clean_preds)
 
-    print(f"Resultats sobre {total_words} imatges de test:")
+    decoder_mode = "Beam Search" if use_beam_search else "Greedy"
+    print(f"Resultats sobre {total_words} imatges de test (Decoder: {decoder_mode}):")
     print(f" - Accuracy (Paraula exacta): {word_accuracy:.2%}")
     print(f" - CER (Character Error Rate): {cer:.4f} (Més baix és millor!)")
     print(f" - WER (Word Error Rate)     : {wer:.4f} (Més baix és millor!)")

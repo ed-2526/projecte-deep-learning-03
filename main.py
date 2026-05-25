@@ -1,6 +1,7 @@
 import os
 import random
 import wandb
+import argparse
 
 import numpy as np
 import torch
@@ -53,14 +54,33 @@ def model_pipeline(cfg:dict):
 if __name__ == "__main__":
     wandb.login()
 
+    parser = argparse.ArgumentParser(description="Entrenament de la xarxa OCR")
+
+    parser.add_argument('--epochs', type=int, default=100, help='Nombre total dèpoques')
+    parser.add_argument('--batch_size', type=int, default=64, help='Mida del batch')
+    parser.add_argument('--learning_rate', type=float, default=2e-3, help='Taxa daprenentatge')
+    parser.add_argument('--architecture', type=str, default="CRNN_Original", help='Model a utilitzar')
+    parser.add_argument('--patience', type=int, default=5, help='Paciència per a l\'early stopping')
+    parser.add_argument('--min_delta', type=float, default=0.015, help='Mínim canvi per a l\'early stopping')
+
+    parser.add_argument('--freeze', action='store_true', help='Congela les capes de la CNN')
+    parser.add_argument('--use_beam_search', action='store_true', help='Activa el Beam Search')
+    parser.add_argument('--beam_width', type=int, default=5, help='Amplada del Beam Search')
+
+    args = parser.parse_args()
+
     config = dict(
-        epochs=100,
-        batch_size=512,      # Mida recomanada per a OCR
-        learning_rate=2e-3,
+        epochs=args.epochs,
+        batch_size=args.batch_size,
+        learning_rate=args.learning_rate,
         dataset="IAM Dataset",
-        architecture="ResNet18",
-        classes=80,           # Valor aproximat, el make() el sobreescriurà amb el real
-        freeze=True
+        architecture=args.architecture,
+        classes=80, 
+        freeze=args.freeze,
+        use_beam_search=args.use_beam_search,
+        beam_width=args.beam_width,
+        patience=args.patience,
+        min_delta=args.min_delta,
     )
 
     model = model_pipeline(config)
