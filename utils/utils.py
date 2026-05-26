@@ -27,10 +27,16 @@ def get_transforms(config):
             train_trans_list.append(transforms.RandomAffine(0, shear=10))
             
         if config.activate_color_jitter:
-            train_trans_list.append(transforms.ColorJitter(brightness=0.5, contrast=0.5))
+            # S'aplica només a un 20% (p=0.2) de les imatges amb una força del 15%
+            train_trans_list.append(
+                transforms.RandomApply([transforms.ColorJitter(brightness=0.15, contrast=0.15)], p=0.2)
+            )
             
         if config.activate_gaussian_blur:
-            train_trans_list.append(transforms.GaussianBlur(kernel_size=(3, 3), sigma=(0.1, 2.0)))
+            # S'aplica només a un 20% (p=0.2) amb un difuminat gairebé imperceptible
+            train_trans_list.append(
+                transforms.RandomApply([transforms.GaussianBlur(kernel_size=(3, 3), sigma=(0.1, 0.5))], p=0.2)
+            )
             
         # 3. Finalització obligatòria (Tensor i Normalització)
         train_trans_list.extend([
@@ -67,10 +73,16 @@ def get_transforms(config):
             train_trans_list.append(transforms.RandomAffine(0, shear=10))
             
         if config.activate_color_jitter:
-            train_trans_list.append(transforms.ColorJitter(brightness=0.5, contrast=0.5))
+            # S'aplica només a un 20% (p=0.2) de les imatges amb una força del 15%
+            train_trans_list.append(
+                transforms.RandomApply([transforms.ColorJitter(brightness=0.15, contrast=0.15)], p=0.2)
+            )
             
         if config.activate_gaussian_blur:
-            train_trans_list.append(transforms.GaussianBlur(kernel_size=(3, 3), sigma=(0.1, 2.0)))
+            # S'aplica només a un 20% (p=0.2) amb un difuminat gairebé imperceptible
+            train_trans_list.append(
+                transforms.RandomApply([transforms.GaussianBlur(kernel_size=(3, 3), sigma=(0.1, 0.5))], p=0.2)
+            )
             
         # 3. Finalització obligatòria
         train_trans_list.extend([
