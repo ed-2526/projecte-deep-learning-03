@@ -6,26 +6,39 @@ import torch.nn as nn
 import torchvision.transforms as transforms
 from torch.utils.data import DataLoader
 from models.models import create_model
-from utils.dataset import IAMDataset
+from utils.dataset import OCRDataset
 
-def get_transforms(architecture_name):
+def get_transforms(config):
     """
-    Retorna les transformacions adequades segons si és la CNN original
-    o una ResNet pre-entrenada amb ImageNet.
+    Construeix les transformacions dinàmicament segons els paràmetres de la terminal.
     """
-    if architecture_name == "CRNN_Original":
+    if config.architecture == "CRNN_Original":
         # ==========================================
         # TRANSFORMACIONS PER A LA CNN ORIGINAL (1 Canal)
         # ==========================================
-        train_trans = transforms.Compose([
-            transforms.Resize((32, 128)),    # Mantenir les imatges de la mateixa mida
-            transforms.RandomRotation(3),    # Rotar la imatge [-x,x] graus
-            transforms.RandomAffine(0, shear=10),    # Aplica una transformació d'inclinació (shear) d'un màxim de 10 graus del text
-            # transforms.ColorJitter(brightness=0.5, contrast=0.5), # DATA AUGMENTATION NOU: Canvi de contrast/brillantor
-            # transforms.GaussianBlur(kernel_size=(3, 3), sigma=(0.1, 2.0)), # DATA AUGMENTATION NOU: Difuminat (simula mala qualitat)
-            transforms.ToTensor(),           # Ho converteix a PyTorch entre 0 i 1
-            transforms.Normalize((0.5,), (0.5,))    # Normalització dels valors dels píxels entre -1 i 1
+        # 1. Transformacions base obligatòriesSSS
+        train_trans_list = [transforms.Resize((32, 128))]
+        
+        # 2. Augment de dades dinàmic
+        if not config.no_random_rotation:
+            train_trans_list.append(transforms.RandomRotation(3))
+            
+        if not config.no_affine:
+            train_trans_list.append(transforms.RandomAffine(0, shear=10))
+            
+        if config.activate_color_jitter:
+            train_trans_list.append(transforms.ColorJitter(brightness=0.5, contrast=0.5))
+            
+        if config.activate_gaussian_blur:
+            train_trans_list.append(transforms.GaussianBlur(kernel_size=(3, 3), sigma=(0.1, 2.0)))
+            
+        # 3. Finalització obligatòria (Tensor i Normalització)
+        train_trans_list.extend([
+            transforms.ToTensor(),
+            transforms.Normalize((0.5,), (0.5,))
         ])
+        
+        train_trans = transforms.Compose(train_trans_list)
         
         test_trans = transforms.Compose([
             transforms.Resize((32, 128)),
@@ -40,16 +53,32 @@ def get_transforms(architecture_name):
         imagenet_mean = (0.485, 0.456, 0.406)
         imagenet_std = (0.229, 0.224, 0.225)
         
-        train_trans = transforms.Compose([
+        # 1. Transformacions base obligatòries
+        train_trans_list = [
             transforms.Resize((32, 128)),
-            transforms.Grayscale(num_output_channels=3), # Enganyem a RGB
-            transforms.RandomRotation(3),
-            transforms.RandomAffine(0, shear=10),
-            # transforms.ColorJitter(brightness=0.5, contrast=0.5), # DATA AUGMENTATION NOU: Canvi de contrast/brillantor
-            # transforms.GaussianBlur(kernel_size=(3, 3), sigma=(0.1, 2.0)), # DATA AUGMENTATION NOU: Difuminat (simula mala qualitat)
+            transforms.Grayscale(num_output_channels=3)
+        ]
+        
+        # 2. Augment de dades dinàmic
+        if not config.no_random_rotation:
+            train_trans_list.append(transforms.RandomRotation(3))
+            
+        if not config.no_affine:
+            train_trans_list.append(transforms.RandomAffine(0, shear=10))
+            
+        if config.activate_color_jitter:
+            train_trans_list.append(transforms.ColorJitter(brightness=0.5, contrast=0.5))
+            
+        if config.activate_gaussian_blur:
+            train_trans_list.append(transforms.GaussianBlur(kernel_size=(3, 3), sigma=(0.1, 2.0)))
+            
+        # 3. Finalització obligatòria
+        train_trans_list.extend([
             transforms.ToTensor(),
-            transforms.Normalize(imagenet_mean, imagenet_std) # Normalització d'ImageNet
+            transforms.Normalize(imagenet_mean, imagenet_std)
         ])
+        
+        train_trans = transforms.Compose(train_trans_list)
         
         test_trans = transforms.Compose([
             transforms.Resize((32, 128)),
@@ -65,10 +94,8 @@ def ocr_collate_fn(batch):
     return torch.stack(images, 0), torch.cat(targets, 0), torch.tensor(target_lengths, dtype=torch.long)
 
 def preparar_datasets_i_loaders(config):
-    # 🌟 NOU: L'arrel on estan les teves dades a la memòria RAM
     root_dir = "/dev/shm/edxnG03_dataset" 
 
-    # 🌟 NOU: Sistema d'encaminament segons el config
     if config.dataset == "iam":
         base_dir = f"{root_dir}/iam_dataset"
         txt_folder = "iam_dataset"
@@ -76,17 +103,15 @@ def preparar_datasets_i_loaders(config):
         base_dir = f"{root_dir}/esposalles_dataset"
         txt_folder = "esposalles_dataset"
     elif config.dataset == "hybrid":
-        base_dir = root_dir  # L'híbrid ja porta les subcarpetes dins del txt
+        base_dir = root_dir  
         txt_folder = "hybrid_dataset"
     else:
         raise ValueError(f"Dataset no reconegut: {config.dataset}")
 
-    # Ara els fitxers depenen de la carpeta seleccionada
     train_file = f"{txt_folder}/official_train.txt"
     val_file   = f"{txt_folder}/official_validation.txt"
     test_file  = f"{txt_folder}/official_test.txt"
 
-    # 1. Llegim les línies exactament com estan als fitxers
     with open(train_file, "r", encoding="utf-8") as f:
         linies_train = f.readlines()
     with open(val_file, "r", encoding="utf-8") as f:
@@ -97,17 +122,14 @@ def preparar_datasets_i_loaders(config):
     print(f"📂 Carregant Dataset: {config.dataset.upper()}")
     print(f"📊 Distribució Dades: Train={len(linies_train)} | Val={len(linies_val)} | Test={len(linies_test)}")
 
-    # 2. Obtenim les transformacions
-    train_transform, test_transform = get_transforms(config.architecture)
+    train_transform, test_transform = get_transforms(config)
 
-    # 3. Creem els Datasets (Hem canviat el nom a OCRDataset)
     train_set = OCRDataset(lines=linies_train, img_dir=base_dir, transform=train_transform)
     char_to_idx = train_set.char_to_idx 
     
     val_set = OCRDataset(lines=linies_val, img_dir=base_dir, transform=test_transform, char_to_idx=char_to_idx)
     test_set = OCRDataset(lines=linies_test, img_dir=base_dir, transform=test_transform, char_to_idx=char_to_idx)
 
-    # 4. Creem DataLoaders
     train_loader = DataLoader(train_set, batch_size=config.batch_size, shuffle=True, collate_fn=ocr_collate_fn, num_workers=8, pin_memory=True)
     val_loader   = DataLoader(val_set, batch_size=config.batch_size, shuffle=False, collate_fn=ocr_collate_fn, num_workers=8, pin_memory=True)
     test_loader  = DataLoader(test_set, batch_size=config.batch_size, shuffle=False, collate_fn=ocr_collate_fn, num_workers=8, pin_memory=True)

@@ -30,8 +30,12 @@ def model_pipeline(cfg:dict):
         # access all HPs through wandb.config, so logging matches execution!
         config = wandb.config
 
-        nom_net = f"LR:{config.learning_rate:.4f}_Batch:{config.batch_size}_Freeze:{config.freeze}"
-        wandb.run.name = nom_net
+        if hasattr(config, "run_name") and config.run_name:
+            # Si l'usuari ha passat un nom per terminal, fem servir aquest
+            wandb.run.name = config.run_name
+        else:
+            # Si no ha posat res (o és None/buit), usem el fallback de base
+            wandb.run.name = f"LR:{config.learning_rate:.4f}_Batch:{config.batch_size}_Freeze:{config.freeze}"
 
         # 1. CANVI: Ara desempaquetem 7 variables, incloent el val_loader!
         model, train_loader, val_loader, test_loader, criterion, optimizer, char_to_idx = make(config, device=device)
@@ -64,10 +68,16 @@ if __name__ == "__main__":
     parser.add_argument('--min_delta', type=float, default=0.015, help='Mínim canvi per a l\'early stopping')
     parser.add_argument('--dataset', type=str, default="iam", choices=['iam', 'esposalles', 'hybrid'], 
                         help="Tria el dataset: 'iam', 'esposalles' o 'hybrid'")
+    parser.add_argument('--run_name', type=str, default=None, help='Nom personalitzat per a lexecució a WandB')
 
     parser.add_argument('--freeze', action='store_true', help='Congela les capes de la CNN')
     parser.add_argument('--use_beam_search', action='store_true', help='Activa el Beam Search')
     parser.add_argument('--beam_width', type=int, default=5, help='Amplada del Beam Search')
+
+    parser.add_argument('--no_random_rotation', action='store_true', help='Desactiva la rotació aleatòria de la imatge')
+    parser.add_argument('--no_affine', action='store_true', help='Desactiva la transformació Affine (Shear/Inclinació)')
+    parser.add_argument('--activate_color_jitter', action='store_true', help='Activa la variació de brillantor i contrast')
+    parser.add_argument('--activate_gaussian_blur', action='store_true', help='Activa el desenfocament gaussià')
 
     args = parser.parse_args()
 
@@ -83,6 +93,11 @@ if __name__ == "__main__":
         beam_width=args.beam_width,
         patience=args.patience,
         min_delta=args.min_delta,
+        run_name=args.run_name,
+        no_random_rotation=args.no_random_rotation,
+        no_affine=args.no_affine,
+        activate_color_jitter=args.activate_color_jitter,
+        activate_gaussian_blur=args.activate_gaussian_blur,
     )
 
     model = model_pipeline(config)
